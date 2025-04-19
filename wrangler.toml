@@ -1,0 +1,13 @@
+name = "search"
+main = "index.js"
+compatibility_date = "2025-04-02"
+routes = [
+  { pattern = "4bang.ssmp.link", custom_domain = true },
+  { pattern = "search.twint.my.id", custom_domain = true }
+]
+
+[vars]
+DEFAULT_URL = "https://search.yonderly.org/web?s="
+
+[observability.logs]
+enabled = false

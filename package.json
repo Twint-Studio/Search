@@ -1,0 +1,16 @@
+{
+  "name": "search",
+  "version": "1.0.0",
+  "description": "An add-on for any search engine that adds DDG's bang system.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wrangler": "^4.12.0"
+  }
+}
