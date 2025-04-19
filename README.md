@@ -1,14 +1,14 @@
-# 4bang
+# Search
 
-An add-on for 4get that adds DDG's bang system.
+An add-on for any search engine that adds DDG's bang system.
 
-## Test
+## Examples
 
-- `localhost:3001/?q=!g google`
-- `localhost:3001/?q=g! google`
-- `localhost:3001/?q=google !g`
-- `localhost:3001/?q=google g!`
-- `localhost:3001/?q=!tr !f fr !t en et`
-- `localhost:3001/?q=!smp !v3 who are you`
-- `localhost:3001/?q=!smp`
-- `localhost:3001/?q=hello`
+- https://search.twint.my.id/?q=!g%20google
+- https://search.twint.my.id/?q=g!%20google
+- https://search.twint.my.id/?q=google%20!g
+- https://search.twint.my.id/?q=google%20g!
+- https://search.twint.my.id/?q=!tr%20!f%20fr%20!t%20en%20et
+- https://search.twint.my.id/?q=!smp%20!v3%20who%20are%20you
+- https://search.twint.my.id/?q=!smp
+- https://search.twint.my.id/?q=hello
