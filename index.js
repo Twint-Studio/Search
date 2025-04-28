@@ -1,4 +1,5 @@
 import engines from "./engines.json";
+import main from "./main.html";
 
 const bangs = new Map(engines.map((e) => [e.t, { url: e.u, domain: e.d, subs: new Map(e.sb?.map((sb) => [sb.b, sb])) } ]));
 
@@ -67,13 +68,15 @@ function resolveBang(query) {
 
 export default {
   async fetch(request, env, ctx) {
-    console.log(request);
+    const search = new URL(request.url).searchParams.get("q");
 
-    const search = new URL(request.url).searchParams.get("q") || "";
-    console.log(search);
+    if (!search) return new Response(main, {
+			headers: {
+				"content-type": "text/html",
+			},
+		});
 
     const resolvedUrl = resolveBang(search) || `${env.DEFAULT_URL}${encodeURIComponent(search)}`;
-    console.log(resolvedUrl);
     return Response.redirect(resolvedUrl, 302);
   },
 };
