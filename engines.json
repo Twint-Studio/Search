@@ -58657,6 +58657,14 @@
     "sc": "Online"
   },
   {
+    "s": "Moogle",
+    "d": "moogle.app",
+    "t": "mog",
+    "u": "https://api.moogle.app/api/search?q={{{s}}}",
+    "c": "Online Services",
+    "sc": "Search"
+  },
+  {
     "s": "MoonPig",
     "d": "www.moonpig.com",
     "t": "moonpig",
