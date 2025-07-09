@@ -68,7 +68,10 @@ function resolveBang(query) {
 
 export default {
   async fetch(request, env, ctx) {
-    const search = new URL(request.url).searchParams.get("q");
+    const context = new URL(request.url);
+
+    const search = context.searchParams.get("q");
+    const custom = context.searchParams.get("s");
 
     if (!search) return new Response(main, {
 			headers: {
@@ -76,7 +79,7 @@ export default {
 			},
 		});
 
-    const resolvedUrl = resolveBang(search) || `${env.DEFAULT_URL}${encodeURIComponent(search)}`;
+    const resolvedUrl = resolveBang(search) || `${custom || env.DEFAULT_URL}${encodeURIComponent(search)}`;
     return Response.redirect(resolvedUrl, 302);
   },
 };
