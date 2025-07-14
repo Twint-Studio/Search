@@ -4,6 +4,6 @@
 <Description>An add-on for any search engine that adds DDG's bang system.</Description>
 <InputEncoding>UTF-8</InputEncoding>
 <Image height="16" width="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAD1BMVEWrqKMMDAxNYGcSBQAAAACm3SHeAAAAbUlEQVR42s2PMQ5CMQzFcNL7nxmKIi+NUib0vdrKa19PAWYL98IkIs4gv5Rvgo9cK5PyFsAUUDiRbG8AuTGoAxZQZ71W3sBdOYNN78Ndeu8rofV+tPMGop6LEPk5kGswSLkHyjkY0M/BhP6vvAHD2AKh58F46wAAAABJRU5ErkJggg==</Image>
-<Url type="text/html" method="GET" template="https://search.twint.my.id?q={searchTerms}"/>
-<Url type="application/x-suggestions+json" method="GET" template="http://search.yonderly.org/api/v1/ac?s={searchTerms}&amp;scraper=auto"/>
+<Url type="text/html" method="GET" template="https://search.twint.my.id/s?q={searchTerms}"/>
+<Url type="application/x-suggestions+json" method="GET" template="http://search.twint.my.id/a?q={searchTerms}&c=true"/>
 </OpenSearchDescription>

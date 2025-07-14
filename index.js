@@ -1,9 +1,8 @@
-import engines from "./engines.json";
-import main from "./main.html";
+import engines from "./assets/engines.json";
 
 const bangs = new Map(engines.map((e) => [e.t, { url: e.u, domain: e.d, subs: new Map(e.sb?.map((sb) => [sb.b, sb])) } ]));
 
-function resolveBang(query) {
+function resolve(query) {
   if (!query?.trim()) return null;
 
   let primary = null;
@@ -66,20 +65,25 @@ function resolveBang(query) {
   return link;
 }
 
+function fill(template, query) {
+  if (!template) return query;
+
+  return template.includes("%s") ? template.replace(/%s/g, query) : template + query;
+}
+
 export default {
   async fetch(request, env, ctx) {
     const context = new URL(request.url);
 
     const search = context.searchParams.get("q");
+    if (!search) return env.ASSETS.fetch(request);
+
     const custom = context.searchParams.get("s");
+    const encoded = encodeURIComponent(search);
 
-    if (!search) return new Response(main, {
-			headers: {
-				"content-type": "text/html",
-			},
-		});
+    if (context.searchParams.has("c")) return Response.redirect(fill(custom || env.DEFAULT_COMPLETE, encoded), 302);
 
-    const resolvedUrl = resolveBang(search) || `${custom || env.DEFAULT_URL}${encodeURIComponent(search)}`;
-    return Response.redirect(resolvedUrl, 302);
+    const resolved = resolve(search) || fill(custom || env.DEFAULT_SEARCH, encoded);
+    return Response.redirect(resolved, 302);
   },
 };
