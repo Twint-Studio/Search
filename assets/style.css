@@ -6,24 +6,25 @@
 
 body {
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     display: flex;
     height: 100vh;
 }
 
-form {
+.card {
     background-color: var(--forground-color);
     border-radius: 1rem;
     text-align: center;
     padding: 1rem;
-    width: 25%;
+    min-width: 25%;
 }
 
 h1 {
     margin-bottom: .75rem;
 }
 
-div {
+.group {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -43,10 +44,31 @@ input {
     padding-bottom: .75rem;
 }
 
-input:focus {
+input:focus:read-write {
     outline: 2px solid var(--primary);
+}
+
+.gap {
+    display: grid;
+    gap: .5rem;
 }
 
 button {
     text-align: center;
+}
+
+@media (width <= 1115px) {
+    .card {
+        min-width: 85%;
+    }
+}
+
+@media (width <= 315px) {
+    .group {
+        display: grid;
+    }
+
+    button {
+        width: 100%;
+    }
 }
