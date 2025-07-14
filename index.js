@@ -74,7 +74,7 @@ function fill(template, query) {
 export default {
   async fetch(request, env, ctx) {
     const context = new URL(request.url);
-    const path = url.pathname;
+    const path = context.pathname;
 
     if (path === "/s" || path === "/c") {
       const search = context.searchParams.get("q");
