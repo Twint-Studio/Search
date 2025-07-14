@@ -74,16 +74,25 @@ function fill(template, query) {
 export default {
   async fetch(request, env, ctx) {
     const context = new URL(request.url);
+    const path = url.pathname;
 
-    const search = context.searchParams.get("q");
-    if (!search) return env.ASSETS.fetch(request);
+    if (path === "/s" || path === "/c") {
+      const search = context.searchParams.get("q");
+      const custom = context.searchParams.get("s");
 
-    const custom = context.searchParams.get("s");
-    const encoded = encodeURIComponent(search);
+      const encoded = encodeURIComponent(search || "");
 
-    if (context.searchParams.has("c")) return Response.redirect(fill(custom || env.DEFAULT_COMPLETE, encoded), 302);
+      if (path === "/c") {
+        const target = fill(custom || env.DEFAULT_COMPLETE, encoded);
+        return Response.redirect(target, 302);
+      }
 
-    const resolved = resolve(search) || fill(custom || env.DEFAULT_SEARCH, encoded);
-    return Response.redirect(resolved, 302);
+      if (path === "/s") {
+        const target = resolve(search) || fill(custom || env.DEFAULT_SEARCH, encoded)
+        return Response.redirect(target, 302);
+      }
+    }
+
+    return env.ASSETS.fetch(request);
   },
 };
