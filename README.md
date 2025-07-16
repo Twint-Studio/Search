@@ -1,6 +1,6 @@
 # Search
 
-An add-on for any search engine that adds DDG's bang system.
+An add-on for any search engine that adds Kagi's bang system.
 
 ## Examples
 

@@ -5,7 +5,7 @@ routes = [{ pattern = "search.twint.my.id", custom_domain = true }]
 
 [vars]
 DEFAULT_SEARCH = "https://4get.twint.my.id/web?s=%s"
-DEFAULT_COMPLETE = "https://4get.twint.my.id/api/v1/ac?s=%s&amp;scraper=auto"
+DEFAULT_COMPLETE = "https://4get.twint.my.id/api/v1/ac?s=%s&scraper=auto"
 
 [observability.logs]
 enabled = false

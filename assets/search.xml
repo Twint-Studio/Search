@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-<ShortName>Search</ShortName>
-<Description>An add-on for any search engine that adds DDG's bang system.</Description>
+<ShortName>Twint Search</ShortName>
+<Description>An add-on for any search engine that adds Kagi's bang system.</Description>
 <InputEncoding>UTF-8</InputEncoding>
-<Image height="16" width="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAD1BMVEWrqKMMDAxNYGcSBQAAAACm3SHeAAAAbUlEQVR42s2PMQ5CMQzFcNL7nxmKIi+NUib0vdrKa19PAWYL98IkIs4gv5Rvgo9cK5PyFsAUUDiRbG8AuTGoAxZQZ71W3sBdOYNN78Ndeu8rofV+tPMGop6LEPk5kGswSLkHyjkY0M/BhP6vvAHD2AKh58F46wAAAABJRU5ErkJggg==</Image>
+<Image height="32" width="32" type="image/png">https://search.twint.my.id/favicon.png</Image>
 <Url type="text/html" method="GET" template="https://search.twint.my.id/s?q={searchTerms}"/>
 <Url type="application/x-suggestions+json" method="GET" template="https://search.twint.my.id/c?q={searchTerms}"/>
 </OpenSearchDescription>

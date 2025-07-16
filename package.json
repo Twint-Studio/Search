@@ -1,7 +1,7 @@
 {
   "name": "search",
   "version": "1.5.0",
-  "description": "An add-on for any search engine that adds DDG's bang system.",
+  "description": "An add-on for any search engine that adds Kagi's bang system.",
   "main": "index.js",
   "scripts": {
     "dev": "wrangler dev",
