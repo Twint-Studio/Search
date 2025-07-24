@@ -1,0 +1,119 @@
+[
+  {
+    "s": "ServerSMP Chat",
+    "d": "chat.serversmp.xyz",
+    "t": "smp",
+    "u": "https://chat.serversmp.xyz/?q={{{s}}}",
+    "c": "Online Services",
+    "sc": "AI Chatbots",
+    "sb": [
+      {
+        "b": "o1m",
+        "u": "models",
+        "l": 0,
+        "v": "oai.o1-mini"
+      },
+      {
+        "b": "o3m",
+        "u": "models",
+        "l": 0,
+        "v": "oai.o3-mini"
+      },
+      {
+        "b": "4o",
+        "u": "models",
+        "l": 0,
+        "v": "gh.openai/gpt-4o"
+      },
+      {
+        "b": "4om",
+        "u": "models",
+        "l": 0,
+        "v": "gh.openai/gpt-4o-mini"
+      },
+      {
+        "b": "41",
+        "u": "models",
+        "l": 0,
+        "v": "gh.openai/gpt-4.1"
+      },
+      {
+        "b": "v3",
+        "u": "models",
+        "l": 0,
+        "v": "or.deepseek/deepseek-chat-v3-0324:free"
+      },
+      {
+        "b": "r1",
+        "u": "models",
+        "l": 0,
+        "v": "nim.deepseek-ai/deepseek-r1-0528"
+      },
+      {
+        "b": "r1l",
+        "u": "models",
+        "l": 0,
+        "v": "groq.deepseek-r1-distill-llama-70b"
+      },
+      {
+        "b": "gp",
+        "u": "models",
+        "l": 0,
+        "v": "google.models/gemini-2.5-pro"
+      },
+      {
+        "b": "gf",
+        "u": "models",
+        "l": 0,
+        "v": "google.models/gemini-2.5-flash"
+      },
+      {
+        "b": "ll",
+        "u": "models",
+        "l": 0,
+        "v": "cerebras.llama-3.3-70b"
+      },
+      {
+        "b": "ms",
+        "u": "models",
+        "l": 0,
+        "v": "mistral.mistral-small-latest"
+      },
+      {
+        "b": "ml",
+        "u": "models",
+        "l": 0,
+        "v": "mistral.mistral-large-latest"
+      },
+      {
+        "b": "co",
+        "u": "models",
+        "l": 0,
+        "v": "mistral.codestral-latest"
+      }
+    ]
+  },
+  {
+    "c": "Translation",
+    "d": "translate.google.com",
+    "r": 7428,
+    "s": "Google Translate",
+    "sc": "Google",
+    "t": "tr",
+    "u": "https://translate.google.com/?text={{{s}}}&op=translate",
+    "sb": [
+      {
+        "b": "f",
+        "u": "sl",
+        "l": 1,
+        "d": "auto"
+      },
+      {
+        "b": "t",
+        "u": "tl",
+        "l": 1,
+        "d": "en"
+      }
+    ]
+  }
+]
