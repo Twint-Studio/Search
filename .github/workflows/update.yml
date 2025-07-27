@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Update Script
-        run: ./update.sh ./assets/engines.json ./assets/custom.json
+        run: ./assets/update.sh ./assets/engines.json ./assets/custom.json
 
       - name: Commit and push
         run: |
