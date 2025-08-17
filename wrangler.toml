@@ -4,8 +4,8 @@ compatibility_date = "2025-04-02"
 routes = [{ pattern = "search.twint.my.id", custom_domain = true }]
 
 [vars]
-DEFAULT_SEARCH = "https://4get.twint.my.id/web?s=%s"
-DEFAULT_COMPLETE = "https://4get.twint.my.id/api/v1/ac?s=%s&scraper=auto"
+DEFAULT_SEARCH = "https://4get.ch/web?s=%s"
+DEFAULT_COMPLETE = "https://4get.ch/api/v1/ac?s=%s&scraper=auto"
 
 [observability.logs]
 enabled = false
