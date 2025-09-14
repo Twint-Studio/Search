@@ -1347,7 +1347,7 @@
     "sc": "Tools"
   },
   {
-    "s": "https://abo.finna.fi/",
+    "s": "Åbo Alma-Finna",
     "d": "abo.finna.fi",
     "t": "abol",
     "u": "https://abo.finna.fi/Search/Results?lookfor={{{s}}}&type=AllFields",
@@ -1436,7 +1436,7 @@
     "sc": "Academic"
   },
   {
-    "s": "http://dic.academic.ru/",
+    "s": "Словари и энциклопедии на Академике",
     "d": "dic.academic.ru",
     "t": "acad",
     "u": "https://dic.academic.ru/searchall.php?SWord={{{s}}}",
@@ -1638,7 +1638,7 @@
     "sc": "Reference (words)"
   },
   {
-    "s": "http://pubs.acs.org/",
+    "s": "ACS Publications",
     "d": "pubs.acs.org",
     "t": "acs",
     "u": "http://pubs.acs.org/action/doSearch?AllField={{{s}}}",
@@ -2053,7 +2053,7 @@
     "sc": "Jobs"
   },
   {
-    "s": "aliexpress.com",
+    "s": "AliExpress",
     "d": "www.aliexpress.com",
     "t": "ae",
     "ts": [
@@ -2606,7 +2606,7 @@
     "sc": "International"
   },
   {
-    "s": "http://amazon.co.jp",
+    "s": "アマゾン (Amazon Japan)",
     "d": "www.amazon.co.jp",
     "t": "aj",
     "ts": [
@@ -4055,7 +4055,7 @@
     "sc": "Academic"
   },
   {
-    "s": "https://www.apertium.org",
+    "s": "Apertium (Dutch to Afrikaans)",
     "d": "www.apertium.org",
     "t": "anlaf",
     "u": "https://www.apertium.org/index.eng.html?dir=nld-afr&q={{{s}}}"
@@ -4369,7 +4369,7 @@
     "sc": "Academic"
   },
   {
-    "s": "Apertium",
+    "s": "Apertium (English to Spanish)",
     "d": "www.apertium.org",
     "t": "apert-en-es",
     "u": "https://www.apertium.org/index.spa.html?dir=eng-spa&q={{{s}}}#translation",
@@ -4377,7 +4377,7 @@
     "sc": "Tools"
   },
   {
-    "s": "Appertium",
+    "s": "Apertium Wiki",
     "d": "wiki.apertium.org",
     "t": "apertium",
     "u": "https://wiki.apertium.org/w/index.php?title=Special:Search&search={{{s}}}&go=Go"
@@ -5119,11 +5119,12 @@
     "sc": "Sysadmin (Arch)"
   },
   {
-    "s": "Arch Linux",
+    "s": "Arch Linux Wiki",
     "d": "wiki.archlinux.org",
     "t": "archlinuxit",
     "ts": [
-      "aw"
+      "aw",
+      "archwiki"
     ],
     "u": "https://wiki.archlinux.org/index.php?title=Special:Search&search={{{s}}}",
     "c": "Tech",
@@ -5154,14 +5155,6 @@
     "d": "wiki.archlinux.org",
     "t": "archpl",
     "u": "https://wiki.archlinux.org/index.php/{{{s}}}_(Polski)",
-    "c": "Tech",
-    "sc": "Sysadmin (Arch)"
-  },
-  {
-    "s": "Arch Linux Wiki",
-    "d": "wiki.archlinux.org",
-    "t": "archwiki",
-    "u": "https://wiki.archlinux.org/index.php?search={{{s}}}&title=Special:Search&go=Go",
     "c": "Tech",
     "sc": "Sysadmin (Arch)"
   },
@@ -5238,7 +5231,7 @@
     "sc": "Search (non-US)"
   },
   {
-    "s": "http://www.argos.co.uk",
+    "s": "Argos UK",
     "d": "www.argos.co.uk",
     "t": "argos",
     "u": "http://www.argos.co.uk/search/{{{s}}}",
@@ -5449,7 +5442,7 @@
     "sc": "Online (marketplace)"
   },
   {
-    "s": "https://www.aparatorul.md",
+    "s": "Apărătorul Ortodox",
     "d": "www.aparatorul.md",
     "t": "art",
     "u": "https://www.aparatorul.md/?s={{{s}}}",
@@ -5642,7 +5635,7 @@
     "sc": "Online"
   },
   {
-    "s": "https://ashadidi.com",
+    "s": "Ashadidi",
     "d": "ashadidi.com",
     "t": "asha",
     "u": "https://ashadidi.com/search/{{{s}}}",
@@ -5912,7 +5905,7 @@
     "sc": "Academic"
   },
   {
-    "s": "atmosphereJS",
+    "s": "Atmosphere",
     "d": "atmospherejs.com",
     "t": "atjs",
     "ts": [
@@ -7020,7 +7013,7 @@
     "sc": "Search"
   },
   {
-    "s": "Search all !bangs",
+    "s": "Kagi Bang Explorer",
     "d": "kbe.smaertness.net",
     "t": "bang",
     "ts": [
@@ -7067,6 +7060,10 @@
     "s": "Barnes & Noble",
     "d": "www.barnesandnoble.com",
     "t": "barnesandnoble",
+    "ts": [
+      "b&n",
+      "bn"
+    ],
     "u": "https://www.barnesandnoble.com/s/{{{s}}}",
     "c": "Shopping",
     "sc": "Big box/department"
@@ -7379,7 +7376,7 @@
     "sc": "Movies"
   },
   {
-    "s": "Bing Search",
+    "s": "Bing",
     "d": "bing.com",
     "t": "b",
     "ts": [
@@ -7711,7 +7708,7 @@
     "sc": "Search"
   },
   {
-    "s": "Bedetheque",
+    "s": "Bedethèque",
     "d": "www.bedetheque.com",
     "t": "bdg",
     "ts": [
@@ -8940,7 +8937,7 @@
     "sc": "Magazine"
   },
   {
-    "s": "https://www.bisafans.de/",
+    "s": "Bisafans.de",
     "d": "www.bisafans.de",
     "t": "bisa",
     "u": "https://www.bisafans.de/suchbisa.php?q={{{s}}}",
@@ -9545,7 +9542,7 @@
     "sc": "Search"
   },
   {
-    "s": "https://bookmyparts.com",
+    "s": "Book My Parts",
     "d": "bookmyparts.com",
     "t": "bmp",
     "u": "https://bookmyparts.com/?s={{{s}}}&post_type=product",
@@ -9586,17 +9583,6 @@
     "u": "https://www.bna.com.ar/Buscador?q={{{s}}}",
     "c": "Online Services",
     "sc": "Social (intl)"
-  },
-  {
-    "s": "barnes and noble",
-    "d": "www.barnesandnoble.com",
-    "t": "b&n",
-    "ts": [
-      "bn"
-    ],
-    "u": "http://www.barnesandnoble.com/s/{{{s}}}",
-    "c": "Shopping",
-    "sc": "Online"
   },
   {
     "s": "Bing News",
@@ -9645,14 +9631,6 @@
     "u": "https://www.bnrmetal.com/v5/search/search/{{{s}}}",
     "c": "Research",
     "sc": "Reference (fun)"
-  },
-  {
-    "s": "http://bokunoshumi.wordpress.com",
-    "d": "bokunoshumi.wordpress.com",
-    "t": "bns",
-    "u": "https://bokunoshumi.wordpress.com/?s={{{s}}}",
-    "c": "Tech",
-    "sc": "Blogs"
   },
   {
     "s": "BoardGameGeek",
@@ -9869,7 +9847,7 @@
     "sc": "Online"
   },
   {
-    "s": "booking.com",
+    "s": "Booking.com",
     "d": "www.booking.com",
     "t": "book",
     "ts": [
@@ -10643,11 +10621,12 @@
     "sc": "Online"
   },
   {
-    "s": "FreeBSD",
+    "s": "FreeBSD Man Pages",
     "d": "www.freebsd.org",
     "t": "bsdman",
     "ts": [
-      "fman"
+      "fman",
+      "freebsdman"
     ],
     "u": "https://www.freebsd.org/cgi/man.cgi?query={{{s}}}",
     "c": "Tech",
@@ -10892,7 +10871,7 @@
     "sc": "Reference (science)"
   },
   {
-    "s": "http://www.buienalarm.nl/",
+    "s": "Buienalarm",
     "d": "www.buienalarm.nl",
     "t": "buien",
     "u": "https://www.buienalarm.nl/location/{{{s}}}",
@@ -11150,14 +11129,6 @@
     "sc": "Comics"
   },
   {
-    "s": "Bing",
-    "d": "www.bing.com",
-    "t": "bweek",
-    "u": "https://www.bing.com/search?q={{{s}}}&filters=ex1:\"\"ez2\"\"",
-    "c": "Online Services",
-    "sc": "Search"
-  },
-  {
     "s": "BWS",
     "d": "bws.com.au",
     "t": "bws",
@@ -11254,7 +11225,7 @@
     "sc": "Sports"
   },
   {
-    "s": "http://www.camptocamp.org/",
+    "s": "Camptocamp (forum)",
     "d": "www.camptocamp.org",
     "t": "c2cforum",
     "u": "https://www.camptocamp.org/documents/search?type=forums&q={{{s}}}",
@@ -11262,7 +11233,7 @@
     "sc": "Sports"
   },
   {
-    "s": "Camp to Camp (site)",
+    "s": "Camp to Camp (sites)",
     "d": "www.camptocamp.org",
     "t": "c2csite",
     "u": "https://www.camptocamp.org/documents/search?type=sites&q={{{s}}}",
@@ -11270,7 +11241,7 @@
     "sc": "Sports"
   },
   {
-    "s": "Camp to Camp",
+    "s": "Camp to Camp (summits)",
     "d": "www.camptocamp.org",
     "t": "c2csummit",
     "u": "https://www.camptocamp.org/documents/search?type=summits&q={{{s}}}",
@@ -11349,18 +11320,6 @@
     "sc": "Government"
   },
   {
-    "s": "Google Cache",
-    "d": "webcache.googleusercontent.com",
-    "t": "cached",
-    "ts": [
-      "cachedview",
-      "cache"
-    ],
-    "u": "https://webcache.googleusercontent.com/search?q=cache:{{{s}}}",
-    "c": "Online Services",
-    "sc": "Google"
-  },
-  {
     "s": "Cactus2000 - Conjugation Table (German)",
     "d": "conjd.cactus2000.de",
     "t": "cact",
@@ -11409,7 +11368,7 @@
     "sc": "Sports"
   },
   {
-    "s": "Calvin and Hobbes Search Engine",
+    "s": "Calvin and Hobbes",
     "d": "michaelyingling.com",
     "t": "cah",
     "ts": [
@@ -11549,7 +11508,7 @@
     "sc": "Forum"
   },
   {
-    "s": "http://dictionary.cambridge.org",
+    "s": "Cambridge Dictionary (American English)",
     "d": "dictionary.cambridge.org",
     "t": "camd",
     "u": "https://dictionary.cambridge.org/search/american-english/direct/?q={{{s}}}",
@@ -11862,7 +11821,7 @@
     "sc": "Blogs (intl)"
   },
   {
-    "s": "https://www.cardboardconnection.com/",
+    "s": "The Cardboard Connection",
     "d": "www.cardboardconnection.com",
     "t": "cardboard",
     "u": "https://www.cardboardconnection.com/search-results?q={{{s}}}",
@@ -12493,7 +12452,6 @@
     "t": "codi",
     "ts": [
       "cdi",
-      "dcom",
       "di"
     ],
     "u": "https://www.collinsdictionary.com/dictionary/english/{{{s}}}",
@@ -12915,7 +12873,7 @@
     "sc": "Search"
   },
   {
-    "s": "http://www.ecfr.gov/cgi-bin/ECFR",
+    "s": "eCFR",
     "d": "www.ecfr.gov",
     "t": "cfr",
     "u": "https://www.ecfr.gov/cgi-bin/searchECFR?q1={{{s}}}",
@@ -13019,7 +12977,7 @@
     "sc": "Online"
   },
   {
-    "s": "https://www.change.org",
+    "s": "Change.org",
     "d": "www.change.org",
     "t": "change",
     "u": "https://www.change.org/search?q={{{s}}}",
@@ -13187,7 +13145,7 @@
     "sc": "Games (general)"
   },
   {
-    "s": "https://devhints.io/",
+    "s": "Devhints",
     "d": "devhints.io",
     "t": "cheat",
     "ts": [
@@ -13303,7 +13261,7 @@
     "sc": "Online"
   },
   {
-    "s": "http://www.chemicalize.org/",
+    "s": "Chemicalize",
     "d": "www.chemicalize.org",
     "t": "chemicalize",
     "u": "https://www.chemicalize.org/structure/#!mol={{{s}}}&source=fp",
@@ -13515,7 +13473,7 @@
     "sc": "Online (deals)"
   },
   {
-    "s": "http://www.chordie.com/",
+    "s": "Chordie",
     "d": "www.chordie.com",
     "t": "chordie",
     "u": "https://www.chordie.com/?q={{{s}}}",
@@ -13582,16 +13540,17 @@
   },
   {
     "s": "Chrome Web Store",
-    "d": "chrome.google.com",
+    "d": "chromewebstore.google.com",
     "t": "chrome",
     "ts": [
       "chromestore",
       "chromewebstore",
       "cstore",
       "cwebstore",
-      "cws"
+      "cws",
+      "crx"
     ],
-    "u": "https://chrome.google.com/webstore/search/{{{s}}}",
+    "u": "https://chromewebstore.google.com/search/{{{s}}}",
     "c": "Tech",
     "sc": "Downloads (add-ons)"
   },
@@ -13604,7 +13563,7 @@
     "sc": "Tracking"
   },
   {
-    "s": "https://chain.so/",
+    "s": "SoChain",
     "d": "chain.so",
     "t": "chs",
     "u": "https://chain.so/address/{{{s}}}",
@@ -13874,14 +13833,6 @@
     "sc": "Games (specific)"
   },
   {
-    "s": "http://www.cookinglight.com",
-    "d": "www.cookinglight.com",
-    "t": "cklt",
-    "u": "https://www.cookinglight.com/search?q={{{s}}}",
-    "c": "Online Services",
-    "sc": "Search"
-  },
-  {
     "s": "Creation Kit",
     "d": "www.creationkit.com",
     "t": "ckt",
@@ -14101,7 +14052,7 @@
     "sc": "Jobs"
   },
   {
-    "s": "https://clinicasyhospitales.com.co/",
+    "s": "Clínicas y Hospitales",
     "d": "clinicasyhospitales.com.co",
     "t": "clinicas",
     "u": "https://clinicasyhospitales.com.co/buscar?q={{{s}}}",
@@ -14555,7 +14506,7 @@
     "sc": "Languages (cocoa)"
   },
   {
-    "s": "https://physics.nist.gov/cuu/Constants/index.html",
+    "s": "NIST Fundamental Physical Constants",
     "d": "physics.nist.gov",
     "t": "codata",
     "u": "https://physics.nist.gov/cgi-bin/cuu/Results?search_for={{{s}}}",
@@ -15760,7 +15711,7 @@
     "sc": "Downloads (software)"
   },
   {
-    "s": "https://coinpaprika.com/",
+    "s": "CoinPaprika",
     "d": "coinpaprika.com",
     "t": "cp",
     "u": "https://coinpaprika.com/?sort={{{s}}}",
@@ -16286,14 +16237,6 @@
     "sc": "Games (specific)"
   },
   {
-    "s": "Chrome Extension Repository",
-    "d": "chrome.google.com",
-    "t": "crx",
-    "u": "https://chrome.google.com/webstore/search?q={{{s}}}",
-    "c": "Tech",
-    "sc": "Downloads (add-ons)"
-  },
-  {
     "s": "Extension Source Viewer",
     "d": "robwu.nl",
     "t": "crxviewer",
@@ -16452,7 +16395,7 @@
     "sc": "Reference (words intl)"
   },
   {
-    "s": "CSS",
+    "s": "Mozilla Developer Network CSS",
     "d": "developer.mozilla.org",
     "t": "css",
     "ts": [
@@ -16872,7 +16815,7 @@
     "sc": "Jobs"
   },
   {
-    "s": "https://classic.wowhead.com/",
+    "s": "Wowhead Classic",
     "d": "classic.wowhead.com",
     "t": "cwow",
     "ts": [
@@ -17045,7 +16988,7 @@
     "sc": "Games (specific)"
   },
   {
-    "s": "https://www.drive2.ru/",
+    "s": "Drive2.ru",
     "d": "www.drive2.ru",
     "t": "d2r",
     "u": "https://www.drive2.ru/search?text={{{s}}}",
@@ -17330,7 +17273,7 @@
     "sc": "Libraries/Frameworks"
   },
   {
-    "s": "https://www.d-archive.org/",
+    "s": "The Digital Archive",
     "d": "www.d-archive.org",
     "t": "darc",
     "u": "https://www.d-archive.org/?s={{{s}}}",
@@ -17758,7 +17701,7 @@
     "sc": "Reference"
   },
   {
-    "s": "http://dbnl.nl/",
+    "s": "Digitale Bibliotheek voor de Nederlandse Letteren",
     "d": "dbnl.nl",
     "t": "dbnl",
     "u": "https://dbnl.nl/zoeken/zoekeninteksten/index.php?zoek={{{s}}}",
@@ -17920,7 +17863,8 @@
     "d": "www.dictionary.com",
     "t": "dxn",
     "ts": [
-      "d.com"
+      "d.com",
+      "dcom"
     ],
     "u": "https://www.dictionary.com/browse/{{{s}}}?s=ts",
     "c": "Research",
@@ -18996,14 +18940,6 @@
     "sc": "Forum"
   },
   {
-    "s": "https://www.openthesaurus.de",
-    "d": "www.openthesaurus.de",
-    "t": "deopenthesaurus",
-    "u": "https://www.openthesaurus.de/synonyme/?q={{{s}}}",
-    "c": "Online Services",
-    "sc": "Tools"
-  },
-  {
     "s": "google translate de-pl",
     "d": "translate.google.com",
     "t": "depl",
@@ -19456,7 +19392,7 @@
     "sc": "Academic"
   },
   {
-    "s": "http://differencebetween.net",
+    "s": "Difference Between",
     "d": "www.differencebetween.net",
     "t": "dibe",
     "u": "http://www.differencebetween.net/search/?q={{{s}}}",
@@ -19480,7 +19416,7 @@
     "sc": "Academic"
   },
   {
-    "s": "http://www.merriam-webster.com/",
+    "s": "Merriam-Webster",
     "d": "www.merriam-webster.com",
     "t": "dic",
     "ts": [
@@ -19530,17 +19466,6 @@
     "sc": "Reference (words intl)"
   },
   {
-    "s": "http://dico.isc.cnrs.fr/fr/index_tr.html",
-    "d": "dico.isc.cnrs.fr",
-    "t": "dicoiscenfr",
-    "ts": [
-      "dicoiscfren"
-    ],
-    "u": "http://dico.isc.cnrs.fr/dico/tr/chercher_en?r={{{s}}}",
-    "c": "Research",
-    "sc": "Reference (words)"
-  },
-  {
     "s": "Dicoz",
     "d": "www.dicoz.fr",
     "t": "dicoz",
@@ -19584,7 +19509,7 @@
     "sc": "Academic"
   },
   {
-    "s": "http://www.greek-language.gr",
+    "s": "Portal for The Greek Language",
     "d": "www.greek-language.gr",
     "t": "dictgr",
     "ts": [
@@ -19866,13 +19791,14 @@
     "sc": "Reference (words intl)"
   },
   {
-    "s": "https://invidio.us",
+    "s": "Invidious",
     "d": "invidio.us",
     "t": "dio",
     "ts": [
       "invd",
       "invid",
-      "invidio"
+      "invidio",
+      "invidious"
     ],
     "u": "https://invidio.us/search?q={{{s}}}",
     "c": "Multimedia",
@@ -19966,7 +19892,10 @@
     "s": "Discogs",
     "d": "www.discogs.com",
     "t": "discogs",
-    "u": "http://www.discogs.com/search?q={{{s}}}&btn=&type=all",
+    "ts": [
+      "dis"
+    ],
+    "u": "http://www.discogs.com/search?q={{{s}}}&type=all",
     "c": "Multimedia",
     "sc": "Music"
   },
@@ -20037,14 +19966,6 @@
     "u": "https://discworld.wikia.com/wiki/Special:Search?query={{{s}}}",
     "c": "Entertainment",
     "sc": "Forum"
-  },
-  {
-    "s": "http://discogs.com/",
-    "d": "www.discogs.com",
-    "t": "dis",
-    "u": "https://www.discogs.com/search/?q={{{s}}}&type=all",
-    "c": "Entertainment",
-    "sc": "Audio"
   },
   {
     "s": "Disney.com",
@@ -20811,7 +20732,7 @@
     "sc": "Reference"
   },
   {
-    "s": "https://www.doityourself.com/",
+    "s": "DoItYourself.com",
     "d": "www.doityourself.com",
     "t": "doit",
     "u": "https://www.doityourself.com/search?dsp=how-to&psearch={{{s}}}",
@@ -21111,7 +21032,7 @@
     "sc": "Tracking"
   },
   {
-    "s": "https://www.dpg-verhandlungen.de",
+    "s": "DPG Verhandlungen",
     "d": "www.dpg-verhandlungen.de",
     "t": "dpg",
     "u": "https://www.dpg-verhandlungen.de/year/2019/conference/regensburg/search?query={{{s}}}&submit=Search",
@@ -21957,20 +21878,15 @@
     "sc": "Online"
   },
   {
-    "s": "dummies.com",
+    "s": "dummies",
     "d": "www.dummies.com",
     "t": "dummies",
-    "u": "https://www.dummies.com/?s={{{s}}}",
+    "ts": [
+      "dummi"
+    ],
+    "u": "https://www.dummies.com/search?pq={{{s}}}",
     "c": "Research",
     "sc": "Reference"
-  },
-  {
-    "s": "http://www.dummies.com/search.html?query=cisc",
-    "d": "www.dummies.com",
-    "t": "dummi",
-    "u": "https://www.dummies.com/search.html?query={{{s}}}",
-    "c": "Tech",
-    "sc": "Blogs"
   },
   {
     "s": "Dumpert",
@@ -22626,7 +22542,7 @@
     "sc": "Online (intl)"
   },
   {
-    "s": "RogerEbert.com",
+    "s": "Roger Ebert",
     "d": "www.rogerebert.com",
     "t": "ebert",
     "ts": [
@@ -24032,7 +23948,7 @@
     "sc": "Google"
   },
   {
-    "s": "Google Translate en-nl English Dutch",
+    "s": "Google Translate en-nl",
     "d": "translate.google.com",
     "t": "en2nl",
     "ts": [
@@ -24094,7 +24010,7 @@
     "sc": "Academic"
   },
   {
-    "s": "encyclo",
+    "s": "Encyclo",
     "d": "www.encyclo.nl",
     "t": "enc",
     "ts": [
@@ -24429,7 +24345,7 @@
     "sc": "Google"
   },
   {
-    "s": "ojibwe.lib.umn.edu (English)",
+    "s": "The Ojibwe People's Dictionary (English)",
     "d": "ojibwe.lib.umn.edu",
     "t": "enoj",
     "u": "https://ojibwe.lib.umn.edu/search?utf8=%E2%9C%93&q={{{s}}}&commit=Search&type=english",
@@ -24606,9 +24522,12 @@
     "t": "eo",
     "ts": [
       "etymo",
-      "ety"
+      "ety",
+      "etym",
+      "etymonline",
+      "etymology"
     ],
-    "u": "https://www.etymonline.com/index.php?search={{{s}}}",
+    "u": "https://www.etymonline.com/search?q={{{s}}}",
     "c": "Research",
     "sc": "Reference (words intl)"
   },
@@ -24688,14 +24607,6 @@
     "u": "https://everipedia.org/wiki/{{{s}}}",
     "c": "Research",
     "sc": "Learning"
-  },
-  {
-    "s": "https://beast-epfl.hosted.exlibrisgroup.com/primo-explore/search?sortby=rank&vid=EPFL&lang=en_US",
-    "d": "beast-epfl.hosted.exlibrisgroup.com",
-    "t": "epflbib",
-    "u": "https://beast-epfl.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,{{{s}}}&tab=default_tab&search_scope=default_scope&vid=EPFL&lang=en_US&offset=0",
-    "c": "Research",
-    "sc": "Academic"
   },
   {
     "s": "EPFL Library",
@@ -25397,25 +25308,6 @@
     "u": "https://www.eattheweeds.com/?s={{{s}}}",
     "c": "Research",
     "sc": "Food"
-  },
-  {
-    "s": "https://www.etymonline.com",
-    "d": "www.etymonline.com",
-    "t": "etym",
-    "ts": [
-      "etymonline"
-    ],
-    "u": "https://www.etymonline.com/search?q={{{s}}}",
-    "c": "Online Services",
-    "sc": "Tools"
-  },
-  {
-    "s": "EtymOnline.com",
-    "d": "www.etymonline.com",
-    "t": "etymology",
-    "u": "https://www.etymonline.com/index.php?search={{{s}}}&searchmode=none",
-    "c": "Research",
-    "sc": "Academic"
   },
   {
     "s": "Etymologiebank",
@@ -26782,7 +26674,7 @@
     "sc": "Tools"
   },
   {
-    "s": "wordreference.com",
+    "s": "WordReference (fr-conj)",
     "d": "www.wordreference.com",
     "t": "fconj",
     "ts": [
@@ -27326,7 +27218,7 @@
     "sc": "Blogs"
   },
   {
-    "s": "Filehippo",
+    "s": "FileHippo",
     "d": "filehippo.com",
     "t": "fh",
     "ts": [
@@ -27469,7 +27361,7 @@
     "sc": "Movies"
   },
   {
-    "s": "https://www.filmaffinity.com",
+    "s": "FilmAffinity",
     "d": "www.filmaffinity.com",
     "t": "filmaffinity",
     "u": "https://www.filmaffinity.com/en/search.php?stext={{{s}}}",
@@ -27529,14 +27421,6 @@
     "d": "www.filmportal.de",
     "t": "filmportal.de",
     "u": "https://www.filmportal.de/search?search_api_fulltext={{{s}}}",
-    "c": "Entertainment",
-    "sc": "Movies"
-  },
-  {
-    "s": "http://filmracket.com/",
-    "d": "filmracket.com",
-    "t": "filmracket",
-    "u": "https://filmracket.com/?s={{{s}}}&submit=Search",
     "c": "Entertainment",
     "sc": "Movies"
   },
@@ -27926,7 +27810,7 @@
     "sc": "Libraries/Frameworks"
   },
   {
-    "s": "Flatpak",
+    "s": "Flathub",
     "d": "flathub.org",
     "t": "flat",
     "ts": [
@@ -28133,10 +28017,10 @@
     "sc": "Reference (science)"
   },
   {
-    "s": "http://fm4.orf.at/",
+    "s": "Radio FM4",
     "d": "fm4.orf.at",
     "t": "fm4",
-    "u": "https://fm4.orf.at/search?q={{{s}}}&sort=date_desc&submit.x=0&submit.y=0",
+    "u": "https://fm4.orf.at/elasticsearch?query={{{s}}}&sort=date",
     "c": "Entertainment",
     "sc": "Radio"
   },
@@ -28721,7 +28605,7 @@
     "sc": "Google"
   },
   {
-    "s": "GoogleTraduction",
+    "s": "Google Translate fr-en",
     "d": "translate.google.com",
     "t": "fr2en",
     "ts": [
@@ -28802,14 +28686,6 @@
     "u": "https://research.stlouisfed.org/fred2/search?st={{{s}}}",
     "c": "Research",
     "sc": "Academic"
-  },
-  {
-    "s": "FreeBSD Man Pages",
-    "d": "man.freebsd.org",
-    "t": "freebsdman",
-    "u": "https://man.freebsd.org/{{{s}}}",
-    "c": "Tech",
-    "sc": "Sysadmin (man)"
   },
   {
     "s": "FreeCollocation.com",
@@ -29134,7 +29010,7 @@
     "sc": "Google"
   },
   {
-    "s": "https://fr.techdico.com",
+    "s": "TechDico FR",
     "d": "fr.techdico.com",
     "t": "frtech",
     "u": "https://fr.techdico.com/traduction/francais-anglais/{{{s}}}",
@@ -30893,7 +30769,7 @@
     "sc": "Blogs"
   },
   {
-    "s": "http://www.geekunivers.com",
+    "s": "GeekUnivers",
     "d": "www.geekunivers.com",
     "t": "geeku",
     "u": "https://www.geekunivers.com/?s={{{s}}}",
@@ -31423,7 +31299,7 @@
     ]
   },
   {
-    "s": "Google font",
+    "s": "Google Fonts",
     "d": "fonts.google.com",
     "t": "gfont",
     "ts": [
@@ -31559,6 +31435,9 @@
     "s": "Google GR",
     "d": "www.google.gr",
     "t": "ggr",
+    "ts": [
+      "γ"
+    ],
     "u": "https://www.google.gr/search?q={{{s}}}&meta=&aq=f&aqi=g10&aql=&gs_rfai=",
     "c": "Online Services",
     "sc": "Google"
@@ -31757,10 +31636,10 @@
     "sc": "Google"
   },
   {
-    "s": "http://www.groenehartscholen.nl/lyceum/",
+    "s": "Groene Hart Lyceum",
     "d": "www.groenehartscholen.nl",
     "t": "ghl",
-    "u": "https://www.groenehartscholen.nl/lyceum/={{{s}}}",
+    "u": "https://www.groenehartscholen.nl/lyceum/?s={{{s}}}",
     "c": "Online Services",
     "sc": "Search"
   },
@@ -31797,7 +31676,7 @@
     "sc": "Tracking"
   },
   {
-    "s": "https://www.giallozafferano.it/",
+    "s": "Giallo Zafferano",
     "d": "www.giallozafferano.it",
     "t": "giallozafferano",
     "ts": [
@@ -32130,17 +32009,6 @@
     "u": "https://www.google.co.uk/search?tbm=isch&q={{{s}}}&tbs=imgo:1",
     "c": "Online Services",
     "sc": "Google"
-  },
-  {
-    "s": "Google Image",
-    "d": "www.google.com",
-    "t": "giurl",
-    "ts": [
-      "sbi"
-    ],
-    "u": "https://www.google.com/searchbyimage?image_url={{{s}}}",
-    "c": "Multimedia",
-    "sc": "Images"
   },
   {
     "s": "Givero",
@@ -33935,7 +33803,7 @@
     "sc": "Reference (words intl)"
   },
   {
-    "s": "https://www.greentech-news.org/",
+    "s": "Green Technology News",
     "d": "www.greentech-news.org",
     "t": "green",
     "u": "https://www.greentech-news.org/?s={{{s}}}",
@@ -34008,14 +33876,6 @@
     "u": "https://grimdawn.wikia.com/wiki/Special:Search?search={{{s}}}&fulltext=Search",
     "c": "Entertainment",
     "sc": "Games (general)"
-  },
-  {
-    "s": "http://groenewaterman.mijnboekhandelaar.com/",
-    "d": "groenewaterman.mijnboekhandelaar.com",
-    "t": "groene",
-    "u": "https://groenewaterman.mijnboekhandelaar.com/index.php?option=com_mbhbooksearch&Itemid=10008&task=gosearch&query={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online (deals)"
   },
   {
     "s": "Google RO",
@@ -34343,7 +34203,7 @@
     "sc": "Online"
   },
   {
-    "s": "Detect language to Afrikaans",
+    "s": "Google Translate (to Afrikaans)",
     "d": "translate.google.com",
     "t": "gtaf",
     "ts": [
@@ -34355,7 +34215,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Albanian",
+    "s": "Google Translate (to Albanian)",
     "d": "translate.google.com",
     "t": "gt-albanian",
     "ts": [
@@ -34367,7 +34227,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Arabic",
+    "s": "Google Translate (to Arabic)",
     "d": "translate.google.com",
     "t": "gt-arabic",
     "ts": [
@@ -34379,7 +34239,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Armenian",
+    "s": "Google Translate (to Armenian)",
     "d": "translate.google.com",
     "t": "gt-armenian",
     "ts": [
@@ -34411,7 +34271,7 @@
     "sc": "Games (general)"
   },
   {
-    "s": "Detect language to Azerbaijani",
+    "s": "Google Translate (to Azerbaijani)",
     "d": "translate.google.com",
     "t": "gtaz",
     "ts": [
@@ -34423,7 +34283,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Basque",
+    "s": "Google Translate (to Basque)",
     "d": "translate.google.com",
     "t": "gt-basque",
     "ts": [
@@ -34435,7 +34295,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Belarusian",
+    "s": "Google Translate (to Belarusian)",
     "d": "translate.google.com",
     "t": "gtbe",
     "ts": [
@@ -34447,7 +34307,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Bengali",
+    "s": "Google Translate (to Bengali)",
     "d": "translate.google.com",
     "t": "gt-bengali",
     "ts": [
@@ -34459,7 +34319,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Bulgarian",
+    "s": "Google Translate (to Bulgarian)",
     "d": "translate.google.com",
     "t": "gtbg",
     "ts": [
@@ -34471,7 +34331,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Bosnian",
+    "s": "Google Translate (to Bosnian)",
     "d": "translate.google.com",
     "t": "gt-bosnian",
     "ts": [
@@ -34483,7 +34343,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Catalan",
+    "s": "Google Translate (to Catalan)",
     "d": "translate.google.com",
     "t": "gtca",
     "ts": [
@@ -34495,7 +34355,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Cebuano",
+    "s": "Google Translate (to Cebuano)",
     "d": "translate.google.com",
     "t": "gtceb",
     "ts": [
@@ -34507,7 +34367,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Chichewa",
+    "s": "Google Translate (to Chichewa)",
     "d": "translate.google.com",
     "t": "gt-chichewa",
     "ts": [
@@ -34519,7 +34379,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Chinese",
+    "s": "Google Translate (to Chinese)",
     "d": "translate.google.com",
     "t": "gt-chinese",
     "ts": [
@@ -34531,7 +34391,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Croatian",
+    "s": "Google Translate (to Croatian)",
     "d": "translate.google.com",
     "t": "gt-croatian",
     "ts": [
@@ -34543,7 +34403,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Czech",
+    "s": "Google Translate (to Czech)",
     "d": "translate.google.com",
     "t": "gtcs",
     "ts": [
@@ -34556,7 +34416,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Welsh",
+    "s": "Google Translate (to Welsh)",
     "d": "translate.google.com",
     "t": "gtcy",
     "ts": [
@@ -34568,7 +34428,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Danish",
+    "s": "Google Translate (to Danish)",
     "d": "translate.google.com",
     "t": "gtda",
     "ts": [
@@ -34588,7 +34448,7 @@
     "sc": "Games (offline)"
   },
   {
-    "s": "Detect language to German",
+    "s": "Google Translate (to German)",
     "d": "translate.google.com",
     "t": "gtde",
     "ts": [
@@ -34601,7 +34461,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Dutch",
+    "s": "Google Translate (to Dutch)",
     "d": "translate.google.com",
     "t": "gt-dutch",
     "ts": [
@@ -34629,7 +34489,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to English",
+    "s": "Google Translate (to English)",
     "d": "translate.google.com",
     "t": "gten",
     "ts": [
@@ -34651,7 +34511,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Esperanto",
+    "s": "Google Translate (to Esperanto)",
     "d": "translate.google.com",
     "t": "gteo",
     "ts": [
@@ -34663,7 +34523,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Spanish",
+    "s": "Google Translate (to Spanish)",
     "d": "translate.google.com",
     "t": "gtes",
     "ts": [
@@ -34675,7 +34535,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Estonian",
+    "s": "Google Translate (to Estonian)",
     "d": "translate.google.com",
     "t": "gt-estonian",
     "ts": [
@@ -34687,7 +34547,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Persian",
+    "s": "Google Translate (to Persian)",
     "d": "translate.google.com",
     "t": "gtfa",
     "ts": [
@@ -34707,7 +34567,7 @@
     "sc": "Forum"
   },
   {
-    "s": "Detect language to Finnish",
+    "s": "Google Translate (to Finnish)",
     "d": "translate.google.com",
     "t": "gtfi",
     "ts": [
@@ -34719,7 +34579,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Filipino",
+    "s": "Google Translate (to Filipino)",
     "d": "translate.google.com",
     "t": "gt-filipino",
     "ts": [
@@ -34731,7 +34591,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to French",
+    "s": "Google Translate (to French)",
     "d": "translate.google.com",
     "t": "gtfr",
     "ts": [
@@ -34744,7 +34604,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Irish",
+    "s": "Google Translate (to Irish)",
     "d": "translate.google.com",
     "t": "gtga",
     "ts": [
@@ -34756,7 +34616,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Galician",
+    "s": "Google Translate (to Galician)",
     "d": "translate.google.com",
     "t": "gt-galician",
     "ts": [
@@ -34768,7 +34628,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Georgian",
+    "s": "Google Translate (to Georgian)",
     "d": "translate.google.com",
     "t": "gt-georgian",
     "ts": [
@@ -34780,7 +34640,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Gujarati",
+    "s": "Google Translate (to Gujarati)",
     "d": "translate.google.com",
     "t": "gtgu",
     "ts": [
@@ -34792,7 +34652,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Hausa",
+    "s": "Google Translate (to Hausa)",
     "d": "translate.google.com",
     "t": "gtha",
     "ts": [
@@ -34804,7 +34664,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Haitian Creole",
+    "s": "Google Translate (to Haitian Creole)",
     "d": "translate.google.com",
     "t": "gthaitiancreole",
     "ts": [
@@ -34815,7 +34675,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Hebrew",
+    "s": "Google Translate (to Hebrew)",
     "d": "translate.google.com",
     "t": "gt-hebrew",
     "ts": [
@@ -34835,7 +34695,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Hindi",
+    "s": "Google Translate (to Hindi)",
     "d": "translate.google.com",
     "t": "gthi",
     "ts": [
@@ -34847,7 +34707,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Hmong",
+    "s": "Google Translate (to Hmong)",
     "d": "translate.google.com",
     "t": "gthmn",
     "ts": [
@@ -34859,7 +34719,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Hungarian",
+    "s": "Google Translate (to Hungarian)",
     "d": "translate.google.com",
     "t": "gthu",
     "ts": [
@@ -34871,7 +34731,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Icelandic",
+    "s": "Google Translate (to Icelandic)",
     "d": "translate.google.com",
     "t": "gt-icelandic",
     "ts": [
@@ -34883,7 +34743,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Indonesian",
+    "s": "Google Translate (to Indonesian)",
     "d": "translate.google.com",
     "t": "gtid",
     "ts": [
@@ -34895,7 +34755,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Igbo",
+    "s": "Google Translate (to Igbo)",
     "d": "translate.google.com",
     "t": "gt-igbo",
     "ts": [
@@ -34907,7 +34767,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Italian",
+    "s": "Google Translate (to Italian)",
     "d": "translate.google.com",
     "t": "gt-italian",
     "ts": [
@@ -34930,7 +34790,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Japanese",
+    "s": "Google Translate (to Japanese)",
     "d": "translate.google.com",
     "t": "gtja",
     "ts": [
@@ -34943,7 +34803,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Javanese",
+    "s": "Google Translate (to Javanese)",
     "d": "translate.google.com",
     "t": "gt-javanese",
     "ts": [
@@ -34955,7 +34815,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Kannada",
+    "s": "Google Translate (to Kannada)",
     "d": "translate.google.com",
     "t": "gt-kannada",
     "ts": [
@@ -34967,7 +34827,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Kazakh",
+    "s": "Google Translate (to Kazakh)",
     "d": "translate.google.com",
     "t": "gt-kazakh",
     "ts": [
@@ -34979,7 +34839,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Khmer",
+    "s": "Google Translate (to Khmer)",
     "d": "translate.google.com",
     "t": "gt-khmer",
     "ts": [
@@ -34991,7 +34851,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Korean",
+    "s": "Google Translate (to Korean)",
     "d": "translate.google.com",
     "t": "gtko",
     "ts": [
@@ -35004,7 +34864,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Latin",
+    "s": "Google Translate (to Latin)",
     "d": "translate.google.com",
     "t": "gtla",
     "ts": [
@@ -35024,7 +34884,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Lao",
+    "s": "Google Translate (to Lao)",
     "d": "translate.google.com",
     "t": "gt-lao",
     "ts": [
@@ -35035,7 +34895,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Latvian",
+    "s": "Google Translate (to Latvian)",
     "d": "translate.google.com",
     "t": "gt-latvian",
     "ts": [
@@ -35055,7 +34915,7 @@
     "sc": "Academic"
   },
   {
-    "s": "Detect language to Lithuanian",
+    "s": "Google Translate (to Lithuanian)",
     "d": "translate.google.com",
     "t": "gt-lithuanian",
     "ts": [
@@ -35067,7 +34927,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Macedonian",
+    "s": "Google Translate (to Macedonian)",
     "d": "translate.google.com",
     "t": "gt-macedonian",
     "ts": [
@@ -35079,7 +34939,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Malagasy",
+    "s": "Google Translate (to Malagasy)",
     "d": "translate.google.com",
     "t": "gt-malagasy",
     "ts": [
@@ -35091,7 +34951,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Malayalam",
+    "s": "Google Translate (to Malayalam)",
     "d": "translate.google.com",
     "t": "gt-malayalam",
     "ts": [
@@ -35103,7 +34963,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Malay",
+    "s": "Google Translate (to Malay)",
     "d": "translate.google.com",
     "t": "gt-malay",
     "ts": [
@@ -35115,7 +34975,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Maltese",
+    "s": "Google Translate (to Maltese)",
     "d": "translate.google.com",
     "t": "gt-maltese",
     "ts": [
@@ -35127,7 +34987,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Maori",
+    "s": "Google Translate (to Maori)",
     "d": "translate.google.com",
     "t": "gt-maori",
     "ts": [
@@ -35139,7 +34999,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Marathi",
+    "s": "Google Translate (to Marathi)",
     "d": "translate.google.com",
     "t": "gt-marathi",
     "ts": [
@@ -35159,7 +35019,7 @@
     "sc": "Games (general)"
   },
   {
-    "s": "Detect language to Mongolian",
+    "s": "Google Translate (to Mongolian)",
     "d": "translate.google.com",
     "t": "gtmn",
     "ts": [
@@ -35171,7 +35031,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Myanmar (Burmese)",
+    "s": "Google Translate (to Myanmar (Burmese))",
     "d": "translate.google.com",
     "t": "gt-myanmar",
     "ts": [
@@ -35191,7 +35051,7 @@
     "sc": "Programming"
   },
   {
-    "s": "Detect language to Nepali",
+    "s": "Google Translate (to Nepali)",
     "d": "translate.google.com",
     "t": "gtne",
     "ts": [
@@ -35219,7 +35079,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Norwegian",
+    "s": "Google Translate (to Norwegian)",
     "d": "translate.google.com",
     "t": "gtno",
     "ts": [
@@ -35231,7 +35091,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Punjabi",
+    "s": "Google Translate (to Punjabi)",
     "d": "translate.google.com",
     "t": "gtpa",
     "ts": [
@@ -35243,7 +35103,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Polish",
+    "s": "Google Translate (to Polish)",
     "d": "translate.google.com",
     "t": "gtpl",
     "ts": [
@@ -35255,7 +35115,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Portuguese",
+    "s": "Google Translate (to Portuguese)",
     "d": "translate.google.com",
     "t": "gt-portuguese",
     "ts": [
@@ -35286,7 +35146,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Romanian",
+    "s": "Google Translate (to Romanian)",
     "d": "translate.google.com",
     "t": "gtro",
     "ts": [
@@ -35298,7 +35158,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Russian",
+    "s": "Google Translate (to Russian)",
     "d": "translate.google.com",
     "t": "gtru",
     "ts": [
@@ -35310,7 +35170,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Serbian",
+    "s": "Google Translate (to Serbian)",
     "d": "translate.google.com",
     "t": "gt-serbian",
     "ts": [
@@ -35322,7 +35182,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Sesotho",
+    "s": "Google Translate (to Sesotho)",
     "d": "translate.google.com",
     "t": "gt-sesotho",
     "ts": [
@@ -35334,7 +35194,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Sinhala",
+    "s": "Google Translate (to Sinhala)",
     "d": "translate.google.com",
     "t": "gtsi",
     "ts": [
@@ -35346,7 +35206,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Slovak",
+    "s": "Google Translate (to Slovak)",
     "d": "translate.google.com",
     "t": "gtsk",
     "ts": [
@@ -35358,7 +35218,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Slovenian",
+    "s": "Google Translate (to Slovenian)",
     "d": "translate.google.com",
     "t": "gtsl",
     "ts": [
@@ -35370,7 +35230,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Somali",
+    "s": "Google Translate (to Somali)",
     "d": "translate.google.com",
     "t": "gtso",
     "ts": [
@@ -35382,7 +35242,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Sundanese",
+    "s": "Google Translate (to Sundanese)",
     "d": "translate.google.com",
     "t": "gtsu",
     "ts": [
@@ -35394,7 +35254,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Swedish",
+    "s": "Google Translate (to Swedish)",
     "d": "translate.google.com",
     "t": "gtsv",
     "ts": [
@@ -35406,7 +35266,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Swahili",
+    "s": "Google Translate (to Swahili)",
     "d": "translate.google.com",
     "t": "gt-swahili",
     "ts": [
@@ -35418,7 +35278,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Tamil",
+    "s": "Google Translate (to Tamil)",
     "d": "translate.google.com",
     "t": "gtta",
     "ts": [
@@ -35430,7 +35290,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Tajik",
+    "s": "Google Translate (to Tajik)",
     "d": "translate.google.com",
     "t": "gt-tajik",
     "ts": [
@@ -35442,7 +35302,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Telugu",
+    "s": "Google Translate (to Telugu)",
     "d": "translate.google.com",
     "t": "gtte",
     "ts": [
@@ -35454,7 +35314,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Thai",
+    "s": "Google Translate (to Thai)",
     "d": "translate.google.com",
     "t": "gt-thai",
     "ts": [
@@ -35466,7 +35326,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Turkish",
+    "s": "Google Translate (to Turkish)",
     "d": "translate.google.com",
     "t": "gttr",
     "ts": [
@@ -35486,7 +35346,7 @@
     "sc": "Search"
   },
   {
-    "s": "Detect language to Ukrainian",
+    "s": "Google Translate (to Ukrainian)",
     "d": "translate.google.com",
     "t": "gtuk",
     "ts": [
@@ -35498,7 +35358,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Urdu",
+    "s": "Google Translate (to Urdu)",
     "d": "translate.google.com",
     "t": "gtur",
     "ts": [
@@ -35518,7 +35378,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Uzbek",
+    "s": "Google Translate (to Uzbek)",
     "d": "translate.google.com",
     "t": "gt-uzbek",
     "ts": [
@@ -35530,7 +35390,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Vietnamese",
+    "s": "Google Translate (to Vietnamese)",
     "d": "translate.google.com",
     "t": "gtvi",
     "ts": [
@@ -35558,7 +35418,7 @@
     "sc": "Games (general)"
   },
   {
-    "s": "Detect language to Yiddish",
+    "s": "Google Translate (to Yiddish)",
     "d": "translate.google.com",
     "t": "gt-yiddish",
     "ts": [
@@ -35570,7 +35430,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Yoruba",
+    "s": "Google Translate (to Yoruba)",
     "d": "translate.google.com",
     "t": "gtyo",
     "ts": [
@@ -35582,7 +35442,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to traditional Chinese",
+    "s": "Google Translate (to traditional Chinese)",
     "d": "translate.google.com",
     "t": "gtzh-tw",
     "u": "https://translate.google.com/#auto/zh-TW/{{{s}}}",
@@ -35590,7 +35450,7 @@
     "sc": "Google"
   },
   {
-    "s": "Detect language to Zulu",
+    "s": "Google Translate (to Zulu)",
     "d": "translate.google.com",
     "t": "gtzu",
     "ts": [
@@ -35650,7 +35510,7 @@
     "sc": "Online"
   },
   {
-    "s": "guenstiger.de",
+    "s": "Günstiger.de",
     "d": "www.guenstiger.de",
     "t": "gue",
     "ts": [
@@ -36255,14 +36115,14 @@
     "s": "Hacker News",
     "d": "hn.algolia.com",
     "ad": "news.ycombinator.com",
-    "t": "hnsearch",
+    "t": "hn",
     "ts": [
       "newsyc",
       "searchyc",
-      "hn",
+      "hnsearch",
       "hackernews"
     ],
-    "u": "https://hn.algolia.com/#!/story/forever/0/{{{s}}}",
+    "u": "https://hn.algolia.com/?q={{{s}}}",
     "c": "News",
     "sc": "Aggregators"
   },
@@ -36372,14 +36232,6 @@
     "u": "https://www.halopedia.org/index.php?search={{{s}}}",
     "c": "Entertainment",
     "sc": "Games (specific)"
-  },
-  {
-    "s": "http://www.hamdata.com/getcall.html",
-    "d": "www.hamdata.com",
-    "t": "ham",
-    "u": "http://www.hamdata.com/getcall.html?callsign={{{s}}}",
-    "c": "Research",
-    "sc": "Reference"
   },
   {
     "s": "Handelsblatt",
@@ -37121,7 +36973,7 @@
     "sc": "Academic"
   },
   {
-    "s": "hoogle",
+    "s": "Hoogle",
     "d": "hoogle.haskell.org",
     "t": "hoogle",
     "ts": [
@@ -37454,7 +37306,7 @@
     "sc": "Games (specific)"
   },
   {
-    "s": "How Long to Beat",
+    "s": "HowLongToBeat",
     "d": "howlongtobeat.com",
     "t": "hlb",
     "ts": [
@@ -37854,7 +37706,7 @@
     "sc": "International"
   },
   {
-    "s": "Hotsar",
+    "s": "Hotstar",
     "d": "www.hotstar.com",
     "t": "hotsar",
     "ts": [
@@ -38155,7 +38007,7 @@
     "sc": "Reference"
   },
   {
-    "s": "https://http.cat/",
+    "s": "HTTP Cats",
     "d": "http.cat",
     "t": "htcat",
     "ts": [
@@ -39469,7 +39321,7 @@
     "sc": "Online (intl)"
   },
   {
-    "s": "https://www.iiba.org",
+    "s": "IIBA",
     "d": "www.iiba.org",
     "t": "iiba",
     "u": "https://www.iiba.org/search/?q={{{s}}}",
@@ -39477,7 +39329,7 @@
     "sc": "Academic"
   },
   {
-    "s": "https://www.isitdownrightnow.com/",
+    "s": "Is It Down Right Now?",
     "d": "www.isitdownrightnow.com",
     "t": "iid",
     "ts": [
@@ -40611,14 +40463,6 @@
     "sc": "Learning"
   },
   {
-    "s": "Invidious",
-    "d": "www.invidio.us",
-    "t": "invidious",
-    "u": "https://www.invidio.us/search?q={{{s}}}",
-    "c": "Multimedia",
-    "sc": "Video"
-  },
-  {
     "s": "inventaire.io",
     "d": "inventaire.io",
     "t": "inv",
@@ -40849,7 +40693,7 @@
     "sc": "Tools"
   },
   {
-    "s": "https://www.irishtimes.com/",
+    "s": "The Irish Times",
     "d": "www.irishtimes.com",
     "t": "irishtimes",
     "u": "https://www.irishtimes.com/search/search-7.4195619?q={{{s}}}",
@@ -40857,10 +40701,10 @@
     "sc": "Newspaper"
   },
   {
-    "s": "http://scitools.org.uk/iris/docs/latest/index.html",
-    "d": "scitools.org.uk",
+    "s": "Iris Documentation",
+    "d": "scitools-iris.readthedocs.io",
     "t": "iris",
-    "u": "https://scitools.org.uk/iris/docs/latest/search.html?q={{{s}}}",
+    "u": "https://scitools-iris.readthedocs.io/en/latest/search.html?q={{{s}}}",
     "c": "Tech",
     "sc": "Languages (python)"
   },
@@ -41117,7 +40961,7 @@
     "sc": "Images"
   },
   {
-    "s": "https://www.istoric-preturi.info/",
+    "s": "Istoric Preturi",
     "d": "www.istoric-preturi.info",
     "t": "istoric-preturi",
     "u": "https://www.istoric-preturi.info/search/{{{s}}}",
@@ -41157,7 +41001,7 @@
     "sc": "Search (DDG)"
   },
   {
-    "s": "http://it-ebooks.info/",
+    "s": "IT eBooks",
     "d": "it-ebooks.info",
     "t": "itebooks",
     "u": "https://it-ebooks.info/search/?q={{{s}}}&type=title",
@@ -41286,14 +41130,6 @@
     "u": "https://iupac.org/?s={{{s}}}",
     "c": "Research",
     "sc": "Reference (science)"
-  },
-  {
-    "s": "Google Search By Image",
-    "d": "google.com",
-    "t": "iurl",
-    "u": "https://google.com/searchbyimage?image_url={{{s}}}",
-    "c": "Multimedia",
-    "sc": "Images"
   },
   {
     "s": "ivoox",
@@ -41457,7 +41293,7 @@
     "sc": "Tools"
   },
   {
-    "s": "j-archive",
+    "s": "J! Archive",
     "d": "www.j-archive.com",
     "t": "ja",
     "ts": [
@@ -41613,7 +41449,7 @@
     "sc": "Languages (java)"
   },
   {
-    "s": "JavaScript Docs",
+    "s": "MDN Web Docs",
     "d": "developer.mozilla.org",
     "t": "javascript",
     "ts": [
@@ -42044,7 +41880,7 @@
     "sc": "Tech"
   },
   {
-    "s": "https://jionews.com",
+    "s": "JioNews",
     "d": "jionews.com",
     "t": "jion",
     "u": "https://jionews.com/search?query={{{s}}}",
@@ -42572,7 +42408,7 @@
     "sc": "Languages (other)"
   },
   {
-    "s": "http://slovniky.juls.savba.sk/",
+    "s": "Slovníkový portál",
     "d": "slovniky.juls.savba.sk",
     "t": "juls",
     "u": "https://slovniky.juls.savba.sk/?w={{{s}}}&s=exact&c=608a&d=kssj4&d=psp&d=sssj&d=scs&d=sss&d=peciar&d=ma&d=hssjV&d=bernolak&d=obce&d=priezviska&d=un&d=locutio&d=pskcs&d=psken&d=noundb&ie=utf-8&oe=utf-8#",
@@ -42805,6 +42641,9 @@
     "s": "Kubernetes",
     "d": "kubernetes.io",
     "t": "k8s",
+    "ts": [
+      "kubernetes"
+    ],
     "u": "https://kubernetes.io/search/?q={{{s}}}",
     "c": "Tech",
     "sc": "Libraries/Frameworks"
@@ -43036,7 +42875,7 @@
     "sc": "Maps"
   },
   {
-    "s": "https://www.kashipara.com/",
+    "s": "Kashipara",
     "d": "www.kashipara.com",
     "t": "kashipara",
     "u": "https://www.kashipara.com/search/search.php?search={{{s}}}",
@@ -43192,7 +43031,7 @@
     "sc": "Books"
   },
   {
-    "s": "http://www.kdeblog.com",
+    "s": "KDE Blog",
     "d": "www.kdeblog.com",
     "t": "kdeblog",
     "u": "https://www.kdeblog.com/?s={{{s}}}",
@@ -43452,7 +43291,7 @@
     "sc": "Search"
   },
   {
-    "s": "http://www.kids-in-mind.com",
+    "s": "Kids-In-Mind",
     "d": "www.kids-in-mind.com",
     "t": "kidsinmind",
     "u": "https://www.kids-in-mind.com/cgi-bin/search/search.pl?q={{{s}}}",
@@ -43674,7 +43513,7 @@
     "sc": "Tools (fundraising)"
   },
   {
-    "s": "http://kitapyurdu.com/",
+    "s": "Kitapyurdu",
     "d": "www.kitapyurdu.com",
     "t": "kitapyurdu",
     "u": "https://www.kitapyurdu.com/index.php?route=product/search&filter_name={{{s}}}",
@@ -43821,7 +43660,7 @@
     "sc": "Events"
   },
   {
-    "s": "http://www.kuantokusta.pt/",
+    "s": "KuantoKusta",
     "d": "www.kuantokusta.pt",
     "t": "kkusta",
     "ts": [
@@ -43988,7 +43827,7 @@
     "sc": "Online"
   },
   {
-    "s": "http://www.kobv.de/",
+    "s": "KOBV.de",
     "d": "portal.kobv.de",
     "t": "kobv",
     "u": "https://portal.kobv.de/simpleSearch.do?query={{{s}}}",
@@ -44308,6 +44147,9 @@
     "s": "Kielitoimiston sanakirja",
     "d": "www.kielitoimistonsanakirja.fi",
     "t": "kotus",
+    "ts": [
+      "kts"
+    ],
     "u": "https://www.kielitoimistonsanakirja.fi/#/{{{s}}}?searchMode=all",
     "c": "Research",
     "sc": "Reference (words intl)"
@@ -44522,20 +44364,12 @@
     "sc": "Academic"
   },
   {
-    "s": "https://www.kth.se/places/",
+    "s": "KTH Places",
     "d": "www.kth.se",
     "t": "kthplaces",
     "u": "https://www.kth.se/places/search/?query={{{s}}}",
     "c": "Online Services",
     "sc": "Maps"
-  },
-  {
-    "s": "https://www.kielitoimistonsanakirja.fi",
-    "d": "www.kielitoimistonsanakirja.fi",
-    "t": "kts",
-    "u": "https://www.kielitoimistonsanakirja.fi/{{{s}}}",
-    "c": "Research",
-    "sc": "Learning"
   },
   {
     "s": "KubaDownload",
@@ -44552,14 +44386,6 @@
     "u": "https://www.kuba-pichci.pl/?s={{{s}}}",
     "c": "Tech",
     "sc": "Blogs"
-  },
-  {
-    "s": "https://kubernetes.io/docs",
-    "d": "kubernetes.io",
-    "t": "kubernetes",
-    "u": "https://kubernetes.io/docs/search/?q={{{s}}}",
-    "c": "Tech",
-    "sc": "Sysadmin"
   },
   {
     "s": "Kuketz-Blog",
@@ -45069,7 +44895,7 @@
     "sc": "Learning"
   },
   {
-    "s": "https://www.albertmartin.de/latein/?q=",
+    "s": "Latein Wörterbuch",
     "d": "www.albertmartin.de",
     "t": "lateinde",
     "u": "https://www.albertmartin.de/latein/?q={{{s}}}",
@@ -45151,7 +44977,7 @@
     "sc": "Academic"
   },
   {
-    "s": "LaunchPad",
+    "s": "Launchpad",
     "d": "launchpad.net",
     "t": "launchpad",
     "ts": [
@@ -45497,9 +45323,13 @@
     "sc": "Games (specific)"
   },
   {
-    "s": "Learn X in Y",
+    "s": "Learn X in Y minutes",
     "d": "learnxinyminutes.com",
     "t": "learnxiny",
+    "ts": [
+      "lxiny",
+      "xiny"
+    ],
     "u": "https://learnxinyminutes.com/docs/{{{s}}}/",
     "c": "Tech",
     "sc": "Languages (other)"
@@ -45569,7 +45399,7 @@
     "sc": "Books"
   },
   {
-    "s": "http://legisquebec.gouv.qc.ca/",
+    "s": "Légis Québec",
     "d": "legisquebec.gouv.qc.ca",
     "t": "legisqc",
     "u": "https://legisquebec.gouv.qc.ca/fr/result?command=search&length=10&search_type=all&title_search_type=any&corpus=all&corpusType=c&langCont=fr&fragment={{{s}}}&shorttitle=&stemmed=stemmed",
@@ -45808,7 +45638,8 @@
     "ts": [
       "linesin",
       "lingues",
-      "ltrans"
+      "ltrans",
+      "lies"
     ],
     "u": "https://www.linguee.es/espanol-ingles/search?source=auto&query={{{s}}}",
     "c": "Online Services",
@@ -46132,7 +45963,7 @@
     "sc": "Books"
   },
   {
-    "s": "https://lib.rs/",
+    "s": "lib.rs",
     "d": "lib.rs",
     "t": "librs",
     "u": "https://lib.rs/search?q={{{s}}}",
@@ -46210,7 +46041,7 @@
     "sc": "Learning (intl)"
   },
   {
-    "s": "Welklidwoord",
+    "s": "Welk lidwoord",
     "d": "www.welklidwoord.nl",
     "t": "lidwoord",
     "ts": [
@@ -46245,14 +46076,6 @@
     "d": "www.linguee.com",
     "t": "lienit",
     "u": "https://www.linguee.com/english-italian/search?source=auto&query={{{s}}}",
-    "c": "Online Services",
-    "sc": "Tools"
-  },
-  {
-    "s": "https://www.linguee.es/",
-    "d": "www.linguee.es",
-    "t": "lies",
-    "u": "https://www.linguee.es/espanol-ingles/search?query={{{s}}}",
     "c": "Online Services",
     "sc": "Tools"
   },
@@ -46306,14 +46129,6 @@
     "u": "https://www.lifo.gr/search?q={{{s}}}",
     "c": "News",
     "sc": "Newspaper"
-  },
-  {
-    "s": "https://lifpv.com",
-    "d": "lifpv.com",
-    "t": "lifpv",
-    "u": "https://lifpv.com/?s={{{s}}}",
-    "c": "Entertainment",
-    "sc": "Misc"
   },
   {
     "s": "LiGNUx",
@@ -47965,17 +47780,6 @@
     "sc": "Magazine"
   },
   {
-    "s": "learnxinyminutes.com",
-    "d": "learnxinyminutes.com",
-    "t": "lxiny",
-    "ts": [
-      "xiny"
-    ],
-    "u": "https://learnxinyminutes.com/docs/{{{s}}}",
-    "c": "Tech",
-    "sc": "Programming"
-  },
-  {
     "s": "LXLE Linux",
     "d": "lxle.net",
     "t": "lxle",
@@ -48340,7 +48144,7 @@
     "sc": "Tools"
   },
   {
-    "s": "https://www.maedler.de/",
+    "s": "MÄDLER",
     "d": "www.maedler.de",
     "t": "maedler",
     "u": "https://www.maedler.de/ShopSearch?query={{{s}}}",
@@ -48383,7 +48187,7 @@
     "sc": "Languages (php)"
   },
   {
-    "s": "magiccards.info",
+    "s": "Scryfall",
     "d": "scryfall.com",
     "t": "mtg",
     "ts": [
@@ -48432,7 +48236,7 @@
     "sc": "Companies"
   },
   {
-    "s": "http://magento.stackexchange.com/",
+    "s": "Magento Stack Exchange",
     "d": "magento.stackexchange.com",
     "t": "magsx",
     "ts": [
@@ -48635,7 +48439,7 @@
     "sc": "Big box/department"
   },
   {
-    "s": "https://mangadex.org/",
+    "s": "MangaDex",
     "d": "mangadex.org",
     "t": "mangadex",
     "ts": [
@@ -48800,7 +48604,7 @@
     "sc": "Maps"
   },
   {
-    "s": "Mapquest",
+    "s": "MapQuest",
     "d": "www.mapquest.com",
     "t": "mapquest",
     "ts": [
@@ -49091,7 +48895,7 @@
     "sc": "Programming"
   },
   {
-    "s": "mathworld",
+    "s": "Wolfram MathWorld",
     "d": "mathworld.wolfram.com",
     "t": "math",
     "ts": [
@@ -49311,7 +49115,7 @@
     "sc": "Music"
   },
   {
-    "s": "Media Bias Fact Check",
+    "s": "Media Bias/Fact Check",
     "d": "mediabiasfactcheck.com",
     "t": "mbfc",
     "ts": [
@@ -50036,7 +49840,7 @@
     "sc": "Online"
   },
   {
-    "s": "https://www.mediapart.fr/",
+    "s": "MediaPart",
     "d": "www.mediapart.fr",
     "t": "mdp",
     "u": "https://www.mediapart.fr/search?search_word={{{s}}}&op=ok",
@@ -50251,14 +50055,6 @@
     "u": "https://megalodon.jp/?url={{{s}}}",
     "c": "Online Services",
     "sc": "Tools"
-  },
-  {
-    "s": "http://megalyrics.ru/",
-    "d": "megalyrics.ru",
-    "t": "megalyr",
-    "u": "http://megalyrics.ru/search?utf8=%E2%9C%93&search={{{s}}}",
-    "c": "Multimedia",
-    "sc": "Music (Lyrics)"
   },
   {
     "s": "Mega Man Knowledge Base",
@@ -50571,7 +50367,7 @@
     "sc": "Online"
   },
   {
-    "s": "https://www.ncbi.nlm.nih.gov/mesh",
+    "s": "Medical Subject Headings",
     "d": "www.ncbi.nlm.nih.gov",
     "t": "mesh",
     "u": "https://www.ncbi.nlm.nih.gov/mesh/?term={{{s}}}",
@@ -50841,14 +50637,6 @@
     "sc": "Games (general)"
   },
   {
-    "s": "http://www.muscleforlife.com/",
-    "d": "www.muscleforlife.com",
-    "t": "mfl",
-    "u": "http://www.muscleforlife.com/?s={{{s}}}",
-    "c": "Research",
-    "sc": "Health"
-  },
-  {
     "s": "Mount Fight Mountain Wikia",
     "d": "mfm.wikia.com",
     "t": "mfm",
@@ -51055,7 +50843,7 @@
     "sc": "Sysadmin (network)"
   },
   {
-    "s": "https://www.military-stuff.org",
+    "s": "The Military Channel",
     "d": "www.military-stuff.org",
     "t": "military",
     "u": "https://www.military-stuff.org/?s={{{s}}}",
@@ -51537,7 +51325,7 @@
     "sc": "Social"
   },
   {
-    "s": "https://multiplayer.it/",
+    "s": "Multiplayer.it",
     "d": "multiplayer.it",
     "t": "mlpit",
     "u": "https://multiplayer.it/ricerca/?q={{{s}}}",
@@ -51655,7 +51443,7 @@
     "sc": "Blogs"
   },
   {
-    "s": "moviemeter.nl",
+    "s": "MovieMeter",
     "d": "www.moviemeter.nl",
     "t": "mmnl",
     "ts": [
@@ -53429,14 +53217,6 @@
     "sc": "Tools"
   },
   {
-    "s": "https://myactivity.google.com/myactivity",
-    "d": "myactivity.google.com",
-    "t": "myactivity",
-    "u": "https://myactivity.google.com/myactivity?q={{{s}}}",
-    "c": "Online Services",
-    "sc": "Search"
-  },
-  {
     "s": "MyAllSearch",
     "d": "www.myallsearch.com",
     "t": "myallsearch",
@@ -53611,10 +53391,10 @@
     "sc": "Online"
   },
   {
-    "s": "http://www.myrecipes.com",
+    "s": "MyRecipes",
     "d": "www.myrecipes.com",
     "t": "myrec",
-    "u": "https://www.myrecipes.com/search/site/{{{s}}}",
+    "u": "https://www.myrecipes.com/search?q={{{s}}}",
     "c": "Research",
     "sc": "Food"
   },
@@ -54043,7 +53823,7 @@
     "sc": "Search"
   },
   {
-    "s": "Naver",
+    "s": "NAVER",
     "d": "search.naver.com",
     "t": "nv",
     "ts": [
@@ -56501,7 +56281,7 @@
     "sc": "Learning (intl)"
   },
   {
-    "s": "http://overapi.com/",
+    "s": "OverAPI Cheatsheet",
     "d": "overapi.com",
     "t": "oapi",
     "u": "https://overapi.com/{{{s}}}",
@@ -56772,7 +56552,7 @@
     "sc": "Reference (religion)"
   },
   {
-    "s": "https://theodd1sout.com/",
+    "s": "Odd1sOut",
     "d": "theodd1sout.com",
     "t": "odd",
     "u": "https://theodd1sout.com/search?q={{{s}}}",
@@ -57023,7 +56803,7 @@
     "sc": "Online (marketplace)"
   },
   {
-    "s": "https://oglobo.globo.com/",
+    "s": "O Globo",
     "d": "oglobo.globo.com",
     "t": "oglobo",
     "u": "https://oglobo.globo.com/busca/?q={{{s}}}",
@@ -57122,7 +56902,7 @@
     "sc": "Tools"
   },
   {
-    "s": "https://ojibwe.lib.umn.edu",
+    "s": "The Ojibwe People's Dictionary",
     "d": "ojibwe.lib.umn.edu",
     "t": "ojen",
     "u": "https://ojibwe.lib.umn.edu/search?utf8=%E2%9C%93&q={{{s}}}&commit=Search&type=ojibwe",
@@ -57665,9 +57445,12 @@
     "sc": "Reference (words)"
   },
   {
-    "s": "OTTO Office",
+    "s": "OTTO Office DE",
     "d": "www.otto-office.com",
     "t": "oo",
+    "ts": [
+      "ottooffice"
+    ],
     "u": "https://www.otto-office.com/de/app/search/index?query[query]={{{s}}}",
     "c": "Shopping",
     "sc": "Online"
@@ -58214,14 +57997,6 @@
     "sc": "Online"
   },
   {
-    "s": "O'Reilly",
-    "d": "search.oreilly.com",
-    "t": "oreilly",
-    "u": "https://search.oreilly.com/?q={{{s}}}",
-    "c": "Tech",
-    "sc": "Programming"
-  },
-  {
     "s": "Orell Füssli",
     "d": "www.orellfuessli.ch",
     "t": "orell",
@@ -58284,10 +58059,13 @@
     "sc": "Online"
   },
   {
-    "s": "https://learning.oreilly.com/home/",
-    "d": "learning.oreilly.com",
+    "s": "O'Reilly",
+    "d": "www.oreilly.com",
     "t": "orly",
-    "u": "https://learning.oreilly.com/search/?query={{{s}}}",
+    "ts": [
+      "oreilly"
+    ],
+    "u": "https://www.oreilly.com/search/?q={{{s}}}&rows=100",
     "c": "Tech",
     "sc": "Programming"
   },
@@ -58659,7 +58437,8 @@
     "t": "othde",
     "ts": [
       "othesa",
-      "thesaurusde"
+      "thesaurusde",
+      "deopenthesaurus"
     ],
     "u": "https://www.openthesaurus.de/synonyme/{{{s}}}",
     "c": "Research",
@@ -58682,7 +58461,7 @@
     "sc": "Companies"
   },
   {
-    "s": "http://onelook.com/thesaurus/",
+    "s": "OneLook Thesaurus",
     "d": "onelook.com",
     "t": "otrd",
     "u": "https://onelook.com/thesaurus/?s={{{s}}}",
@@ -58696,14 +58475,6 @@
     "u": "https://ottawacitizen.com/?s={{{s}}}",
     "c": "News",
     "sc": "Newspaper"
-  },
-  {
-    "s": "http://www.otto-office.com/",
-    "d": "www.otto-office.com",
-    "t": "ottooffice",
-    "u": "https://www.otto-office.com/de/search/si.obtshop?query[query]={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online"
   },
   {
     "s": "OTTO",
@@ -59060,10 +58831,10 @@
     "sc": "Online (deals)"
   },
   {
-    "s": "http://www.ozdic.com",
-    "d": "www.ozdic.com",
+    "s": "OZDIC",
+    "d": "ozdic.com",
     "t": "ozdic",
-    "u": "https://www.ozdic.com/collocation-dictionary/{{{s}}}",
+    "u": "https://ozdic.com/collocation/{{{s}}}",
     "c": "Research",
     "sc": "Reference (words)"
   },
@@ -59938,7 +59709,7 @@
     "sc": "Games (general)"
   },
   {
-    "s": "http://www.pcguia.pt",
+    "s": "PCGuia",
     "d": "www.pcguia.pt",
     "t": "pcguia",
     "u": "https://www.pcguia.pt/?s={{{s}}}",
@@ -59954,10 +59725,10 @@
     "sc": "General"
   },
   {
-    "s": "https://www.pcisecuritystandards.org",
+    "s": "PCI Security Standards",
     "d": "www.pcisecuritystandards.org",
     "t": "pcidss",
-    "u": "https://www.pcisecuritystandards.org/search/search.php?query={{{s}}}",
+    "u": "https://www.pcisecuritystandards.org/search/?cludoquery={{{s}}}",
     "c": "Tech",
     "sc": "Sysadmin"
   },
@@ -60778,7 +60549,7 @@
     "sc": "Tools"
   },
   {
-    "s": "whitepages",
+    "s": "Whitepages",
     "d": "www.whitepages.com",
     "t": "phone",
     "ts": [
@@ -61807,12 +61578,13 @@
     "sc": "Online"
   },
   {
-    "s": "psychonaut wiki",
+    "s": "PsychonautWiki",
     "d": "psychonautwiki.org",
     "t": "pnw",
     "ts": [
       "psychonautwiki",
-      "pwiki"
+      "pwiki",
+      "psy"
     ],
     "u": "https://psychonautwiki.org/w/index.php?search={{{s}}}",
     "c": "Research",
@@ -61966,7 +61738,7 @@
     "sc": "Games (Pokemon)"
   },
   {
-    "s": "Pokemon Database",
+    "s": "Pokémon Database",
     "d": "pokemondb.net",
     "t": "pokedb",
     "ts": [
@@ -62001,9 +61773,12 @@
     "sc": "Games (Pokemon)"
   },
   {
-    "s": "PokéWiki",
+    "s": "PokéWiki.de",
     "d": "www.pokewiki.de",
     "t": "pokewiki",
+    "ts": [
+      "pwde"
+    ],
     "u": "https://www.pokewiki.de/index.php?search={{{s}}}&button=&title=Spezial:Suche",
     "c": "Entertainment",
     "sc": "Games (Pokemon)"
@@ -63393,7 +63168,7 @@
     "s": "https://psychologytoday.com",
     "d": "www.psychologytoday.com",
     "t": "psych22",
-    "u": "https://www.psychologytoday.com/us/search/site/{{{s}}}",
+    "u": "https://www.psychologytoday.com/us/archive?search={{{s}}}&op=Search",
     "c": "Tech",
     "sc": "Blogs (intl)"
   },
@@ -63404,14 +63179,6 @@
     "u": "https://psychiatry.org/home/search-results?k={{{s}}}",
     "c": "Research",
     "sc": "Health"
-  },
-  {
-    "s": "PsychonautWiki",
-    "d": "psychonautwiki.org",
-    "t": "psy",
-    "u": "https://psychonautwiki.org/w/index.php?search={{{s}}}&title=Special:Search",
-    "c": "Research",
-    "sc": "Reference"
   },
   {
     "s": "Pentax Cameras",
@@ -63687,22 +63454,6 @@
     "u": "https://plantsvszombies.wikia.com/wiki/Special:Search?query={{{s}}}",
     "c": "Entertainment",
     "sc": "Games (general)"
-  },
-  {
-    "s": "https://paperswithcode.com/",
-    "d": "paperswithcode.com",
-    "t": "pwc",
-    "u": "https://paperswithcode.com/search?q={{{s}}}",
-    "c": "Research",
-    "sc": "Academic (math/cs)"
-  },
-  {
-    "s": "http://www.pokewiki.de/",
-    "d": "www.pokewiki.de",
-    "t": "pwde",
-    "u": "https://www.pokewiki.de/index.php?search={{{s}}}&title=Spezial:Suche&go=Seite",
-    "c": "Entertainment",
-    "sc": "Games (Pokemon)"
   },
   {
     "s": "Programador Web Valencia",
@@ -64011,7 +63762,7 @@
     "sc": "Academic"
   },
   {
-    "s": "https://www.qconcursos.com",
+    "s": "Questões de Concursos",
     "d": "www.qconcursos.com",
     "t": "qc",
     "u": "https://www.qconcursos.com/busca?q={{{s}}}",
@@ -64499,10 +64250,10 @@
     "sc": "Tools"
   },
   {
-    "s": "http://www.rapid7.com",
+    "s": "Rapid7",
     "d": "www.rapid7.com",
     "t": "r7",
-    "u": "https://www.rapid7.com/db/search?utf8=%E2%9C%93&q={{{s}}}&t=a",
+    "u": "https://www.rapid7.com/?q={{{s}}}",
     "c": "Tech",
     "sc": "Sysadmin"
   },
@@ -64585,11 +64336,12 @@
     "sc": "Broadcast"
   },
   {
-    "s": "https://radiopaedia.org/",
+    "s": "Radiopaedia.org",
     "d": "radiopaedia.org",
     "t": "radio",
     "ts": [
-      "rad"
+      "rad",
+      "radiopaedia"
     ],
     "u": "https://radiopaedia.org/search?utf8=%E2%9C%93&q={{{s}}}&scope=all",
     "c": "Research",
@@ -64605,14 +64357,6 @@
     "u": "https://www.radiojavan.com/search?query={{{s}}}",
     "c": "Multimedia",
     "sc": "Music"
-  },
-  {
-    "s": "Radiopaedia.org",
-    "d": "radiopaedia.org",
-    "t": "radiopaedia",
-    "u": "https://radiopaedia.org/search?q={{{s}}}",
-    "c": "Research",
-    "sc": "Reference (science)"
   },
   {
     "s": "RadioShack",
@@ -65942,17 +65686,12 @@
     "sc": "Reference (words)"
   },
   {
-    "s": "https://remywiki.com",
-    "d": "remywiki.com",
-    "t": "remy",
-    "u": "https://remywiki.com/index.php?search={{{s}}}",
-    "c": "Entertainment",
-    "sc": "Games (general)"
-  },
-  {
     "s": "RemyWiki",
     "d": "remywiki.com",
     "t": "remywiki",
+    "ts": [
+      "remy"
+    ],
     "u": "https://remywiki.com/index.php?title=Special:Search&search={{{s}}}",
     "c": "Entertainment",
     "sc": "Games (specific)"
@@ -66165,7 +65904,7 @@
     "ts": [
       "reuters"
     ],
-    "u": "http://www.reuters.com/search/news?blob={{{s}}}",
+    "u": "https://www.reuters.com/search/news?blob={{{s}}}",
     "c": "News",
     "sc": "International"
   },
@@ -66625,7 +66364,7 @@
     "sc": "Sysadmin"
   },
   {
-    "s": "RIPEstat - Internet Measurments and Analysis",
+    "s": "RIPEstat",
     "d": "stat.ripe.net",
     "t": "ripe",
     "ts": [
@@ -67212,7 +66951,7 @@
     "sc": "Sysadmin (Fedora)"
   },
   {
-    "s": "https://www.realpython.com",
+    "s": "Real Python",
     "d": "realpython.com",
     "t": "rpy",
     "u": "https://realpython.com/search?q={{{s}}}",
@@ -67328,7 +67067,7 @@
     "sc": "Languages (r)"
   },
   {
-    "s": "https://es.rs-online.com/web/home.html",
+    "s": "RS Component (ES)",
     "d": "es.rs-online.com",
     "t": "rses",
     "u": "https://es.rs-online.com/web/c/?sra=oss&r=t&searchTerm={{{s}}}",
@@ -67508,14 +67247,6 @@
     "u": "https://www.reddit.com/r/bindingofisaac/search?q={{{s}}}&restrict_sr=on",
     "c": "Entertainment",
     "sc": "Games (specific)"
-  },
-  {
-    "s": "https://kernel.readthedocs.io/en/sphinx-samples/",
-    "d": "kernel.readthedocs.io",
-    "t": "rtdlinux",
-    "u": "https://kernel.readthedocs.io/en/sphinx-samples/search.html?q={{{s}}}&check_keywords=yes&area=default",
-    "c": "Tech",
-    "sc": "Programming"
   },
   {
     "s": "Raidió Teilifís Éireann",
@@ -67950,7 +67681,7 @@
     "sc": "Music"
   },
   {
-    "s": "https://www.reddit.com/r/zelda",
+    "s": "/r/zelda",
     "d": "www.reddit.com",
     "t": "rzelda",
     "u": "https://www.reddit.com/r/zelda/search/?q={{{s}}}",
@@ -68498,11 +68229,12 @@
     "sc": "Downloads (software)"
   },
   {
-    "s": "Internet Archive: Wayback Machine (save)",
+    "s": "Wayback Machine (save)",
     "d": "web.archive.org",
     "t": "saveback",
     "ts": [
-      "save"
+      "save",
+      "wbs"
     ],
     "u": "https://web.archive.org/save/{{{s}}}",
     "c": "Online Services",
@@ -68739,7 +68471,8 @@
       "scidirect",
       "scidir",
       "sciencedirect",
-      "sdirect"
+      "sdirect",
+      "scid"
     ],
     "u": "https://www.sciencedirect.com/search?qs={{{s}}}",
     "c": "Research",
@@ -68843,14 +68576,6 @@
     "u": "http://www.schuh.co.uk/results.aspx#st={{{s}}}",
     "c": "Shopping",
     "sc": "Online"
-  },
-  {
-    "s": "http://www.sciencedirect.com",
-    "d": "www.sciencedirect.com",
-    "t": "scid",
-    "u": "http://www.sciencedirect.com/search?qs={{{s}}}",
-    "c": "Research",
-    "sc": "Academic"
   },
   {
     "s": "The Science Dictionary",
@@ -69145,10 +68870,10 @@
     "sc": "Misc"
   },
   {
-    "s": "http://www.scrabblewordsolver.com",
+    "s": "Scrabble Word Solver",
     "d": "www.scrabblewordsolver.com",
     "t": "scrabble",
-    "u": "https://www.scrabblewordsolver.com/word-checker/{{{s}}}",
+    "u": "https://www.scrabblewordsolver.com/word-checker/{{{s}}}/",
     "c": "Research",
     "sc": "Reference (words)"
   },
@@ -69282,7 +69007,7 @@
     "sc": "Online (deals)"
   },
   {
-    "s": "Official Stardew Valley Wiki",
+    "s": "Stardew Valley Wiki",
     "d": "stardewvalleywiki.com",
     "t": "sdv",
     "ts": [
@@ -69646,7 +69371,7 @@
     "sc": "Misc"
   },
   {
-    "s": "SENTIREASCOLTARE",
+    "s": "Sentire Ascoltare",
     "d": "sentireascoltare.com",
     "t": "senta",
     "ts": [
@@ -69991,7 +69716,7 @@
     "sc": "Programming"
   },
   {
-    "s": "https://www.hebcal.com/",
+    "s": "Hebcal.com",
     "d": "www.hebcal.com",
     "t": "shabbat",
     "u": "https://www.hebcal.com/shabbat/?cfg=json&m=50&b=18&zip={{{s}}}&a=on",
@@ -70418,7 +70143,7 @@
     "sc": "Programming"
   },
   {
-    "s": "https://www.silvergames.com",
+    "s": "Silvergames.com",
     "d": "www.silvergames.com",
     "t": "silvergames",
     "u": "https://www.silvergames.com/en/s?q={{{s}}}",
@@ -70546,7 +70271,7 @@
     "sc": "Online"
   },
   {
-    "s": "http://simpsons.wikia.com/wiki/",
+    "s": "Simpsons Wikia",
     "d": "simpsons.wikia.com",
     "t": "simpsons",
     "u": "https://simpsons.wikia.com/wiki/Special:Search?search={{{s}}}",
@@ -70792,7 +70517,7 @@
     "sc": "Online"
   },
   {
-    "s": "http://www.skapiec.pl/",
+    "s": "Skąpiec.pl",
     "d": "www.skapiec.pl",
     "t": "skapiec",
     "u": "https://www.skapiec.pl/szukaj/w_calym_serwisie/{{{s}}}",
@@ -73897,14 +73622,6 @@
     "sc": "Reference (religion)"
   },
   {
-    "s": "Study.com",
-    "d": "study.com",
-    "t": "study",
-    "u": "https://study.com/search/text/academy.html?q={{{s}}}",
-    "c": "Research",
-    "sc": "Academic"
-  },
-  {
     "s": "stuff.co.nz",
     "d": "www.stuff.co.nz",
     "t": "stuffnz",
@@ -73921,10 +73638,10 @@
     "sc": "Reference (fun)"
   },
   {
-    "s": "https://singletrackworld.com/forum/",
+    "s": "Singletrack World Forum",
     "d": "singletrackworld.com",
     "t": "stw",
-    "u": "https://singletrackworld.com/forum/search/{{{s}}}",
+    "u": "https://singletrackworld.com/forum/?wpfs={{{s}}}",
     "c": "Entertainment",
     "sc": "Sports"
   },
@@ -74396,7 +74113,7 @@
     "sc": "Broadcast"
   },
   {
-    "s": "Synonymer.se",
+    "s": "Synonymer",
     "d": "www.synonymer.se",
     "t": "svs",
     "ts": [
@@ -74458,7 +74175,7 @@
     "sc": "Online"
   },
   {
-    "s": "swappa.com",
+    "s": "Swappa",
     "d": "swappa.com",
     "t": "swappa",
     "ts": [
@@ -74929,7 +74646,7 @@
     "sc": "Online"
   },
   {
-    "s": "https://thetacticalguru.com/",
+    "s": "The Tactical Guru",
     "d": "thetacticalguru.com",
     "t": "tacticalguru",
     "u": "https://thetacticalguru.com/?s={{{s}}}",
@@ -75033,7 +74750,7 @@
     "sc": "Social"
   },
   {
-    "s": "https://www.tripadvisor.it/",
+    "s": "Tripadvisor.it",
     "d": "www.tripadvisor.it",
     "t": "tait",
     "u": "https://www.tripadvisor.it/Search?q={{{s}}}",
@@ -75049,7 +74766,7 @@
     "sc": "Online"
   },
   {
-    "s": "Takoboto",
+    "s": "TAKOBOTO",
     "d": "takoboto.jp",
     "t": "takoboto",
     "ts": [
@@ -75822,7 +75539,7 @@
     "sc": "Video"
   },
   {
-    "s": "Tensor Flow",
+    "s": "TensorFlow",
     "d": "www.tensorflow.org",
     "t": "teflo",
     "ts": [
@@ -76025,14 +75742,6 @@
     "u": "https://www.temu.com/search_result.html?search_key={{{s}}}",
     "c": "Shopping",
     "sc": "Online (marketplace)"
-  },
-  {
-    "s": "https://temp-mail.org/",
-    "d": "temp-mail.org",
-    "t": "tempmail",
-    "u": "https://temp-mail.org/{{{s}}}/",
-    "c": "Online Services",
-    "sc": "Tools"
   },
   {
     "s": "Tennis abstract",
@@ -76760,6 +76469,17 @@
     "sc": "Design"
   },
   {
+    "s": "Makerworld",
+    "d": "makerworld.com",
+    "t": "mkw",
+    "ts": [
+      "makerworld"
+    ],
+    "u": "https://makerworld.com/search/models?keyword={{{s}}}",
+    "c": "Tech",
+    "sc": "Design"
+  },
+  {
     "s": "Tony Hawk Games Wiki",
     "d": "tonyhawkgames.wikia.com",
     "t": "thgw",
@@ -77068,14 +76788,6 @@
     "sc": "Games (general)"
   },
   {
-    "s": "http://www.tigtagcarolina.com/",
-    "d": "www.tigtagcarolina.com",
-    "t": "tigtag",
-    "u": "https://www.tigtagcarolina.com/search/?q={{{s}}}",
-    "c": "Multimedia",
-    "sc": "Video"
-  },
-  {
     "s": "TiHo-OPAC",
     "d": "opac.tib.uni-hannover.de",
     "t": "tiho",
@@ -77135,7 +76847,7 @@
     "sc": "Tools"
   },
   {
-    "s": "Time Is",
+    "s": "Time.is",
     "d": "time.is",
     "t": "timeis",
     "ts": [
@@ -77146,7 +76858,7 @@
     "sc": "Tools"
   },
   {
-    "s": "Timerepubik",
+    "s": "Timerepublik",
     "d": "timerepublik.com",
     "t": "timerep",
     "ts": [
@@ -77356,7 +77068,7 @@
     "sc": "Movies"
   },
   {
-    "s": "Tradukka detect language to spanish",
+    "s": "Tradukka Google Translate (to spanish)",
     "d": "tradukka.com",
     "t": "tkk2es",
     "u": "https://tradukka.com/translate/es/{{{s}}}",
@@ -77372,7 +77084,7 @@
     "sc": "Programming"
   },
   {
-    "s": "Tradukka detect language to English",
+    "s": "Tradukka Google Translate (to English)",
     "d": "tradukka.com",
     "t": "tkk",
     "u": "https://tradukka.com/translate/en/{{{s}}}",
@@ -77689,14 +77401,6 @@
     "sc": "Broadcast"
   },
   {
-    "s": "https://www.tntnews.net/",
-    "d": "www.tntnews.net",
-    "t": "tntnews",
-    "u": "https://www.tntnews.net/?s={{{s}}}",
-    "c": "News",
-    "sc": "Magazine"
-  },
-  {
     "s": "TNT",
     "d": "webtracker.tnt.com",
     "t": "tnt",
@@ -77817,7 +77521,7 @@
     "sc": "Games (general)"
   },
   {
-    "s": "https://tomwoods.com",
+    "s": "The Tom Woods Show",
     "d": "tomwoods.com",
     "t": "tom",
     "u": "https://tomwoods.com/search/{{{s}}}/",
@@ -78260,19 +77964,12 @@
     "d": "www.trappersreport.com",
     "t": "trapper",
     "ts": [
-      "trap"
+      "trap",
+      "trapping"
     ],
     "u": "https://www.trappersreport.com/?q={{{s}}}",
     "c": "News",
     "sc": "Aggregators"
-  },
-  {
-    "s": "https://www.TrappersReport.com",
-    "d": "www.trappersreport.com",
-    "t": "trapping",
-    "u": "https://www.trappersreport.com/search/{{{s}}}",
-    "c": "News",
-    "sc": "Newspaper"
   },
   {
     "s": "Trashmail",
@@ -79301,14 +78998,6 @@
     "sc": "Games (general)"
   },
   {
-    "s": "https://twitchemotes.com",
-    "d": "twitchemotes.com",
-    "t": "twitche",
-    "u": "https://twitchemotes.com/search?query={{{s}}}",
-    "c": "Research",
-    "sc": "Reference"
-  },
-  {
     "s": "Twitch.tv",
     "d": "player.twitch.tv",
     "t": "twitchpop",
@@ -79821,7 +79510,7 @@
     "sc": "Misc"
   },
   {
-    "s": "https://www.genome.ucsc.edu",
+    "s": "UCSC Genome Browser on Human",
     "d": "www.genome.ucsc.edu",
     "t": "ucscgb",
     "u": "https://www.genome.ucsc.edu/cgi-bin/hgTracks?hgsid=592541357_hq8TArn5c0CoLwcXM3n3eZOaR8ZC&org=Human&db=hg38&position={{{s}}}&pix=800",
@@ -80193,7 +79882,7 @@
     "sc": "Tools (fundraising)"
   },
   {
-    "s": "http://um3bd.free.fr",
+    "s": "Um3bd",
     "d": "um3bd.free.fr",
     "t": "um3bd",
     "u": "http://um3bd.free.fr/?s={{{s}}}",
@@ -82164,10 +81853,10 @@
     "sc": "Search (non-US)"
   },
   {
-    "s": "https://videnskab.dk/",
+    "s": "Videnskab.dk",
     "d": "videnskab.dk",
     "t": "viden",
-    "u": "https://videnskab.dk/s?query={{{s}}}",
+    "u": "https://videnskab.dk/search/+{{{s}}}",
     "c": "News",
     "sc": "Aggregators"
   },
@@ -82493,10 +82182,10 @@
     "sc": "Reference (words intl)"
   },
   {
-    "s": "https://www.vlh.de",
+    "s": "Vereinigte Lohnsteuerhilfe",
     "d": "www.vlh.de",
     "t": "vlh",
-    "u": "https://www.vlh.de/suchergebnis.html?q={{{s}}}",
+    "u": "https://www.vlh.de/suche.html?q={{{s}}}",
     "c": "Shopping",
     "sc": "Services"
   },
@@ -83101,7 +82790,7 @@
     "sc": "Languages (html)"
   },
   {
-    "s": "https://what3words.com/",
+    "s": "what3words",
     "d": "map.what3words.com",
     "t": "w3w",
     "u": "https://map.what3words.com/{{{s}}}",
@@ -83518,17 +83207,6 @@
     "sc": "Blogs"
   },
   {
-    "s": "Wayback Maschine",
-    "d": "web.archive.org",
-    "t": "wbs",
-    "u": "https://web.archive.org/save/*/{{{s}}}",
-    "c": "Online Services",
-    "sc": "Tools (URLs)",
-    "fmt": [
-      "open_base_path"
-    ]
-  },
-  {
     "s": "WBUR",
     "d": "www.wbur.org",
     "t": "wbur",
@@ -83623,7 +83301,7 @@
     "sc": "Reference"
   },
   {
-    "s": "wiktionary",
+    "s": "Wiktionary",
     "d": "en.wiktionary.org",
     "t": "wdic",
     "ts": [
@@ -83775,7 +83453,7 @@
     "sc": "Video"
   },
   {
-    "s": "http://www.webcomponents.org",
+    "s": "webcomponents.org",
     "d": "www.webcomponents.org",
     "t": "webcomp",
     "ts": [
@@ -83786,10 +83464,10 @@
     "sc": "Libraries/Frameworks"
   },
   {
-    "s": "http://www.webcrawler.com/",
+    "s": "WebCrawler",
     "d": "www.webcrawler.com",
     "t": "webcrawler",
-    "u": "http://www.webcrawler.com/search/web?fcoid=417&fcop=topnav&fpid=2&aid=3ebe8f19-0a9d-425b-a3ff-9d59e6c12c5e&ridx=2&q={{{s}}}&ql=&ss=t",
+    "u": "https://www.webcrawler.com/serp?q={{{s}}}",
     "c": "Online Services",
     "sc": "Search"
   },
@@ -83936,7 +83614,7 @@
     "sc": "Online"
   },
   {
-    "s": "https://www.webtoons.com",
+    "s": "WEBTOON",
     "d": "www.webtoons.com",
     "t": "webtoon",
     "ts": [
@@ -84066,7 +83744,7 @@
     "sc": "Online"
   },
   {
-    "s": "wordreference",
+    "s": "Wordreference (en-fr)",
     "d": "www.wordreference.com",
     "t": "wenfr",
     "ts": [
@@ -84264,7 +83942,7 @@
     "sc": "Online"
   },
   {
-    "s": "WunderGround",
+    "s": "Weather Underground",
     "d": "www.wunderground.com",
     "t": "wg",
     "ts": [
@@ -84392,6 +84070,9 @@
     "s": "Whirlpool Forums",
     "d": "forums.whirlpool.net.au",
     "t": "whirlpool",
+    "ts": [
+      "whlp"
+    ],
     "u": "http://forums.whirlpool.net.au/forum/?action=search&q={{{s}}}",
     "c": "Entertainment",
     "sc": "Forum"
@@ -84427,14 +84108,6 @@
     "u": "https://www.whitetailproperties.com/hunting-land/filtered-search?search_mode=all&keywords={{{s}}}",
     "c": "Shopping",
     "sc": "Online (marketplace)"
-  },
-  {
-    "s": "http://whirlpool.net.au/",
-    "d": "forums.whirlpool.net.au",
-    "t": "whlp",
-    "u": "https://forums.whirlpool.net.au/forum/?action=search&q={{{s}}}",
-    "c": "Entertainment",
-    "sc": "Forum"
   },
   {
     "s": "wikiHow Dutch",
@@ -85042,7 +84715,7 @@
     "sc": "Reference (words intl)"
   },
   {
-    "s": "Wiktionary",
+    "s": "Wiktionary Search",
     "d": "en.wiktionary.org",
     "t": "wikten",
     "ts": [
@@ -85094,7 +84767,7 @@
     "sc": "Reference (words intl)"
   },
   {
-    "s": "Wikizionario, il dizionario libero",
+    "s": "Wikizionario",
     "d": "it.wiktionary.org",
     "t": "wiktit",
     "ts": [
@@ -86526,7 +86199,7 @@
     "sc": "Academic"
   },
   {
-    "s": "Wordreference",
+    "s": "Wordreference (en-es)",
     "d": "www.wordreference.com",
     "t": "wrse",
     "u": "https://www.wordreference.com/enes/{{{s}}}",
@@ -86542,7 +86215,7 @@
     "sc": "Reference (words intl)"
   },
   {
-    "s": "WordReference",
+    "s": "WordReference (zh-en)",
     "d": "www.wordreference.com",
     "t": "wrze",
     "u": "https://www.wordreference.com/zhen/{{{s}}}",
@@ -86817,7 +86490,7 @@
     "sc": "Reference (words intl)"
   },
   {
-    "s": "wttr",
+    "s": "wttr.in",
     "d": "wttr.in",
     "t": "wttr.in",
     "ts": [
@@ -87058,14 +86731,6 @@
     "u": "https://www.wwoof.net/?s={{{s}}}",
     "c": "Online Services",
     "sc": "Tools"
-  },
-  {
-    "s": "https://www.whatpeopleplay.com",
-    "d": "www.whatpeopleplay.com",
-    "t": "wwp",
-    "u": "https://www.whatpeopleplay.com/search/all/{{{s}}}",
-    "c": "Multimedia",
-    "sc": "Music"
   },
   {
     "s": "Wikiwand em Portugês",
@@ -87960,14 +87625,6 @@
     "sc": "Design"
   },
   {
-    "s": "https://www.youneedabudget.com/",
-    "d": "www.youneedabudget.com",
-    "t": "ynab",
-    "u": "https://www.youneedabudget.com/?s={{{s}}}",
-    "c": "Shopping",
-    "sc": "Services"
-  },
-  {
     "s": "Yahoo! News",
     "d": "news.search.yahoo.com",
     "t": "ynews",
@@ -88091,10 +87748,13 @@
     "sc": "Video"
   },
   {
-    "s": "https://www.youpak.com/",
-    "d": "www.youpak.com",
-    "t": "youpak",
-    "u": "https://www.youpak.com/search?q={{{s}}}",
+    "s": "Clipzag",
+    "d": "clipzag.com",
+    "t": "clipzag",
+    "ts": [
+      "youpak"
+    ],
+    "u": "https://clipzag.com/search?q={{{s}}}",
     "c": "Multimedia",
     "sc": "Video"
   },
@@ -89011,14 +88671,6 @@
     "sc": "Blogs"
   },
   {
-    "s": "http://wiki.killuglyradio.com/wiki/Main_Page",
-    "d": "wiki.killuglyradio.com",
-    "t": "zwj",
-    "u": "https://wiki.killuglyradio.com/index.php?title=Special:Search&profile=default&search={{{s}}}",
-    "c": "Multimedia",
-    "sc": "Music"
-  },
-  {
     "s": "Zephyr Cross Reference",
     "d": "elixir.bootlin.com",
     "t": "zxr",
@@ -89073,14 +88725,6 @@
     "u": "https://he.wikisource.org/w/index.php?search=חוק+{{{s}}}",
     "c": "Research",
     "sc": "Law"
-  },
-  {
-    "s": "https://www.google.gr/?gws_rd=ssl",
-    "d": "www.google.gr",
-    "t": "γ",
-    "u": "https://www.google.gr/?gws_rd=ssl#q={{{s}}}",
-    "c": "Online Services",
-    "sc": "Google"
   },
   {
     "s": "Вики-учебник Английского Языка",
