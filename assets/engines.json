@@ -1798,6 +1798,17 @@
     "sc": "Tools (URLs)"
   },
   {
+    "s": "Raindrop",
+    "d": "app.raindrop.io",
+    "t": "rain",
+    "ts": [
+      "raindrop"
+    ],
+    "u": "https://app.raindrop.io/my/0/{{{s}}}",
+    "c": "Online Services",
+    "sc": "Tools (URLs)"
+  },
+  {
     "s": "Amazon.de Fremdsprachige Bücher",
     "d": "www.amazon.de",
     "t": "adefb",
@@ -6816,6 +6827,14 @@
     "sc": "Blogs (intl)"
   },
   {
+    "s": "Backloggd",
+    "d": "backloggd.com",
+    "t": "backloggd",
+    "u": "https://backloggd.com/search/games/{{{s}}}",
+    "c": "Entertainment",
+    "sc": "Games (general)"
+  },
+  {
     "s": "BackPack.tf",
     "d": "backpack.tf",
     "t": "backpack",
@@ -7618,7 +7637,7 @@
     "s": "Bandcamp tags",
     "d": "bandcamp.com",
     "t": "bctag",
-    "u": "https://bandcamp.com/tag/{{{s}}}",
+    "u": "https://bandcamp.com/discover/{{{s}}}",
     "c": "Multimedia",
     "sc": "Music"
   },
@@ -16705,7 +16724,7 @@
     "sc": "Learning"
   },
   {
-    "s": "curseforge",
+    "s": "WoW Curseforge",
     "d": "www.curseforge.com",
     "t": "curse",
     "u": "https://www.curseforge.com/wow/addons/search?search={{{s}}}",
@@ -21086,6 +21105,14 @@
     "u": "https://anonscm.debian.org/git/python-modules/packages/{{{s}}}.git",
     "c": "Tech",
     "sc": "Sysadmin (debian)"
+  },
+  {
+    "s": "DPM LOL",
+    "d": "dpm.lol",
+    "t": "dpm",
+    "u": "https://dpm.lol/{{{s}}}",
+    "c": "Entertainment",
+    "sc": "Games (specific)"
   },
   {
     "s": "Dogpile News",
@@ -29570,7 +29597,7 @@
     "s": "G2A",
     "d": "www.g2a.com",
     "t": "g2a",
-    "u": "https://www.g2a.com/?search={{{s}}}",
+    "u": "https://www.g2a.com/search?query={{{s}}}",
     "c": "Shopping",
     "sc": "Online (marketplace)"
   },
@@ -49717,6 +49744,22 @@
     "sc": "Games (Minecraft)"
   },
   {
+    "s": "FiguraMC Wiki",
+    "d": "wiki.figuramc.org",
+    "t": "figura",
+    "u": "https://wiki.figuramc.org/index.php?search={{{s}}}",
+    "c": "Tech",
+    "sc": "Games (Minecraft)"
+  },
+  {
+    "s": "Figura Documentation",
+    "d": "applejuiceyy.github.io",
+    "t": "figs",
+    "u": "https://applejuiceyy.github.io/figs/latest/search/?q={{{s}}}",
+    "c": "Tech",
+    "sc": "Games (Minecraft)"
+  },
+  {
     "s": "MD5 reverse lookup",
     "d": "md5.gromweb.com",
     "t": "md5",
@@ -60281,6 +60324,14 @@
     "fmt": [
       "url_encode_placeholder"
     ]
+  },
+  {
+    "s": "Plex",
+    "d": "app.plex.tv",
+    "t": "plex",
+    "u": "https://app.plex.tv/desktop/#!/search?pivot=top&query={{{s}}}",
+    "c": "Multimedia",
+    "sc": "Video"
   },
   {
     "s": "Poinformowani",
