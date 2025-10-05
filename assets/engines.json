@@ -10627,7 +10627,7 @@
     "s": "Bayerische Staatsbibliothek",
     "d": "opacplus.bsb-muenchen.de",
     "t": "bsb",
-    "u": "https://opacplus.bsb-muenchen.de/InfoGuideClient/start.do?Login=opacext&BaseURL=https://opacplus.bsb-muenchen.de/InfoGuideClient/start.do?Login=opacext&Query=-1=\"{{{s}}}\"",
+    "u": "https://opacplus.bsb-muenchen.de/discovery/search?query=any,contains,{{{s}}}&tab=Everything&search_scope=MyInst_and_CI&vid=49BVB_BSB:VU1&offset=0",
     "c": "Research",
     "sc": "Academic"
   },
@@ -13080,6 +13080,9 @@
     "s": "ChatGPT",
     "d": "chatgpt.com",
     "t": "chatgpt",
+    "ts": [
+      "cgpt"
+    ],
     "u": "https://chatgpt.com/?q={{{s}}}",
     "c": "Online Services",
     "sc": "AI Chatbots"
@@ -17564,6 +17567,14 @@
     "u": "https://dragonage.fandom.com/wiki/Special:Search?query={{{s}}}",
     "c": "Entertainment",
     "sc": "Games (specific)"
+  },
+  {
+    "s": "Decipher Genomics",
+    "d": "www.deciphergenomics.org",
+    "t": "decipher",
+    "u": "https://www.deciphergenomics.org/search?q={{{s}}}",
+    "c": "Research",
+    "sc": "Academic"
   },
   {
     "s": "DuckDuckGo",
@@ -30956,6 +30967,14 @@
     "u": "https://www.generasia.com/w/index.php?title=Special:Search&search={{{s}}}&go=Go",
     "c": "Multimedia",
     "sc": "Music"
+  },
+  {
+    "s": "GeneReviews",
+    "d": "www.ncbi.nlm.nih.gov",
+    "t": "genereviews",
+    "u": "https://www.ncbi.nlm.nih.gov/books/n/gene/?term={{{s}}}",
+    "c": "Online Services",
+    "sc": "Tools"
   },
   {
     "s": "Library Genesis (Non-Fiction)",
@@ -80682,6 +80701,22 @@
     "d": "www.usal.es",
     "t": "usal",
     "u": "https://www.usal.es/webusal/usal_buscador?query={{{s}}}",
+    "c": "Research",
+    "sc": "Academic"
+  },
+  {
+    "s": "UCSC Genome Browser (GRCH38)",
+    "d": "genome.ucsc.edu",
+    "t": "ucsc",
+    "u": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position={{{s}}}",
+    "c": "Research",
+    "sc": "Academic"
+  },
+  {
+    "s": "UCSC Genome Browser (Europe, GRCH38)",
+    "d": "genome-euro.ucsc.edu",
+    "t": "ucsc-eu",
+    "u": "https://genome-euro.ucsc.edu/cgi-bin/hgTracks?db=hg38&position={{{s}}}",
     "c": "Research",
     "sc": "Academic"
   },
