@@ -1112,9 +1112,9 @@
     "sc": "Reference (words intl)"
   },
   {
-    "s": "Amazon Austria",
+    "s": "Amazon Germany / Austria",
     "d": "www.amazon.de",
-    "t": "a.at",
+    "t": "amazonde",
     "ts": [
       "a.de",
       "ade",
@@ -1122,10 +1122,10 @@
       "ager",
       "ama",
       "amazon_de",
-      "amazonde",
       "amde",
       "amznde",
-      "azd"
+      "azd",
+      "a.at"
     ],
     "u": "https://www.amazon.de/s?k={{{s}}}",
     "c": "Shopping",
@@ -1277,7 +1277,7 @@
   {
     "s": "Amazon Belgium",
     "d": "www.amazon.com.be",
-    "t": "abe",
+    "t": "amazonbe",
     "u": "https://www.amazon.com.be/s?k={{{s}}}",
     "c": "Shopping",
     "sc": "Online"
@@ -1823,17 +1823,6 @@
     "u": "https://woerterbuchnetz.de/Adelung/?lemma={{{s}}}",
     "c": "Research",
     "sc": "Reference (words)"
-  },
-  {
-    "s": "Amazon.de Smile",
-    "d": "smile.amazon.de",
-    "t": "ades",
-    "ts": [
-      "smde"
-    ],
-    "u": "https://smile.amazon.de/s?field-keywords={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online"
   },
   {
     "s": "Apple Developer",
@@ -3646,33 +3635,6 @@
     "u": "https://www.amp-what.com/unicode/search/{{{s}}}",
     "c": "Tech",
     "sc": "Design"
-  },
-  {
-    "s": "Amazon Smile",
-    "d": "smile.amazon.com",
-    "t": "asm",
-    "ts": [
-      "smam",
-      "smile",
-      "ams"
-    ],
-    "u": "https://smile.amazon.com/s/?field-keywords={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online"
-  },
-  {
-    "s": "Amazon Smile (UK)",
-    "d": "smile.amazon.co.uk",
-    "t": "amsuk",
-    "ts": [
-      "asmuk",
-      "asuk",
-      "smamuk",
-      "smileuk"
-    ],
-    "u": "https://smile.amazon.co.uk/s?field-keywords={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online"
   },
   {
     "s": "Amazon.co.uk MP3",
@@ -5603,22 +5565,6 @@
     "sc": "Big box/department"
   },
   {
-    "s": "Amazon Smile Deutschland",
-    "d": "smile.amazon.de",
-    "t": "asd",
-    "u": "https://smile.amazon.de/s?url=search-alias=aps&field-keywords={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online (marketplace)"
-  },
-  {
-    "s": "AmazonSmile Deutschland",
-    "d": "smile.amazon.de",
-    "t": "asde",
-    "u": "https://smile.amazon.de/s/field-keywords={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online (intl)"
-  },
-  {
     "s": "A Search of Ice and Fire",
     "d": "asearchoficeandfire.com",
     "t": "asearchoficeandfire",
@@ -5633,17 +5579,6 @@
     "u": "https://peer.asee.org/?q={{{s}}}",
     "c": "Research",
     "sc": "Academic"
-  },
-  {
-    "s": "Amazon Smile (Germany)",
-    "d": "smile.amazon.de",
-    "t": "asg",
-    "ts": [
-      "sade"
-    ],
-    "u": "https://smile.amazon.de/s/?field-keywords={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online"
   },
   {
     "s": "Ashadidi",
@@ -8943,7 +8878,7 @@
     "ts": [
       "birds"
     ],
-    "u": "https://www.allaboutbirds.org/search/?q={{{s}}}",
+    "u": "https://www.allaboutbirds.org/news/search/?q={{{s}}}",
     "c": "Research",
     "sc": "Reference (science)"
   },
@@ -36417,9 +36352,9 @@
   },
   {
     "s": "Twitter Hashtags",
-    "d": "twitter.com",
+    "d": "x.com",
     "t": "hashtag",
-    "u": "https://twitter.com/search?q=\\#{{{s}}}",
+    "u": "https://x.com/search?q=\\#{{{s}}}",
     "c": "Online Services",
     "sc": "Social"
   },
@@ -64773,13 +64708,12 @@
   },
   {
     "s": "Current ruby docs",
-    "d": "www.google.com",
-    "ad": "docs.ruby-lang.org",
+    "d": "docs.ruby-lang.org",
     "t": "rb",
     "ts": [
       "ruby"
     ],
-    "u": "https://www.google.com/cse?q={{{s}}}&cx=013598269713424429640:g5orptiw95w&ie=UTF-8",
+    "u": "https://docs.ruby-lang.org/en/master/?q={{{s}}}",
     "c": "Tech",
     "sc": "Programming"
   },
@@ -68031,14 +67965,6 @@
     "sc": "Sysadmin"
   },
   {
-    "s": "Amazon Smile (de)",
-    "d": "smile.amazon.de",
-    "t": "samde",
-    "u": "https://smile.amazon.de/s/?url=search-alias=aps&field-keywords={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online (intl)"
-  },
-  {
     "s": "whosampled",
     "d": "www.whosampled.com",
     "t": "sampled",
@@ -68281,14 +68207,6 @@
     "u": "https://www.saugus.net/cgi-bin/htsearch?config=htdig&restrict=&exclude=&words={{{s}}}&method=and&format=long",
     "c": "Online Services",
     "sc": "Search (Private)"
-  },
-  {
-    "s": "AmazonSmile UK",
-    "d": "smile.amazon.co.uk",
-    "t": "sauk",
-    "u": "https://smile.amazon.co.uk/s/?field-keywords={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online"
   },
   {
     "s": "Savannah",
@@ -71103,14 +71021,6 @@
     "u": "https://www.smashwords.com/books/search?query={{{s}}}",
     "c": "Multimedia",
     "sc": "Books"
-  },
-  {
-    "s": "Smile.amazon.com",
-    "d": "smile.amazon.com",
-    "t": "sma",
-    "u": "https://smile.amazon.com/s/&field-keywords={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online"
   },
   {
     "s": "Svensk Mediedatabas",
@@ -78993,19 +78903,6 @@
     "sc": "International"
   },
   {
-    "s": "Twitter",
-    "d": "twitter.com",
-    "t": "twitter",
-    "ts": [
-      "twit",
-      "twid",
-      "tweet"
-    ],
-    "u": "https://twitter.com/search?q={{{s}}}",
-    "c": "Online Services",
-    "sc": "Social"
-  },
-  {
     "s": "Twitch game search",
     "d": "www.twitch.tv",
     "t": "twg",
@@ -79077,12 +78974,13 @@
   },
   {
     "s": "Twitter User",
-    "d": "twitter.com",
+    "d": "x.com",
     "t": "twitters",
     "ts": [
-      "twitteruser"
+      "twitteruser",
+      "xuser"
     ],
-    "u": "https://twitter.com/{{{s}}}",
+    "u": "https://x.com/{{{s}}}",
     "c": "Online Services",
     "sc": "Social"
   },
@@ -79104,9 +79002,9 @@
   },
   {
     "s": "Twitter Latest",
-    "d": "twitter.com",
+    "d": "x.com",
     "t": "twl",
-    "u": "https://twitter.com/search?f=tweets&vertical=news&q={{{s}}}",
+    "u": "https://x.com/search?f=tweets&vertical=news&q={{{s}}}",
     "c": "Online Services",
     "sc": "Search (Real-time)"
   },
@@ -79159,9 +79057,9 @@
   },
   {
     "s": "Twitter users",
-    "d": "twitter.com",
+    "d": "x.com",
     "t": "twuser",
-    "u": "https://twitter.com/search/users?q={{{s}}}",
+    "u": "https://x.com/search/users?q={{{s}}}",
     "c": "Online Services",
     "sc": "Social"
   },
@@ -86910,6 +86808,12 @@
     "s": "X",
     "d": "x.com",
     "t": "x",
+    "ts": [
+      "twitter",
+      "twit",
+      "twid",
+      "tweet"
+    ],
     "u": "https://x.com/search?q={{{s}}}",
     "c": "Online Services",
     "sc": "Social"
