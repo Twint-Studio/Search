@@ -74,7 +74,11 @@ function fill(template, query) {
 async function getEngine(input) {
   let templates = input;
 
-  if (typeof templates === "string") templates = JSON.parse(templates).catch(() => {});
+  if (typeof templates === "string") {
+    try {
+      templates = JSON.parse(templates);
+    } catch {}
+  }
 
   if (!Array.isArray(templates)) return templates;
 
@@ -101,7 +105,7 @@ export default {
 
       const encoded = encodeURIComponent(search || "");
 
-      const engine = getEngine(env.DEFAULT_SEARCH);
+      const engine = await getEngine(env.DEFAULT_SEARCH);
 
       if (path === "/c") {
         const target = fill(custom || engine, encoded);
