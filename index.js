@@ -71,6 +71,25 @@ function fill(template, query) {
   return template.includes("%s") ? template.replace(/%s/g, query) : template + query;
 }
 
+async function getEngine(input) {
+  let templates = input;
+
+  if (typeof templates === "string") templates = JSON.parse(templates).catch(() => {});
+
+  if (!Array.isArray(templates)) return templates;
+
+  for (const template of templates) {
+    try {
+      const url = new URL(template);
+
+      const response = await fetch(url.origin, { method: "GET", redirect: "manual" });
+      if (response?.status === 200) return template;
+    } catch {}
+  }
+
+  return templates[0];
+}
+
 export default {
   async fetch(request, env, ctx) {
     const context = new URL(request.url);
@@ -82,13 +101,15 @@ export default {
 
       const encoded = encodeURIComponent(search || "");
 
+      const engine = getEngine(env.DEFAULT_SEARCH);
+
       if (path === "/c") {
-        const target = fill(custom || env.DEFAULT_COMPLETE, encoded);
+        const target = fill(custom || engine, encoded);
         return Response.redirect(target, 302);
       }
 
       if (path === "/s") {
-        const target = resolve(search) || fill(custom || env.DEFAULT_SEARCH, encoded)
+        const target = resolve(search) || fill(custom || engine, encoded);
         return Response.redirect(target, 302);
       }
     }
