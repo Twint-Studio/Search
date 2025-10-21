@@ -105,15 +105,13 @@ export default {
 
       const encoded = encodeURIComponent(search || "");
 
-      const engine = await getEngine(env.DEFAULT_SEARCH);
-
       if (path === "/c") {
-        const target = fill(custom || engine, encoded);
+        const target = fill(custom || await getEngine(env.DEFAULT_COMPLETE), encoded);
         return Response.redirect(target, 302);
       }
 
       if (path === "/s") {
-        const target = resolve(search) || fill(custom || engine, encoded);
+        const target = resolve(search) || fill(custom || await getEngine(env.DEFAULT_SEARCH), encoded);
         return Response.redirect(target, 302);
       }
     }
