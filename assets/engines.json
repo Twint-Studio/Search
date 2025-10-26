@@ -9911,7 +9911,7 @@
     "s": "boomkat",
     "d": "boomkat.com",
     "t": "boomkat",
-    "u": "http://boomkat.com/search?q={{{s}}}",
+    "u": "http://boomkat.com/products?q[keywords]={{{s}}}",
     "c": "Multimedia",
     "sc": "Music"
   },
@@ -15698,18 +15698,6 @@
     "u": "https://www.postaonline.cz/trackandtrace/-/zasilka/cislo?parcelNumbers={{{s}}}",
     "c": "Online Services",
     "sc": "Tracking"
-  },
-  {
-    "s": "cppreference.com",
-    "d": "en.cppreference.com",
-    "t": "cpp",
-    "ts": [
-      "cppref",
-      "c++ref"
-    ],
-    "u": "https://en.cppreference.com/mwiki/index.php?search={{{s}}}",
-    "c": "Tech",
-    "sc": "Languages (c++)"
   },
   {
     "s": "cppreference",
@@ -45087,14 +45075,6 @@
     "sc": "Jobs"
   },
   {
-    "s": "letterboxd",
-    "d": "letterboxd.com",
-    "t": "lb",
-    "u": "https://letterboxd.com/search/{{{s}}}/",
-    "c": "Entertainment",
-    "sc": "Movies"
-  },
-  {
     "s": "Logos Bible Software",
     "d": "www.logos.com",
     "t": "lbs",
@@ -45107,6 +45087,7 @@
     "d": "letterboxd.com",
     "t": "lbx",
     "ts": [
+      "lb",
       "ltr",
       "letterboxd"
     ],
