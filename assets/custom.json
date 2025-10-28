@@ -115,5 +115,77 @@
         "d": "en"
       }
     ]
+  },
+  {
+    "s": "ddg 4get",
+    "d": "4get.twint.my.id",
+    "t": "4d",
+    "u": "https://4get.twint.my.id/web?s={{{s}}}&scraper=ddg&nsfw=yes",
+    "c": "Search",
+    "sc": "Web Search"
+  },
+  {
+    "s": "brave 4get",
+    "d": "4get.twint.my.id",
+    "t": "4b",
+    "u": "https://4get.twint.my.id/web?s={{{s}}}&scraper=brave&nsfw=yes",
+    "c": "Search",
+    "sc": "Web Search"
+  },
+  {
+    "s": "google 4get",
+    "d": "4get.twint.my.id",
+    "t": "4g",
+    "u": "https://4get.twint.my.id/web?s={{{s}}}&scraper=google&nsfw=yes",
+    "c": "Search",
+    "sc": "Web Search"
+  },
+  {
+    "s": "ddg 5get",
+    "d": "5get.twint.my.id",
+    "t": "4d",
+    "u": "https://5get.twint.my.id/web?s={{{s}}}&scraper=ddg&nsfw=yes",
+    "c": "Search",
+    "sc": "Web Search"
+  },
+  {
+    "s": "brave 5get",
+    "d": "5get.twint.my.id",
+    "t": "4b",
+    "u": "https://5get.twint.my.id/web?s={{{s}}}&scraper=brave&nsfw=yes",
+    "c": "Search",
+    "sc": "Web Search"
+  },
+  {
+    "s": "google 5get",
+    "d": "5get.twint.my.id",
+    "t": "4g",
+    "u": "https://5get.twint.my.id/web?s={{{s}}}&scraper=google&nsfw=yes",
+    "c": "Search",
+    "sc": "Web Search"
+  },
+  {
+    "s": "ddg 6get",
+    "d": "6get.twint.my.id",
+    "t": "4d",
+    "u": "https://6get.twint.my.id/web?s={{{s}}}&scraper=ddg&nsfw=yes",
+    "c": "Search",
+    "sc": "Web Search"
+  },
+  {
+    "s": "brave 6get",
+    "d": "6get.twint.my.id",
+    "t": "4b",
+    "u": "https://6get.twint.my.id/web?s={{{s}}}&scraper=brave&nsfw=yes",
+    "c": "Search",
+    "sc": "Web Search"
+  },
+  {
+    "s": "google 6get",
+    "d": "6get.twint.my.id",
+    "t": "4g",
+    "u": "https://6get.twint.my.id/web?s={{{s}}}&scraper=google&nsfw=yes",
+    "c": "Search",
+    "sc": "Web Search"
   }
 ]
