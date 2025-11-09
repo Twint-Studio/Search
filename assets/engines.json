@@ -1406,6 +1406,19 @@
     "sc": "Images"
   },
   {
+    "s": "Amazon UAE",
+    "d": "www.amazon.ae",
+    "t": "a.ae",
+    "ts": [
+      "amazon_ae",
+      "amazonae",
+      "amazon.ae"
+    ],
+    "u": "https://www.amazon.ae/s?k={{{s}}}",
+    "c": "Shopping",
+    "sc": "Online"
+  },
+  {
     "s": "Amazon.ca",
     "d": "www.amazon.ca",
     "t": "aca",
@@ -4729,6 +4742,44 @@
     "u": "https://apps.splunk.com/apps/#/search/{{{s}}}",
     "c": "Tech",
     "sc": "Companies"
+  },
+  {
+    "s": "App Store (iPhone)",
+    "d": "apps.apple.com",
+    "t": "appstore",
+    "ts": [
+      "iphoneapps",
+      "iosapps",
+      "iapp",
+      "ipa"
+    ],
+    "u": "https://apps.apple.com/iphone/search?term={{{s}}}",
+    "c": "Tech",
+    "sc": "Downloads (apps)"
+  },
+  {
+    "s": "App Store (Mac)",
+    "d": "apps.apple.com",
+    "t": "macapps",
+    "ts": [
+      "appstoremac",
+      "appsmac",
+      "dmg"
+    ],
+    "u": "https://apps.apple.com/mac/search?term={{{s}}}",
+    "c": "Tech",
+    "sc": "Downloads (apps)"
+  },
+  {
+    "s": "App Store UK (iPhone)",
+    "d": "apps.apple.com",
+    "t": "ukappstore",
+    "ts": [
+      "appstoreuk"
+    ],
+    "u": "https://apps.apple.com/gb/iphone/search?term={{{s}}}",
+    "c": "Tech",
+    "sc": "Downloads (apps)"
   },
   {
     "s": "April",
@@ -15869,6 +15920,17 @@
       "crissue"
     ],
     "u": "https://issues.chromium.org/issues?q={{{s}}}",
+    "c": "Tech",
+    "sc": "Programming"
+  },
+  {
+    "s": "Chromium Review",
+    "d": "chromium-review.googlesource.com",
+    "t": "cge",
+    "ts": [
+      "cgerrit"
+    ],
+    "u": "https://chromium-review.googlesource.com/q/{{{s}}}",
     "c": "Tech",
     "sc": "Programming"
   },
@@ -62955,6 +63017,17 @@
     "sc": "Tools"
   },
   {
+    "s": "Lumo",
+    "d": "lumo.proton.me",
+    "t": "lumo",
+    "ts": [
+      "protonlumo"
+    ],
+    "u": "https://lumo.proton.me/?q={{{s}}}",
+    "c": "Online Services",
+    "sc": "AI Chatbots"
+  },
+  {
     "s": "Provigo Grocery Store",
     "d": "www.provigo.ca",
     "t": "provigo",
@@ -67358,7 +67431,7 @@
     "s": "Real Time Trains",
     "d": "www.realtimetrains.co.uk",
     "t": "rtt",
-    "u": "https://www.realtimetrains.co.uk/search/handler?type=basic&qs=true&search={{{s}}}",
+    "u": "https://www.realtimetrains.co.uk/search/handler?type=basic&qsearch={{{s}}}",
     "c": "Online Services",
     "sc": "Tracking"
   },
@@ -69430,6 +69503,17 @@
     "u": "https://www.seriouseats.com/search?term={{{s}}}&site=all",
     "c": "Research",
     "sc": "Food"
+  },
+  {
+    "s": "SeriesGraph",
+    "d": "seriesgraph.com",
+    "t": "sgr",
+    "ts": [
+      "seriesgraph"
+    ],
+    "u": "https://seriesgraph.com/show/search/{{{s}}}",
+    "c": "Entertainment",
+    "sc": "TV"
   },
   {
     "s": "servershop24",
