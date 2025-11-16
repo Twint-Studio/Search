@@ -820,6 +820,14 @@
     "sc": "Books"
   },
   {
+    "s": "7TV",
+    "d": "7tv.app",
+    "t": "7tv",
+    "u": "https://7tv.app/emotes?q={{{s}}}",
+    "c": "Online Services",
+    "sc": "Tools"
+  },
+  {
     "s": "800notes.com",
     "d": "800notes.com",
     "t": "800",
@@ -2623,14 +2631,6 @@
     "sc": "Online"
   },
   {
-    "s": "Al Jazeera (English)",
-    "d": "www.aljazeera.com",
-    "t": "aje",
-    "u": "https://www.aljazeera.com/Search/?q={{{s}}}",
-    "c": "News",
-    "sc": "International"
-  },
-  {
     "s": "アマゾン (Amazon Japan)",
     "d": "www.amazon.co.jp",
     "t": "aj",
@@ -2967,14 +2967,6 @@
     "u": "https://alipaczka.pl/?track={{{s}}}",
     "c": "Online Services",
     "sc": "Tracking"
-  },
-  {
-    "s": "Aljazeera English",
-    "d": "english.aljazeera.net",
-    "t": "aljazeera",
-    "u": "https://english.aljazeera.net/Services/Search/?q={{{s}}}",
-    "c": "News",
-    "sc": "Aggregators"
   },
   {
     "s": "Alko",
@@ -4338,7 +4330,7 @@
     "s": "AP",
     "d": "ap.org",
     "t": "ap",
-    "u": "https://ap.org/Search/SearchResults?searchkeywords={{{s}}}",
+    "u": "https://ap.org/?s={{{s}}}&orderby=",
     "c": "News",
     "sc": "Broadcast"
   },
@@ -8187,6 +8179,14 @@
     "u": "https://www.betches.com/search/{{{s}}}",
     "c": "Entertainment",
     "sc": "TV"
+  },
+  {
+    "s": "BetterTTV",
+    "d": "betterttv.com",
+    "t": "bttv",
+    "u": "https://betterttv.com/emotes/shared/search?query={{{s}}}",
+    "c": "Online Services",
+    "sc": "Tools"
   },
   {
     "s": "betterworldbooks.com",
@@ -27855,7 +27855,7 @@
       "flathub",
       "fthub"
     ],
-    "u": "https://flathub.org/apps/search/{{{s}}}",
+    "u": "https://flathub.org/apps/search?q={{{s}}}",
     "c": "Online Services",
     "sc": "Tools"
   },
@@ -27863,7 +27863,7 @@
     "s": "FlatIcon",
     "d": "www.flaticon.com",
     "t": "flaticon",
-    "u": "https://www.flaticon.com/search/{{{s}}}",
+    "u": "https://www.flaticon.com/search?word={{{s}}}",
     "c": "Multimedia",
     "sc": "Images"
   },
@@ -40390,10 +40390,14 @@
     "sc": "General"
   },
   {
-    "s": "Aljazeera",
+    "s": "Al Jazeera",
     "d": "www.aljazeera.com",
-    "t": "intaljazeera",
-    "u": "https://www.aljazeera.com/Services/Search/?q={{{s}}}",
+    "t": "aljazeera",
+    "ts": [
+      "intaljazeera",
+      "aje"
+    ],
+    "u": "https://www.aljazeera.com/search/{{{s}}}",
     "c": "News",
     "sc": "International"
   },
@@ -61731,6 +61735,14 @@
     "sc": "Tools"
   },
   {
+    "s": "Podnews",
+    "d": "podnews.net",
+    "t": "podnews",
+    "u": "https://podnews.net/search?q={{{s}}}",
+    "c": "News",
+    "sc": "Business"
+  },
+  {
     "s": "Path of Exile Database",
     "d": "poedb.tw",
     "t": "poedb",
@@ -65971,7 +65983,7 @@
     "ts": [
       "reuters"
     ],
-    "u": "https://www.reuters.com/search/news?blob={{{s}}}",
+    "u": "https://www.reuters.com/site-search/?query={{{s}}}",
     "c": "News",
     "sc": "International"
   },
@@ -77255,6 +77267,18 @@
     "u": "https://tlk.io/{{{s}}}",
     "c": "Online Services",
     "sc": "Social"
+  },
+  {
+    "s": "Trainboard",
+    "d": "trainboard.eu",
+    "t": "trainb",
+    "ts": [
+      "trainboard",
+      "zugtafel"
+    ],
+    "u": "https://trainboard.eu/bang.html?station={{{s}}}",
+    "c": "Online Services",
+    "sc": "Tools"
   },
   {
     "s": "Trainline Live Departures",
