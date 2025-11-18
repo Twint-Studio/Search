@@ -13,7 +13,7 @@ function resolve(query) {
 
   for (let i = 0; i < words.length; i++) {
     const word = words[i];
-    const name = word.replace(/^!|!$/g, "");
+    const name = word.replace(/^!|!$/g, "").toLowerCase();
 
     if (!word.startsWith("!") && !word.endsWith("!")) {
       search.push(word);
