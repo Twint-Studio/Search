@@ -27295,6 +27295,14 @@
     "sc": "Learning"
   },
   {
+    "s": "FOSDEM",
+    "d": "fosdem.org",
+    "t": "fosdem",
+    "u": "https://fosdem.org/2026/search/?q={{{s}}}",
+    "c": "Online Services",
+    "sc": "Events"
+  },
+  {
     "s": "FossHub",
     "d": "www.fosshub.com",
     "t": "fhub",
@@ -36532,6 +36540,17 @@
     "u": "https://www.homebrewtalk.com/search/?keyword={{{s}}}",
     "c": "Entertainment",
     "sc": "Forum"
+  },
+  {
+    "s": "Huberman Lab",
+    "d": "www.hubermanlab.com",
+    "t": "hblb",
+    "ts": [
+      "hubermanlab"
+    ],
+    "u": "https://www.hubermanlab.com/search-results?q={{{s}}}",
+    "c": "Entertainment",
+    "sc": "Audio (Podcast)"
   },
   {
     "s": "Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen",
@@ -62149,9 +62168,9 @@
     "sc": "Online"
   },
   {
-    "s": "Incendar.com",
+    "s": "Incendar funko pop search",
     "d": "incendar.com",
-    "t": "pop",
+    "t": "fpop",
     "u": "https://incendar.com/funko_pop_search.php?search={{{s}}}",
     "c": "Entertainment",
     "sc": "TV"
@@ -68057,6 +68076,19 @@
     "u": "https://www.samsclub.com/sams/search/searchResults.jsp?searchTerm={{{s}}}&searchCategoryId=all",
     "c": "Shopping",
     "sc": "Big box/department"
+  },
+  {
+    "s": "Mamont",
+    "d": "www.mmnt.ru",
+    "t": "mmnt",
+    "ts": [
+      "mamont",
+      "мамонт",
+      "ммнт"
+    ],
+    "u": "https://www.mmnt.ru/get?st={{{s}}}&in=w",
+    "c": "Online Services",
+    "sc": "Search"
   },
   {
     "s": "Sanakirja.org",
