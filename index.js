@@ -1,6 +1,6 @@
 import engines from "./assets/engines.json";
 
-const bangs = new Map(engines.flatMap(e => [e.t, ...(e.ts || [])].map(bang => [bang, { url: e.u, domain: e.d, subs: new Map(e.sb?.map(sb => [sb.b, sb])) }])));
+const bangs = new Map(engines.flatMap(e => [e.t, ...(e.ts || [])].map(bang => [bang, { url: e.u, domain: e.d, subs: new Map(e.sb?.map(sb => [sb.b, sb])), fmt: e.fmt || [] }])));
 
 function resolve(query) {
   if (!query?.trim()) return null;
@@ -57,12 +57,14 @@ function resolve(query) {
     if (sub?.u) url.searchParams.set(sub.u, value);
   });
 
-  const link = url
+  return url
     .toString()
-    .replace("placeholder", encodeURIComponent(search.join(" ")))
-    .replace(/%2F/g, "/");
-
-  return link;
+    .replace(
+      "placeholder",
+      encodeURIComponent(search.join(" "))
+        .replace(engine.fmt.includes("url_encode_placeholder") ? "" : /%2F/g, "/")
+        .replace(engine.fmt.includes("url_encode_space_to_plus") ? /%20/g : "", "+")
+    );
 }
 
 function fill(template, query) {
