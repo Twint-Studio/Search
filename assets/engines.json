@@ -89007,7 +89007,10 @@
     "t": "nixpkgs",
     "u": "https://search.nixos.org/packages?query={{{s}}}",
     "c": "Tech",
-    "sc": "Languages (nix)"
+    "sc": "Languages (nix)",
+    "fmt": [
+      "url_encode_space_to_plus"
+    ]
   },
   {
     "s": "NixOS Options Search",

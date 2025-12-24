@@ -57,15 +57,20 @@ function resolve(query) {
     if (sub?.u) url.searchParams.set(sub.u, value);
   });
 
-  let searchQuery = encodeURIComponent(search.join(" "));
-
-  if (!engine.fmt.includes("url_encode_placeholder"))
-    searchQuery = searchQuery.replace(/%2F/g, "/");
-
-  if (engine.fmt.includes("url_encode_space_to_plus"))
-    searchQuery = searchQuery.replace(/%20/g, "+");
-
-  return url.toString().replace("placeholder", searchQuery);
+  return url
+    .toString()
+    .replace(
+      "placeholder",
+      encodeURIComponent(search.join(" "))
+        .replace(
+          !engine.fmt.includes("url_encode_placeholder") ? /%2F/g : null,
+          "/"
+        )
+        .replace(
+          engine.fmt.includes("url_encode_space_to_plus") ? /%20/g : null,
+          "+"
+        )
+    );
 }
 
 function fill(template, query) {
