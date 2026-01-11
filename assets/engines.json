@@ -344,14 +344,6 @@
     "sc": "Specialty"
   },
   {
-    "s": "360skate.com",
-    "d": "www.360skate.com",
-    "t": "360",
-    "u": "http://www.360skate.com/catalogsearch/result/?q={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online"
-  },
-  {
     "s": "360图片",
     "d": "image.so.com",
     "t": "360iso",
@@ -486,7 +478,10 @@
     "s": "4chan /b/",
     "d": "boards.4chan.org",
     "t": "4_b",
-    "u": "http://boards.4chan.org/b/catalog#s={{{s}}}",
+    "ts": [
+      "4chrandom"
+    ],
+    "u": "https://boards.4chan.org/b/catalog#s={{{s}}}",
     "c": "Entertainment",
     "sc": "Forum"
   },
@@ -518,7 +513,7 @@
     "s": "4chan Boards",
     "d": "4chan.org",
     "t": "4chanb",
-    "u": "http://4chan.org/b/{{{s}}}",
+    "u": "https://4chan.org/b/{{{s}}}",
     "c": "Entertainment",
     "sc": "Misc"
   },
@@ -579,14 +574,6 @@
     "sc": "General"
   },
   {
-    "s": "4chan /b/ board",
-    "d": "boards.4chan.org",
-    "t": "4chrandom",
-    "u": "https://boards.4chan.org/b/catalog#s={{{s}}}",
-    "c": "Entertainment",
-    "sc": "Forum"
-  },
-  {
     "s": "4chansearch",
     "d": "4chansearch.com",
     "t": "4chsearch",
@@ -606,7 +593,7 @@
     "s": "4chan, /vg/",
     "d": "boards.4chan.org",
     "t": "4cvg",
-    "u": "http://boards.4chan.org/vg/catalog#s={{{s}}}",
+    "u": "https://boards.4chan.org/vg/catalog#s={{{s}}}",
     "c": "Entertainment",
     "sc": "Games (general)"
   },
@@ -614,7 +601,7 @@
     "s": "4chan - /g/ - Technology",
     "d": "4chan.org",
     "t": "4g",
-    "u": "http://4chan.org/g/{{{s}}}",
+    "u": "https://4chan.org/g/{{{s}}}",
     "c": "Tech",
     "sc": "Blogs"
   },
@@ -630,7 +617,7 @@
     "s": "4pda",
     "d": "4pda.to",
     "t": "4pda",
-    "u": "http://4pda.to/forum/index.php?act=search&source=all&forums[]=all&query={{{s}}}&x=0&y=0",
+    "u": "https://4pda.to/forum/index.php?act=search&source=all&forums[]=all&query={{{s}}}&x=0&y=0",
     "c": "Entertainment",
     "sc": "Forum"
   },
@@ -751,7 +738,7 @@
     "s": "Fiverr",
     "d": "fiverr.com",
     "t": "5",
-    "u": "http://fiverr.com/gigs/search?query={{{s}}}",
+    "u": "https://fiverr.com/gigs/search?query={{{s}}}",
     "c": "Online Services",
     "sc": "Jobs"
   },
@@ -815,7 +802,7 @@
     "s": "800notes.com",
     "d": "800notes.com",
     "t": "800",
-    "u": "http://800notes.com/Phone.aspx/{{{s}}}",
+    "u": "https://800notes.com/Phone.aspx/{{{s}}}",
     "c": "Online Services",
     "sc": "Search"
   },
@@ -953,11 +940,16 @@
   {
     "s": "AlternativeTo.net",
     "d": "alternativeto.net",
-    "t": "alternative",
+    "t": "alto",
     "ts": [
-      "a2"
+      "a2",
+      "ato",
+      "alt",
+      "altto",
+      "alternative",
+      "alternativeto"
     ],
-    "u": "http://alternativeto.net/searchresult.aspx?search={{{s}}}",
+    "u": "https://alternativeto.net/browse/search/?q={{{s}}}",
     "c": "Tech",
     "sc": "Downloads (software)"
   },
@@ -1168,10 +1160,13 @@
     "sc": "General"
   },
   {
-    "s": "Abandonia",
-    "d": "www.abandonia.com",
-    "t": "abandonia",
-    "u": "http://www.abandonia.com/en/search_abandonia/{{{s}}}",
+    "s": "Abandoned Times (fka Abandonia)",
+    "d": "www.abandonedtimes.com",
+    "t": "abtimes",
+    "ts": [
+      "abandonia"
+    ],
+    "u": "https://www.abandonedtimes.com/?s={{{s}}}",
     "c": "Multimedia",
     "sc": "Games (general)"
   },
@@ -1369,7 +1364,7 @@
     "s": "AllBookstores",
     "d": "www.allbookstores.com",
     "t": "abs",
-    "u": "http://www.allbookstores.com/search?q={{{s}}}",
+    "u": "https://www.allbookstores.com/search?q={{{s}}}",
     "c": "Shopping",
     "sc": "Online (deals)"
   },
@@ -1393,7 +1388,7 @@
     "s": "Wallpaper Abyss",
     "d": "wall.alphacoders.com",
     "t": "abyss",
-    "u": "http://wall.alphacoders.com/search.php?search={{{s}}}",
+    "u": "https://wall.alphacoders.com/search.php?search={{{s}}}",
     "c": "Multimedia",
     "sc": "Images"
   },
@@ -1492,7 +1487,7 @@
     "s": "AccuWeather",
     "d": "www.accuweather.com",
     "t": "accuweather",
-    "u": "http://www.accuweather.com/us-city-list.asp?zipcode={{{s}}}",
+    "u": "https://www.accuweather.com/us-city-list.asp?zipcode={{{s}}}",
     "c": "News",
     "sc": "Weather"
   },
@@ -1658,7 +1653,7 @@
     "s": "ACS Publications",
     "d": "pubs.acs.org",
     "t": "acs",
-    "u": "http://pubs.acs.org/action/doSearch?AllField={{{s}}}",
+    "u": "https://pubs.acs.org/action/doSearch?AllField={{{s}}}",
     "c": "Research",
     "sc": "Academic"
   },
@@ -1701,14 +1696,6 @@
     "u": "https://assassinscreed.fandom.com/wiki/Special:Search?query={{{s}}}",
     "c": "Entertainment",
     "sc": "Games (specific)"
-  },
-  {
-    "s": "Ada 2005 Manual",
-    "d": "www.ada-auth.org",
-    "t": "ada",
-    "u": "http://www.ada-auth.org/search-rm05.cgi?SearchA={{{s}}}&SearchO=&SearchN=",
-    "c": "Research",
-    "sc": "Academic"
   },
   {
     "s": "Adafruit Blog",
@@ -1802,7 +1789,7 @@
     "s": "PrestaShop Addons",
     "d": "addons.prestashop.com",
     "t": "addons",
-    "u": "http://addons.prestashop.com/fr/recherche?search_query={{{s}}}",
+    "u": "https://addons.prestashop.com/fr/recherche?search_query={{{s}}}",
     "c": "Tech",
     "sc": "Downloads (add-ons)"
   },
@@ -1872,17 +1859,9 @@
     "s": "adidas",
     "d": "www.adidas.fr",
     "t": "adidas",
-    "u": "http://www.adidas.fr/search?q={{{s}}}",
+    "u": "https://www.adidas.fr/search?q={{{s}}}",
     "c": "Shopping",
     "sc": "Online"
-  },
-  {
-    "s": "Adjective1",
-    "d": "adjective1.com",
-    "t": "adjective",
-    "u": "http://adjective1.com/?s={{{s}}}",
-    "c": "Multimedia",
-    "sc": "General"
   },
   {
     "s": "Adlibris",
@@ -1939,7 +1918,7 @@
     "s": "Adobe",
     "d": "www.adobe.com",
     "t": "adobe",
-    "u": "http://www.adobe.com/cfusion/search/index.cfm?loc=en_us&term={{{s}}}",
+    "u": "https://www.adobe.com/cfusion/search/index.cfm?loc=en_us&term={{{s}}}",
     "c": "Tech",
     "sc": "Companies"
   },
@@ -2041,7 +2020,7 @@
     "s": "Adverts.ie",
     "d": "www.adverts.ie",
     "t": "adverts",
-    "u": "http://www.adverts.ie/for-sale/q_{{{s}}}/",
+    "u": "https://www.adverts.ie/for-sale/q_{{{s}}}/",
     "c": "Shopping",
     "sc": "Online (intl)"
   },
@@ -2110,7 +2089,7 @@
     "s": "AE7Q Amateur Extra Query Tools",
     "d": "ae7q.com",
     "t": "aeq",
-    "u": "http://ae7q.com/query/data/CallHistory.php?CALL={{{s}}}",
+    "u": "https://ae7q.com/query/data/CallHistory.php?CALL={{{s}}}",
     "c": "Online Services",
     "sc": "Tools"
   },
@@ -2263,7 +2242,7 @@
     "s": "Android Geeks",
     "d": "www.android.gs",
     "t": "ag",
-    "u": "http://www.android.gs/?s=&q={{{s}}}",
+    "u": "https://www.android.gs/?s=&q={{{s}}}",
     "c": "Tech",
     "sc": "Blogs"
   },
@@ -2390,14 +2369,6 @@
     "sc": "Domains"
   },
   {
-    "s": "Arkham Horror Wiki",
-    "d": "www.arkhamhorrorwiki.com",
-    "t": "ahw",
-    "u": "http://www.arkhamhorrorwiki.com/wiki/index.php?title=Special:Search&search={{{s}}}&go=Go",
-    "c": "Entertainment",
-    "sc": "Games (specific)"
-  },
-  {
     "s": "Aiden Promotions",
     "d": "aidenpromotions.com",
     "t": "aiden",
@@ -2505,7 +2476,7 @@
     "s": "Aircraft Registration Database Lookup",
     "d": "www.airframes.org",
     "t": "airframes",
-    "u": "http://www.airframes.org/reg/{{{s}}}",
+    "u": "https://www.airframes.org/reg/{{{s}}}",
     "c": "Research",
     "sc": "Reference"
   },
@@ -2556,7 +2527,10 @@
     "s": "archive.is",
     "d": "archive.is",
     "t": "ais",
-    "u": "http://archive.is/{{{s}}}",
+    "ts": [
+      "archiveis"
+    ],
+    "u": "https://archive.is/search/?q={{{s}}}",
     "c": "Online Services",
     "sc": "Tools (URLs)"
   },
@@ -2632,7 +2606,7 @@
     "s": "Akakçe",
     "d": "www.akakce.com",
     "t": "akakce",
-    "u": "http://www.akakce.com/arama/?q={{{s}}}",
+    "u": "https://www.akakce.com/arama/?q={{{s}}}",
     "c": "Shopping",
     "sc": "Online (deals)"
   },
@@ -2908,7 +2882,7 @@
     "s": "alibris",
     "d": "www.alibris.com",
     "t": "alibris",
-    "u": "http://www.alibris.com/booksearch?keyword={{{s}}}",
+    "u": "https://www.alibris.com/booksearch?keyword={{{s}}}",
     "c": "Shopping",
     "sc": "Online"
   },
@@ -3017,10 +2991,13 @@
     "sc": "Online (intl)"
   },
   {
-    "s": "All Electronics",
-    "d": "www.allelectronics.com",
-    "t": "allelec",
-    "u": "http://www.allelectronics.com/index.php?page=seek&id[m]=pattern&id[q]={{{s}}}",
+    "s": "Aretronics (fka All Electronics)",
+    "d": "aretronics.com",
+    "t": "aretronics",
+    "ts": [
+      "allelec"
+    ],
+    "u": "https://aretronics.com/search?type=product&q={{{s}}}",
     "c": "Shopping",
     "sc": "Tech"
   },
@@ -3057,10 +3034,13 @@
     "sc": "Health"
   },
   {
-    "s": "Allied Electronics",
-    "d": "www.alliedelec.com",
-    "t": "alliedelec",
-    "u": "http://www.alliedelec.com/search/results.aspx?term={{{s}}}",
+    "s": "RS (fka Allied Electronics)",
+    "d": "us.rs-online.com",
+    "t": "rselec",
+    "ts": [
+      "alliedelec"
+    ],
+    "u": "https://us.rs-online.com/catalogsearch/result/?q={{{s}}}",
     "c": "Shopping",
     "sc": "Tech"
   },
@@ -3130,7 +3110,7 @@
     "ts": [
       "ar-ar"
     ],
-    "u": "http://www.almaany.com/ar/dict/ar-ar/{{{s}}}",
+    "u": "https://www.almaany.com/ar/dict/ar-ar/{{{s}}}",
     "c": "Research",
     "sc": "Reference (words)"
   },
@@ -3141,7 +3121,7 @@
     "ts": [
       "maany"
     ],
-    "u": "http://www.almaany.com/ar/dict/ar-en/{{{s}}}/",
+    "u": "https://www.almaany.com/ar/dict/ar-en/{{{s}}}/",
     "c": "Research",
     "sc": "Reference"
   },
@@ -3221,14 +3201,6 @@
     "sc": "Sysadmin (packages)"
   },
   {
-    "s": "alternativeTo",
-    "d": "alternativeto.net",
-    "t": "alt",
-    "u": "http://alternativeto.net/SearchResult.aspx?search={{{s}}}",
-    "c": "Online Services",
-    "sc": "Tools"
-  },
-  {
     "s": "Alternate België",
     "d": "www.alternate.be",
     "t": "altbe",
@@ -3251,18 +3223,6 @@
     "u": "https://www.alternate.nl/html/search.html?query={{{s}}}",
     "c": "Shopping",
     "sc": "Tech"
-  },
-  {
-    "s": "alternativeto.net",
-    "d": "alternativeto.net",
-    "t": "alternativeto",
-    "ts": [
-      "alto",
-      "altto"
-    ],
-    "u": "http://alternativeto.net/browse/search?q={{{s}}}",
-    "c": "Tech",
-    "sc": "Domains"
   },
   {
     "s": "Alternet",
@@ -3373,14 +3333,6 @@
     "sc": "Blogs"
   },
   {
-    "s": "Amara",
-    "d": "www.amara.org",
-    "t": "amara",
-    "u": "http://www.amara.org/search/#/?q={{{s}}}",
-    "c": "Multimedia",
-    "sc": "Video"
-  },
-  {
     "s": "Amazon MP3 Store",
     "d": "www.amazon.com",
     "t": "amazonmp3",
@@ -3444,14 +3396,6 @@
     "sc": "Online (intl)"
   },
   {
-    "s": "AMC TV",
-    "d": "www.amctv.com",
-    "t": "amc",
-    "u": "http://www.amctv.com/search#q={{{s}}}",
-    "c": "Entertainment",
-    "sc": "TV"
-  },
-  {
     "s": "Amazon Cloud",
     "d": "www.amazon.com",
     "t": "amcloud",
@@ -3461,9 +3405,9 @@
   },
   {
     "s": "AMD",
-    "d": "search.amd.com",
+    "d": "www.amd.com",
     "t": "amd",
-    "u": "http://search.amd.com/en-us/Pages/results-all.aspx?k={{{s}}}",
+    "u": "https://www.amd.com/en/search/site-search.html#q={{{s}}}",
     "c": "Tech",
     "sc": "Companies"
   },
@@ -3536,9 +3480,9 @@
   },
   {
     "s": "Amiami",
-    "d": "slist.amiami.com",
+    "d": "www.amiami.com",
     "t": "amiami",
-    "u": "http://slist.amiami.com/top/search/list?s_keywords={{{s}}}",
+    "u": "https://www.amiami.com/eng/search/list/?s_keywords={{{s}}}",
     "c": "Shopping",
     "sc": "Online"
   },
@@ -3749,7 +3693,7 @@
     "ts": [
       "anaped"
     ],
-    "u": "http://anarchopedia.org/Special:Search?search={{{s}}}",
+    "u": "https://anarchopedia.org/Special:Search?search={{{s}}}",
     "c": "Research",
     "sc": "Reference"
   },
@@ -5083,14 +5027,6 @@
     "sc": "Tools"
   },
   {
-    "s": "Archive.is",
-    "d": "archive.is",
-    "t": "archiveis",
-    "u": "http://archive.is/search/?q={{{s}}}",
-    "c": "Online Services",
-    "sc": "Tools (URLs)"
-  },
-  {
     "s": "Archive Team Wiki",
     "d": "www.archiveteam.org",
     "t": "archiveteam",
@@ -5966,14 +5902,6 @@
     "u": "https://www.atmatix.pl/patterns/all?q={{{s}}}",
     "c": "News",
     "sc": "Business"
-  },
-  {
-    "s": "AlternativeTo",
-    "d": "alternativeto.net",
-    "t": "ato",
-    "u": "https://alternativeto.net/browse/search/?q={{{s}}}",
-    "c": "Tech",
-    "sc": "Downloads (software)"
   },
   {
     "s": "Atom Tickets",
@@ -42260,6 +42188,14 @@
     "sc": "Tools"
   },
   {
+    "s": "jpdb japanese dictionary",
+    "d": "jpdb.io",
+    "t": "jpdb",
+    "u": "https://jpdb.io/search?q={{{s}}}",
+    "c": "Research",
+    "sc": "Learning"
+  },
+  {
     "s": "We Sell Car Plate Number Online, Malaysia",
     "d": "www.buycarplate.com",
     "t": "jpj",
@@ -47171,18 +47107,10 @@
     "sc": "Games (general)"
   },
   {
-    "s": "LoL Wikia",
-    "d": "leagueoflegends.wikia.com",
-    "t": "lolwikia",
-    "u": "https://leagueoflegends.wikia.com/wiki/Special:Search?query={{{s}}}",
-    "c": "Entertainment",
-    "sc": "Games (general)"
-  },
-  {
     "s": "League of Legends Wiki",
-    "d": "leagueoflegends.wikia.com",
-    "t": "lolwiki",
-    "u": "https://leagueoflegends.wikia.com/wiki/Special:Search?search={{{s}}}",
+    "d": "wiki.leagueoflegends.com",
+    "t": "lolw",
+    "u": "https://wiki.leagueoflegends.com/en-us/?search={{{s}}}",
     "c": "Entertainment",
     "sc": "Games (specific)"
   },
@@ -53935,7 +53863,7 @@
       "na",
       "ㄴ"
     ],
-    "u": "https://search.naver.com/search.naver?query={{{s}}}):",
+    "u": "https://search.naver.com/search.naver?query={{{s}}}",
     "c": "Online Services",
     "sc": "Search (non-US)"
   },
@@ -86940,6 +86868,18 @@
       "tweet"
     ],
     "u": "https://x.com/search?q={{{s}}}",
+    "c": "Online Services",
+    "sc": "Social"
+  },
+  {
+    "s": "Nitter (alternative Twitter front-end)",
+    "d": "nitter.net",
+    "t": "nitter",
+    "ts": [
+      "nit",
+      "ntr"
+    ],
+    "u": "https://nitter.net/search?f=tweets&q={{{s}}}",
     "c": "Online Services",
     "sc": "Social"
   },
