@@ -2,7 +2,7 @@
   description = "4Bang";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
 
     systems.url = "github:nix-systems/default";
   };
@@ -28,7 +28,7 @@
         {
           default = pkgs.mkShell {
             packages = with pkgs; [
-              nodejs
+              bun
             ];
           };
         }

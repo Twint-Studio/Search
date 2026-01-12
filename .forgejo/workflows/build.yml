@@ -1,0 +1,44 @@
+name: Build 4bang
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+    inputs:
+      cache:
+        description: "Use cache if available"
+        required: false
+        default: true
+        type: boolean
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install cosign
+        uses: sigstore/cosign-installer@v3
+
+      - name: Setup Docker buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Set Lowercase Repository Name
+        run: echo "lowercase=$(echo '${{ github.repository }}' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+
+      - name: Login
+        run: echo "${{ secrets.TOKEN }}" | docker login ${{ vars.REGISTRY }} -u ${{ github.actor }} --password-stdin
+
+      - name: Build
+        run: docker build -t ${{ env.lowercase }}:latest . ${{ inputs.cache == 'false' && '--no-cache' || '' }}	
+
+      - name: Tag
+        run: docker tag ${{ env.lowercase }}:latest ${{ vars.REGISTRY }}/${{ env.lowercase }}:latest
+
+      - name: Push
+        run: docker push ${{ vars.REGISTRY }}/${{ env.lowercase }}:latest
+
+      - name: Cleanup
+        run: docker images -f "dangling=true" -q | xargs -r docker rmi
