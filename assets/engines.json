@@ -23755,14 +23755,6 @@
     "sc": "Search"
   },
   {
-    "s": "Emojipedia",
-    "d": "emojipedia.org",
-    "t": "emojipedia",
-    "u": "https://emojipedia.org/?s={{{s}}}",
-    "c": "Research",
-    "sc": "Reference"
-  },
-  {
     "s": "emoney.ge",
     "d": "www.emoney.ge",
     "t": "emoneyge",
@@ -34043,7 +34035,7 @@
       "gshopping",
       "shopping"
     ],
-    "u": "https://www.google.com/products?q={{{s}}}&tab=pf",
+    "u": "https://www.google.com/search?q={{{s}}}&udm=28",
     "c": "Online Services",
     "sc": "Google"
   },
@@ -42954,9 +42946,9 @@
   },
   {
     "s": "Kateglo",
-    "d": "kateglo.com",
+    "d": "kateglo.lostfocus.org",
     "t": "kateglo",
-    "u": "http://kateglo.com/?phrase={{{s}}}&mod=dictionary",
+    "u": "http://kateglo.lostfocus.org/?phrase={{{s}}}&mod=dictionary",
     "c": "Research",
     "sc": "Reference (words intl)"
   },
@@ -42970,9 +42962,9 @@
   },
   {
     "s": "Kamus Besar Bahasa Indonesia",
-    "d": "kbbi.kemdikbud.go.id",
+    "d": "kbbi.kemendikdasmen.go.id",
     "t": "kbbi",
-    "u": "https://kbbi.kemdikbud.go.id/entri/{{{s}}}",
+    "u": "https://kbbi.kemendikdasmen.go.id/entri/{{{s}}}",
     "c": "Research",
     "sc": "Reference"
   },
@@ -79946,6 +79938,14 @@
     "u": "https://www.umassd.edu/universitysearch/?q={{{s}}}",
     "c": "Research",
     "sc": "Academic"
+  },
+  {
+    "s": "Umamusume Wiki",
+    "d": "umamusu.wiki",
+    "t": "uma",
+    "u": "https://umamusu.wiki/w/index.php?search={{{s}}}",
+    "c": "Entertainment",
+    "sc": "Games (specific)"
   },
   {
     "s": "UMass Amherst",
