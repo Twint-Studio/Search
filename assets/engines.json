@@ -1841,9 +1841,9 @@
   },
   {
     "s": "Apple dev form",
-    "d": "forums.developer.apple.com",
+    "d": "developer.apple.com",
     "t": "adf",
-    "u": "https://forums.developer.apple.com/search.jspa?q={{{s}}}",
+    "u": "https://developer.apple.com/forums/search?q={{{s}}}",
     "c": "Tech",
     "sc": "Programming"
   },
@@ -4536,7 +4536,7 @@
     "s": "Apple",
     "d": "www.apple.com",
     "t": "apple",
-    "u": "https://www.apple.com/search/?q={{{s}}}",
+    "u": "https://www.apple.com/search/{{{s}}}",
     "c": "Shopping",
     "sc": "Tech"
   },
@@ -4568,7 +4568,7 @@
     "s": "Apple Discussions",
     "d": "discussions.apple.com",
     "t": "applediscuss",
-    "u": "https://discussions.apple.com/search.jspa?peopleEnabled=true&userID=&containerType=&container=&spotlight=true&q={{{s}}}",
+    "u": "https://discussions.apple.com/search?source=aml&origin=asc_serp&q={{{s}}}",
     "c": "Tech",
     "sc": "Companies"
   },
@@ -42684,12 +42684,16 @@
     "sc": "Newspaper"
   },
   {
-    "s": "kakaku.com",
-    "d": "kakaku.com",
+    "s": "Kakaku.com",
+    "d": "search.kakaku.com",
+    "ad": "kakaku.com",
     "t": "kakaku",
-    "u": "https://kakaku.com/search_results/{{{s}}}",
+    "u": "https://search.kakaku.com/{{{s}}}/",
     "c": "Shopping",
-    "sc": "Online"
+    "sc": "Online",
+    "fmt": [
+      "open_snap_domain"
+    ]
   },
   {
     "s": "Khan Academy",
@@ -55681,6 +55685,22 @@
     "sc": "Reference"
   },
   {
+    "s": "NPMX",
+    "d": "npmx.dev",
+    "t": "npmx",
+    "u": "https://npmx.dev/search?q={{{s}}}",
+    "c": "Tech",
+    "sc": "Programming"
+  },
+  {
+    "s": "Skills.sh",
+    "d": "skills.sh",
+    "t": "skills",
+    "u": "https://skills.sh/?q={{{s}}}",
+    "c": "Research",
+    "sc": "AI"
+  },
+  {
     "s": "NPO",
     "d": "www.npo.nl",
     "t": "npo",
@@ -57105,6 +57125,8 @@
     "d": "www.openstreetmap.org",
     "t": "osm",
     "ts": [
+      "openstreetmap",
+      "openstreet",
       "openmaps",
       "omap",
       "ost"
@@ -57664,17 +57686,6 @@
     "u": "https://cnx.org/search?q={{{s}}}",
     "c": "Research",
     "sc": "Learning"
-  },
-  {
-    "s": "OpenStreetMap",
-    "d": "www.openstreetmap.org",
-    "t": "openstreetmap",
-    "ts": [
-      "openstreet"
-    ],
-    "u": "https://www.openstreetmap.org/?query={{{s}}}",
-    "c": "Online Services",
-    "sc": "Maps"
   },
   {
     "s": "OpenStreetMap Wiki",
@@ -67734,9 +67745,9 @@
   },
   {
     "s": "Safari Extensions Gallery",
-    "d": "safari-extensions.apple.com",
+    "d": "apps.apple.com",
     "t": "safariext",
-    "u": "https://safari-extensions.apple.com/?q={{{s}}}",
+    "u": "https://apps.apple.com/us/mac/search?term={{{s}}}",
     "c": "Tech",
     "sc": "Downloads (add-ons)"
   },
