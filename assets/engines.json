@@ -6848,7 +6848,7 @@
     "s": "Books-A-Million",
     "d": "www.booksamillion.com",
     "t": "bam",
-    "u": "https://www.booksamillion.com/search?query={{{s}}}",
+    "u": "https://www.booksamillion.com/search2?query={{{s}}}",
     "c": "Shopping",
     "sc": "Online"
   },
@@ -10660,6 +10660,18 @@
     "u": "https://www.ultimate-guitar.com/search.php?s={{{s}}}&w=songs",
     "c": "Entertainment",
     "sc": "Misc"
+  },
+  {
+    "s": "Blockscan",
+    "d": "blockscan.com",
+    "t": "blockscan",
+    "ts": [
+      "bscan",
+      "bsc"
+    ],
+    "u": "https://blockscan.com/home/searchaddress?searchAddress={{{s}}}",
+    "c": "Tech",
+    "sc": "Cryptocurrency"
   },
   {
     "s": "Blockchain Address",
@@ -48707,9 +48719,9 @@
   },
   {
     "s": "Supreme Court of Indonesia",
-    "d": "putusan.mahkamahagung.go.id",
+    "d": "putusan3.mahkamahagung.go.id",
     "t": "mari",
-    "u": "https://putusan.mahkamahagung.go.id/main/pencarian/?q={{{s}}}",
+    "u": "https://putusan3.mahkamahagung.go.id/search.html?q={{{s}}}",
     "c": "Research",
     "sc": "Law"
   },
@@ -82803,7 +82815,7 @@
     "s": "Waitrose",
     "d": "www.waitrose.com",
     "t": "waitrose",
-    "u": "https://www.waitrose.com/shop/HeaderSearchCmd?searchTerm={{{s}}}",
+    "u": "https://www.waitrose.com/ecom/shop/search?searchTerm={{{s}}}",
     "c": "Shopping",
     "sc": "Online (marketplace)"
   },
@@ -91481,6 +91493,19 @@
     "u": "https://arcraiders.wiki/w/index.php?search={{{s}}}",
     "c": "Entertainment",
     "sc": "Games (specific)"
+  },
+  {
+    "s": "Tesaurus Tematis Badan Bahasa Indonesia",
+    "d": "tesaurus.kemendikdasmen.go.id",
+    "t": "tesaurus",
+    "ts": [
+      "sinonim",
+      "ttbi",
+      "tsbb"
+    ],
+    "u": "https://tesaurus.kemendikdasmen.go.id/tematis/lema/{{{s}}}",
+    "c": "Research",
+    "sc": "Reference (words)"
   },
   {
     "s": "ServerSMP Chat",
