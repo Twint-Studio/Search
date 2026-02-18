@@ -6,6 +6,8 @@ routes = [{ pattern = "search.twint.my.id", custom_domain = true }]
 [vars]
 DEFAULT_SEARCH = "[\"https://4get.twint.my.id/web?s=%s\",\"https://4get.up.railway.app/web?s=%s\",\"https://5get.twint.my.id/web?s=%s\",\"https://6get.twint.my.id/web?s=%s\"]"
 DEFAULT_COMPLETE = "[\"https://4get.twint.my.id/api/v1/ac?s=%s&scraper=auto\",\"https://4get.up.railway.app/api/v1/ac?s=%s&scraper=auto\",\"https://5get.twint.my.id/api/v1/ac?s=%s&scraper=auto\",\"https://6get.twint.my.id/api/v1/ac?s=%s&scraper=auto\"]"
+CACHE_TTL = "60000"
+HEALTH_TIMEOUT = "2000"
 
 [observability.logs]
 enabled = false

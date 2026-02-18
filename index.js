@@ -79,7 +79,45 @@ function fill(template, query) {
   return template.includes("%s") ? template.replace(/%s/g, query) : template + query;
 }
 
-async function getEngine(input) {
+const cache = new Map();
+
+async function checkHealth(template, env) {
+  const CACHE_TTL = parseInt(env.CACHE_TTL) || 60000;
+  const HEALTH_TIMEOUT = parseInt(env.HEALTH_TIMEOUT) || 2000;
+  
+  const now = Date.now();
+
+  const cached = cache.get(template);
+  if (cached && (now - cached.timestamp < CACHE_TTL)) return cached.healthy;
+
+  try {
+    const url = new URL(template);
+
+    const controller = new AbortController();
+
+    const timeout = setTimeout(() => controller.abort(), HEALTH_TIMEOUT);
+
+    const response = await fetch(url.origin, {
+      method: "HEAD",
+      redirect: "manual",
+      signal: controller.signal
+    });
+
+    clearTimeout(timeout);
+
+    const healthy = response?.status === 200;
+
+    cache.set(template, { healthy, timestamp: now });
+
+    return healthy;
+  } catch {
+    cache.set(template, { healthy: false, timestamp: now });
+
+    return false;
+  }
+}
+
+async function getEngine(input, env) {
   let templates = input;
 
   if (typeof templates === "string") {
@@ -90,24 +128,12 @@ async function getEngine(input) {
 
   if (!Array.isArray(templates)) return templates;
 
-  for (const template of templates) {
-    try {
-      const url = new URL(template);
+  const checks = templates.map(template => checkHealth(template, env).then(healthy => ({ template, healthy })));
 
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 5000);
+  const results = await Promise.all(checks);
 
-      const response = await fetch(url.origin, { 
-        method: "GET", 
-        redirect: "manual",
-        signal: controller.signal
-      });
-      
-      clearTimeout(timeoutId);
-
-      if (response?.status === 200) return template;
-    } catch {}
-  }
+  const healthy = results.find(result => result.healthy);
+  if (healthy) return healthy.template;
 
   return templates[templates.length - 1];
 }
@@ -124,12 +150,12 @@ export default {
       const encoded = encodeURIComponent(search || "");
 
       if (path === "/c") {
-        const target = fill(custom || await getEngine(env.DEFAULT_COMPLETE), encoded);
+        const target = fill(custom || await getEngine(env.DEFAULT_COMPLETE, env), encoded);
         return Response.redirect(target, 302);
       }
 
       if (path === "/s") {
-        const target = resolve(search) || fill(custom || await getEngine(env.DEFAULT_SEARCH), encoded);
+        const target = resolve(search) || fill(custom || await getEngine(env.DEFAULT_SEARCH, env), encoded);
         return Response.redirect(target, 302);
       }
     }
