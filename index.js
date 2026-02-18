@@ -94,12 +94,22 @@ async function getEngine(input) {
     try {
       const url = new URL(template);
 
-      const response = await fetch(url.origin, { method: "GET", redirect: "manual" });
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 5000);
+
+      const response = await fetch(url.origin, { 
+        method: "GET", 
+        redirect: "manual",
+        signal: controller.signal
+      });
+      
+      clearTimeout(timeoutId);
+
       if (response?.status === 200) return template;
     } catch {}
   }
 
-  return templates[0];
+  return templates[templates.length - 1];
 }
 
 export default {
