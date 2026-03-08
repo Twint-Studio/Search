@@ -2433,6 +2433,20 @@
     "sc": "Online"
   },
   {
+    "s": "Blinkit",
+    "d": "blinkit.com",
+    "t": "blinkit",
+    "ts": [
+      "bkt",
+      "bkit",
+      "bli",
+      "blink"
+    ],
+    "u": "https://blinkit.com/s/?q={{{s}}}",
+    "c": "Shopping",
+    "sc": "Online"
+  },
+  {
     "s": "Aion Wiki",
     "d": "aion.wikia.com",
     "t": "aion",
@@ -32287,19 +32301,6 @@
     "u": "https://mail.google.com/mail/u/0/#search/{{{s}}}",
     "c": "Online Services",
     "sc": "Google"
-  },
-  {
-    "s": "Gemini",
-    "d": "gemini.google.com",
-    "t": "gemini",
-    "ts": [
-      "geminiai",
-      "gemai",
-      "gmai"
-    ],
-    "u": "https://gemini.google.com/?prompt_text={{{s}}}",
-    "c": "Online Services",
-    "sc": "AI Chatbots"
   },
   {
     "s": "GMail.com",
