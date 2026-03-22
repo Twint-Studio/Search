@@ -5728,7 +5728,8 @@
     "t": "ass",
     "u": "https://www.amazon.com/gp/subscribe-and-save/manager/",
     "c": "Shopping",
-    "sc": "Online"
+    "sc": "Online",
+    "skip_tests": true
   },
   {
     "s": "Adobe Stock",
@@ -10600,6 +10601,14 @@
       "bluesky"
     ],
     "u": "https://bsky.app/search?q={{{s}}}",
+    "c": "Online Services",
+    "sc": "Social"
+  },
+  {
+    "s": "PDSls",
+    "d": "pds.ls",
+    "t": "pdsls",
+    "u": "https://pds.ls/?q={{{s}}}",
     "c": "Online Services",
     "sc": "Social"
   },
@@ -22129,7 +22138,7 @@
     "s": "e926",
     "d": "e926.net",
     "t": "e926",
-    "u": "https://e926.net/post/search?tags={{{s}}}",
+    "u": "https://e926.net/posts?tags={{{s}}}",
     "c": "Multimedia",
     "sc": "Images"
   },
@@ -29986,6 +29995,14 @@
     "u": "https://www.gamma.nl/assortiment/zoeken?text={{{s}}}",
     "c": "Shopping",
     "sc": "Big box/department"
+  },
+  {
+    "s": "Kobo UK",
+    "d": "www.kobo.com",
+    "t": "kobouk",
+    "u": "https://www.kobo.com/gb/en/search?Query={{{s}}}",
+    "c": "Shopping",
+    "sc": "Online"
   },
   {
     "s": "Librerías Gandhi",
