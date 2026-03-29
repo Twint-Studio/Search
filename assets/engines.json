@@ -1265,6 +1265,9 @@
     "s": "Amazon Belgium",
     "d": "www.amazon.com.be",
     "t": "amazonbe",
+    "ts": [
+      "abe"
+    ],
     "u": "https://www.amazon.com.be/s?k={{{s}}}",
     "c": "Shopping",
     "sc": "Online"
@@ -84913,6 +84916,18 @@
     "sc": "Programming"
   },
   {
+    "s": "wpt.fyi",
+    "d": "wpt.fyi",
+    "t": "wptfyi",
+    "ts": [
+      "wpts",
+      "wptf"
+    ],
+    "u": "https://wpt.fyi/results/?q={{{s}}}",
+    "c": "Tech",
+    "sc": "Programming"
+  },
+  {
     "s": "WindowParts",
     "d": "www.windowparts.co.uk",
     "t": "windowparts",
@@ -87205,16 +87220,20 @@
   },
   {
     "s": "Yandex Maps",
-    "d": "yandex.ru",
+    "d": "ya.ru",
     "t": "yandexmaps",
     "ts": [
       "yamaps",
       "yxmaps",
       "якарты"
     ],
-    "u": "https://yandex.ru/maps/?text={{{s}}}",
+    "u": "https://ya.ru/maps/?text={{{s}}}",
     "c": "Online Services",
-    "sc": "Maps"
+    "sc": "Maps",
+    "fmt": [
+      "url_encode_placeholder",
+      "url_encode_space_to_plus"
+    ]
   },
   {
     "s": "Yahoo! Answers",
@@ -87264,21 +87283,25 @@
   },
   {
     "s": "Yandex Video",
-    "d": "yandex.ru",
+    "d": "ya.ru",
     "t": "yav",
-    "u": "https://yandex.ru/video/search?text={{{s}}}",
+    "u": "https://ya.ru/video/search?text={{{s}}}",
     "c": "Online Services",
-    "sc": "Search (non-US)"
+    "sc": "Search (non-US)",
+    "fmt": [
+      "url_encode_placeholder",
+      "url_encode_space_to_plus"
+    ]
   },
   {
     "s": "Yandex",
-    "d": "yandex.ru",
+    "d": "ya.ru",
     "t": "ya",
     "ts": [
       "yandex",
       "я"
     ],
-    "u": "https://yandex.ru/search?text={{{s}}}",
+    "u": "https://ya.ru/search?text={{{s}}}",
     "c": "Online Services",
     "sc": "Search (non-US)"
   },
@@ -88768,15 +88791,19 @@
   },
   {
     "s": "Yandex Images",
-    "d": "yandex.ru",
+    "d": "ya.ru",
     "t": "yai",
     "ts": [
       "yak",
       "як"
     ],
-    "u": "https://yandex.ru/images/search?text={{{s}}}",
+    "u": "https://ya.ru/images/search?text={{{s}}}",
     "c": "Online Services",
-    "sc": "Search (non-US)"
+    "sc": "Search (non-US)",
+    "fmt": [
+      "url_encode_placeholder",
+      "url_encode_space_to_plus"
+    ]
   },
   {
     "s": "Nayiri",
