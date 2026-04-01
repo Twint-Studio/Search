@@ -1,6 +1,6 @@
 import engines from "./assets/engines.json";
 
-const bangs = new Map(engines.flatMap(e => [e.t, ...(e.ts || [])].map(bang => [bang, { url: e.u, domain: e.d, subs: new Map(e.sb?.map(sb => [sb.b, sb])), fmt: e.fmt || [] }]])));
+const bangs = new Map(engines.flatMap(e => [e.t, ...(e.ts || [])].map(bang => [bang, { url: e.u, domain: e.d, subs: new Map(e.sb?.map(sb => [sb.b, sb])), fmt: e.fmt || [] }])));
 
 function resolve(query) {
   if (!query?.trim()) return null;
