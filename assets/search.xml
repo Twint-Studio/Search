@@ -3,7 +3,7 @@
 <ShortName>Twint Search</ShortName>
 <Description>An add-on for any search engine that adds Kagi's bang system.</Description>
 <InputEncoding>UTF-8</InputEncoding>
-<Image height="32" width="32" type="image/png">https://search.twint.my.id/favicon.png</Image>
-<Url type="text/html" method="GET" template="https://search.twint.my.id/s?q={searchTerms}"/>
-<Url type="application/x-suggestions+json" method="GET" template="https://search.twint.my.id/c?q={searchTerms}"/>
+<Image height="32" width="32" type="image/png">https://search.{domain}/favicon.png</Image>
+<Url type="text/html" method="GET" template="https://search.{domain}/s?q={searchTerms}"/>
+<Url type="application/x-suggestions+json" method="GET" template="https://search.{domain}/c?q={searchTerms}"/>
 </OpenSearchDescription>

@@ -1,6 +1,6 @@
 import engines from "./assets/engines.json";
 
-const bangs = new Map(engines.flatMap(e => [e.t, ...(e.ts || [])].map(bang => [bang, { url: e.u, domain: e.d, subs: new Map(e.sb?.map(sb => [sb.b, sb])), fmt: e.fmt || [] }])));
+const bangs = new Map(engines.flatMap(e => [e.t, ...(e.ts || [])].map(bang => [bang, { url: e.u, domain: e.d, subs: new Map(e.sb?.map(sb => [sb.b, sb])), fmt: e.fmt || [] }]])));
 
 function resolve(query) {
   if (!query?.trim()) return null;
@@ -117,7 +117,7 @@ async function checkHealth(template, env) {
   }
 }
 
-async function getEngine(input, env) {
+async function getEngine(input, env, domain) {
   let templates = input;
 
   if (typeof templates === "string") {
@@ -126,7 +126,9 @@ async function getEngine(input, env) {
     } catch {}
   }
 
-  if (!Array.isArray(templates)) return templates;
+  if (!Array.isArray(templates)) return templates.replaceAll("{domain}", domain);
+
+  templates = templates.map(t => t.replaceAll("{domain}", domain));
 
   const checks = templates.map(template => checkHealth(template, env).then(healthy => ({ template, healthy })));
 
@@ -142,24 +144,35 @@ export default {
   async fetch(request, env, ctx) {
     const context = new URL(request.url);
     const path = context.pathname;
+    const host = context.hostname;
+    const domain = host.split(".").slice(1).join(".") || host;
 
     if (path === "/s" || path === "/c") {
       const search = context.searchParams.get("q");
       const custom = context.searchParams.get("s");
-
       const encoded = encodeURIComponent(search || "");
 
       if (path === "/c") {
-        const target = fill(custom || await getEngine(env.DEFAULT_COMPLETE, env), encoded);
+        const target = fill(custom || await getEngine(env.DEFAULT_COMPLETE, env, domain), encoded);
         return Response.redirect(target, 302);
       }
 
       if (path === "/s") {
-        const target = resolve(search) || fill(custom || await getEngine(env.DEFAULT_SEARCH, env), encoded);
+        const target = resolve(search) || fill(custom || await getEngine(env.DEFAULT_SEARCH, env, domain), encoded);
         return Response.redirect(target, 302);
       }
     }
 
-    return env.ASSETS.fetch(request);
+    const response = await env.ASSETS.fetch(request);
+
+    const type = response.headers.get("content-type") || "";
+    if (!type.includes("text/")) return response;
+
+    const text = await response.text();
+
+    return new Response(text.replaceAll("{domain}", domain), {
+      status: response.status,
+      headers: response.headers
+    });
   },
 };
