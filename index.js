@@ -166,7 +166,7 @@ export default {
     const response = await env.ASSETS.fetch(request);
 
     const type = response.headers.get("content-type") || "";
-    if (!type.includes("text/")) return response;
+    if (!type.includes("text/") && !type.includes("xml")) return response;
 
     const text = await response.text();
 
