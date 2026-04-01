@@ -144,6 +144,7 @@ export default {
   async fetch(request, env, ctx) {
     const context = new URL(request.url);
     const path = context.pathname;
+
     const host = context.hostname;
     const domain = host.split(".").slice(1).join(".") || host;
 

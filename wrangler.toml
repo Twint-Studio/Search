@@ -13,6 +13,6 @@ HEALTH_TIMEOUT = "2000"
 enabled = false
 
 [assets]
+run_worker_first = true
 directory = "./assets"
 binding = "ASSETS"
-run_worker_first = true
