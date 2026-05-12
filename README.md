@@ -2,7 +2,11 @@
 
 An add-on for any search engine that adds Kagi's bang system.
 
-## Examples
+## Features
+
+### Bang System
+
+Use Kagi-style bangs to search on different engines:
 
 - [!g google](https://search.twint.my.id/s?q=!g%20google)
 - [g! google](https://search.twint.my.id/s?q=g!%20google)
@@ -12,3 +16,14 @@ An add-on for any search engine that adds Kagi's bang system.
 - [!smp !v3 who are you](https://search.twint.my.id/s?q=!smp%20!v3%20who%20are%20you)
 - [!smp](https://search.twint.my.id/s?q=!smp)
 - [hello](https://search.twint.my.id/s?q=hello)
+
+### Let me Twint that for you!
+
+Share search queries with an animated demonstration:
+
+1. Type your query on the home page
+2. Click "Copy" to get a shareable link
+3. Click "Preview" to see the animation
+4. Share the link - recipients will see an animated cursor typing and searching
+
+![showcase](https://api.serversmp.xyz/upload/69b72151dbceb9d8e133ddf9.gif)

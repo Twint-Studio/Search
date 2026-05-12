@@ -1,33 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link title="Search" href="/search.xml" rel="search" type="application/opensearchdescription+xml">
-    <link rel="icon" href="/favicon.png">
-    <link rel="stylesheet" href="/library.css">
-    <link rel="stylesheet" href="/style.css">
-    <title>Search</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link title="Search" href="/search.xml" rel="search" type="application/opensearchdescription+xml">
+  <link rel="icon" href="/favicon.png">
+  <link rel="stylesheet" href="/library.css">
+  <link rel="stylesheet" href="/style.css">
+  <title>Search</title>
 </head>
 <body>
 
-    <form action="/s" method="get" class="card">
-        <h1>Search</h1>
-        <div class="group">
-            <input type="text" name="q" placeholder="Type your query..." autofocus>
-            <div>
-                <button type="submit" class="button button-primary">Search</button>
-            </div>
-        </div>
-    </form>
-
-    <div class="card">
-        <h1>Custom</h1>
-        <div class="gap">
-            <input type="text" value="https://search.{domain}/s?q=%s" readonly>
-            <input type="text" value="https://search.{domain}/c?q=%s" readonly>
-        </div>
+  <div class="card">
+    <h1 id="title">Let me Twint that for you!</h1>
+    <div class="group">
+      <input type="text" id="input" placeholder="Type your query..." autofocus>
+      <div class="button-group">
+        <button class="button button-primary" id="search-button">Search</button>
+        <button class="button button-secondary dropdown-toggle" id="dropdown-toggle">▼</button>
+      </div>
     </div>
+  </div>
+
+  <div class="card" id="custom-card">
+    <h1>Custom</h1>
+    <div class="gap">
+      <input type="text" value="https://search.{domain}/s?q=%s" readonly>
+      <input type="text" value="https://search.{domain}/c?q=%s" readonly>
+    </div>
+  </div>
+
+  <div class="dropdown-menu" id="dropdown-menu">
+    <button class="dropdown-item" id="copy-item">Copy Link</button>
+    <button class="dropdown-item" id="preview-item">Preview Animation</button>
+  </div>
+
+  <script>
+    const input = document.getElementById("input");
+    const search = document.getElementById("search-button");
+    const toggle = document.getElementById("dropdown-toggle");
+    const title = document.getElementById("title");
+    const custom = document.getElementById("custom-card");
+    const menu = document.getElementById("dropdown-menu");
+    const copy = document.getElementById("copy-item");
+    const preview = document.getElementById("preview-item");
+
+    const param = new URLSearchParams(location.search).get("q");
+
+    if (param) {
+      toggle.style.display = custom.style.display = "none";
+
+      input.value = "";
+
+      let query = decodeURIComponent(param);
+
+      const cursor = Object.assign(document.createElement("img"), { src: "./cursor.png" });
+
+      Object.assign(cursor.style, {
+        position: "fixed",
+        pointerEvents: "none",
+        zIndex: 9999,
+        transition: "all 1s ease-in-out",
+        imageRendering: "pixelated",
+        left: "10px",
+        top: "10px"
+      });
+
+      document.body.appendChild(cursor);
+
+      const move = ({ left, top }, x = 10, y = 10) => {
+        cursor.style.left = `${left + x}px`;
+        cursor.style.top = `${top + y}px`;
+      };
+
+      setTimeout(() => move(input.getBoundingClientRect()), 100);
+
+      setTimeout(() => {
+        const timer = setInterval(() => {
+          if (query) {
+            input.value += query[0];
+            query = query.slice(1);
+            return;
+          }
+
+          clearInterval(timer);
+
+          const { left, top, width, height } = search.getBoundingClientRect();
+
+          move({ left, top }, width / 2, height / 2);
+
+          setTimeout(() => {
+            search.style.transform = "scale(0.95)";
+
+            setTimeout(() => {
+              search.style.transform = "scale(1)";
+
+              setTimeout(() => {
+                cursor.remove();
+                location.href = `/s?q=${encodeURIComponent(input.value)}`;
+              }, 300);
+            }, 200);
+          }, 1200);
+        }, 125);
+      }, 1100);
+    } else {
+      title.textContent = "Search";
+
+      function url() {
+        return `?q=${encodeURIComponent(input.value)}`;
+      }
+
+      function go() {
+        input.value && (location.href = `/s${url()}`);
+      }
+
+      search.addEventListener("click", go);
+
+      input.addEventListener("keypress", (event) => {
+        if (event.key === "Enter") go();
+      });
+
+      toggle.addEventListener("click", (event) => {
+        event.stopPropagation();
+
+        const { bottom, right } = toggle.getBoundingClientRect();
+
+        Object.assign(menu.style, {
+          top: `${bottom + 5}px`,
+          left: `${right - 150}px`,
+          display: menu.style.display === "block" ? "none" : "block"
+        });
+      });
+
+      copy.addEventListener("click", async () => {
+        if (!input.value) return;
+
+        await navigator.clipboard.writeText(`${location.origin}${location.pathname}${url()}`);
+
+        menu.style.display = "none";
+        copy.textContent = "✓ Copied!";
+
+        setTimeout(() => (copy.textContent = "Copy Link"), 2000);
+      });
+
+      preview.addEventListener("click", () => {
+        if (!input.value) return;
+
+        location.href = `${location.origin}${location.pathname}${url()}`;
+      });
+
+      document.addEventListener("click", ({ target }) => {
+        if (!toggle.contains(target) && !menu.contains(target)) {
+          menu.style.display = "none";
+        }
+      });
+    }
+  </script>
 
 </body>
 </html>
