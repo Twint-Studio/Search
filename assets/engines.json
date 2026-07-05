@@ -56471,6 +56471,28 @@
     "sc": "Learning (intl)"
   },
   {
+    "s": "Oxlint (Rule)",
+    "d": "oxc.rs",
+    "t": "oxlint",
+    "u": "https://oxc.rs/docs/guide/usage/linter/rules/{{{s}}}",
+    "c": "Tech",
+    "sc": "Languages (javascript)",
+    "fmt": []
+  },
+  {
+    "s": "Oxlint (ESLint Rule)",
+    "d": "oxc.rs",
+    "t": "oxlinte",
+    "ts": [
+      "oxlintes",
+      "oxlinteslint"
+    ],
+    "u": "https://oxc.rs/docs/guide/usage/linter/rules/eslint/{{{s}}}",
+    "c": "Tech",
+    "sc": "Languages (javascript)",
+    "fmt": []
+  },
+  {
     "s": "OverAPI Cheatsheet",
     "d": "overapi.com",
     "t": "oapi",
@@ -63226,7 +63248,7 @@
       "poddex",
       "podcastindex"
     ],
-    "u": "https://podcastindex.org/search?{{{s}}}&type=all",
+    "u": "https://podcastindex.org/search?q={{{s}}}&type=all",
     "c": "Online Services",
     "sc": "Search"
   },
@@ -68156,14 +68178,6 @@
     "u": "https://wiki.samba.org/index.php?title=Special:Search&search={{{s}}}&go=Go",
     "c": "Tech",
     "sc": "Sysadmin"
-  },
-  {
-    "s": "whosampled",
-    "d": "www.whosampled.com",
-    "t": "sampled",
-    "u": "https://www.whosampled.com/search/artists/?q={{{s}}}",
-    "c": "Multimedia",
-    "sc": "Music"
   },
   {
     "s": "Samsung",
@@ -84387,10 +84401,39 @@
     "sc": "Sysadmin (network)"
   },
   {
-    "s": "Who Sampled",
+    "s": "WhoSampled",
     "d": "whosampled.com",
     "t": "whosampled",
+    "ts": [
+      "whosam"
+    ],
     "u": "https://whosampled.com/search/?q={{{s}}}",
+    "c": "Multimedia",
+    "sc": "Music"
+  },
+  {
+    "s": "WhoSampled (Artists)",
+    "d": "www.whosampled.com",
+    "t": "whosama",
+    "ts": [
+      "whosamart",
+      "whosamartist",
+      "whosamartists",
+      "sampled"
+    ],
+    "u": "https://www.whosampled.com/search/artists/?q={{{s}}}",
+    "c": "Multimedia",
+    "sc": "Music"
+  },
+  {
+    "s": "WhoSampled (Tracks)",
+    "d": "www.whosampled.com",
+    "t": "whosamt",
+    "ts": [
+      "whosamtrack",
+      "whosamtracks"
+    ],
+    "u": "https://www.whosampled.com/search/tracks/?q={{{s}}}",
     "c": "Multimedia",
     "sc": "Music"
   },
@@ -91999,73 +92042,73 @@
   },
   {
     "s": "ddg 4get",
-    "d": "4get.twint.us.kg",
+    "d": "4get.twint.pp.ua",
     "t": "4d",
-    "u": "https://4get.twint.us.kg/web?s={{{s}}}&scraper=ddg&nsfw=yes",
+    "u": "https://4get.twint.pp.ua/web?s={{{s}}}&scraper=ddg&nsfw=yes",
     "c": "Search",
     "sc": "Web Search"
   },
   {
     "s": "brave 4get",
-    "d": "4get.twint.us.kg",
+    "d": "4get.twint.pp.ua",
     "t": "4b",
-    "u": "https://4get.twint.us.kg/web?s={{{s}}}&scraper=brave&nsfw=yes",
+    "u": "https://4get.twint.pp.ua/web?s={{{s}}}&scraper=brave&nsfw=yes",
     "c": "Search",
     "sc": "Web Search"
   },
   {
     "s": "google 4get",
-    "d": "4get.twint.us.kg",
+    "d": "4get.twint.pp.ua",
     "t": "4g",
-    "u": "https://4get.twint.us.kg/web?s={{{s}}}&scraper=google&nsfw=yes",
+    "u": "https://4get.twint.pp.ua/web?s={{{s}}}&scraper=google&nsfw=yes",
     "c": "Search",
     "sc": "Web Search"
   },
   {
     "s": "ddg 5get",
-    "d": "5get.twint.us.kg",
+    "d": "5get.twint.pp.ua",
     "t": "5d",
-    "u": "https://5get.twint.us.kg/web?s={{{s}}}&scraper=ddg&nsfw=yes",
+    "u": "https://5get.twint.pp.ua/web?s={{{s}}}&scraper=ddg&nsfw=yes",
     "c": "Search",
     "sc": "Web Search"
   },
   {
     "s": "brave 5get",
-    "d": "5get.twint.us.kg",
+    "d": "5get.twint.pp.ua",
     "t": "5b",
-    "u": "https://5get.twint.us.kg/web?s={{{s}}}&scraper=brave&nsfw=yes",
+    "u": "https://5get.twint.pp.ua/web?s={{{s}}}&scraper=brave&nsfw=yes",
     "c": "Search",
     "sc": "Web Search"
   },
   {
     "s": "google 5get",
-    "d": "5get.twint.us.kg",
+    "d": "5get.twint.pp.ua",
     "t": "5g",
-    "u": "https://5get.twint.us.kg/web?s={{{s}}}&scraper=google&nsfw=yes",
+    "u": "https://5get.twint.pp.ua/web?s={{{s}}}&scraper=google&nsfw=yes",
     "c": "Search",
     "sc": "Web Search"
   },
   {
     "s": "ddg 6get",
-    "d": "6get.twint.us.kg",
+    "d": "6get.twint.pp.ua",
     "t": "6d",
-    "u": "https://6get.twint.us.kg/web?s={{{s}}}&scraper=ddg&nsfw=yes",
+    "u": "https://6get.twint.pp.ua/web?s={{{s}}}&scraper=ddg&nsfw=yes",
     "c": "Search",
     "sc": "Web Search"
   },
   {
     "s": "brave 6get",
-    "d": "6get.twint.us.kg",
+    "d": "6get.twint.pp.ua",
     "t": "6b",
-    "u": "https://6get.twint.us.kg/web?s={{{s}}}&scraper=brave&nsfw=yes",
+    "u": "https://6get.twint.pp.ua/web?s={{{s}}}&scraper=brave&nsfw=yes",
     "c": "Search",
     "sc": "Web Search"
   },
   {
     "s": "google 6get",
-    "d": "6get.twint.us.kg",
+    "d": "6get.twint.pp.ua",
     "t": "6g",
-    "u": "https://6get.twint.us.kg/web?s={{{s}}}&scraper=google&nsfw=yes",
+    "u": "https://6get.twint.pp.ua/web?s={{{s}}}&scraper=google&nsfw=yes",
     "c": "Search",
     "sc": "Web Search"
   }
