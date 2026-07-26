@@ -15114,6 +15114,17 @@
     "sc": "Law"
   },
   {
+    "s": "Context7",
+    "d": "context7.com",
+    "t": "context7",
+    "ts": [
+      "ctx7"
+    ],
+    "u": "https://context7.com/?q={{{s}}}",
+    "c": "Tech",
+    "sc": "Libraries/Frameworks"
+  },
+  {
     "s": "Consumer Reports",
     "d": "www.consumerreports.org",
     "t": "consumer",
@@ -63161,7 +63172,7 @@
     "s": "Proton Mail",
     "d": "mail.proton.me",
     "t": "protonmail",
-    "u": "https://mail.proton.me/#keyword={{{s}}}",
+    "u": "https://mail.proton.me/u/0/all-mail#keyword={{{s}}}",
     "c": "Online Services",
     "sc": "Tools"
   },
@@ -65564,6 +65575,15 @@
     "u": "https://www.reddit.com/search?q={{{s}}}",
     "c": "News",
     "sc": "Aggregators"
+  },
+  {
+    "s": "Reddit: subreddit Defined Search",
+    "d": "reddit.com",
+    "t": "rsr",
+    "u": "https://reddit.com/r/$1/search?q=$2&restrict_sr=on",
+    "x": "(\\w+)\\s+(.*)",
+    "c": "Online Services",
+    "sc": "Social"
   },
   {
     "s": "Reddit subreddit",
@@ -80932,6 +80952,15 @@
     "d": "www.xe.com",
     "t": "usd2gbp",
     "u": "https://www.xe.com/currencyconverter/convert/?Amount={{{s}}}&From=USD&To=GBP",
+    "c": "Online Services",
+    "sc": "Tools"
+  },
+  {
+    "s": "XE Currency Defined Search",
+    "d": "www.xe.com",
+    "t": "xec",
+    "u": "https://www.xe.com/currencyconverter/convert/?Amount=$3&From=$1&To=$2",
+    "x": "([A-Z]{3})\\s+([A-Z]{3})\\s+(\\d+(?:\\.\\d+)?)",
     "c": "Online Services",
     "sc": "Tools"
   },
