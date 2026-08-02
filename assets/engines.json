@@ -2392,6 +2392,14 @@
     "sc": "International"
   },
   {
+    "s": "Amazon Ireland",
+    "d": "www.amazon.ie",
+    "t": "aie",
+    "u": "https://www.amazon.ie/s?k={{{s}}}",
+    "c": "Shopping",
+    "sc": "Online"
+  },
+  {
     "s": "Arlington Industries",
     "d": "www.aifittings.com",
     "t": "aifit",
@@ -21033,9 +21041,9 @@
   },
   {
     "s": "Downdetector",
-    "d": "downdetector.co.uk",
+    "d": "downdetector.com",
     "t": "downd",
-    "u": "https://downdetector.co.uk/search/?q={{{s}}}",
+    "u": "https://downdetector.com/status/{{{s}}}",
     "c": "Online Services",
     "sc": "Tools (URLs)"
   },
@@ -54076,6 +54084,21 @@
     "sc": "Search"
   },
   {
+    "s": "nbarapm.com",
+    "d": "nbarapm.com",
+    "t": "nbarapm",
+    "ts": [
+      "rapm"
+    ],
+    "u": "https://nbarapm.com/player/{{{s}}}",
+    "c": "Entertainment",
+    "sc": "Sports",
+    "fmt": [
+      "open_base_path",
+      "url_encode_placeholder"
+    ]
+  },
+  {
     "s": "Notebookcheck(DE)",
     "d": "www.notebookcheck.com",
     "t": "nbcde",
@@ -78149,9 +78172,9 @@
   },
   {
     "s": "Trakt",
-    "d": "trakt.tv",
+    "d": "app.trakt.tv",
     "t": "trakt",
-    "u": "https://trakt.tv/search?utf8=%E2%9C%93&query={{{s}}}",
+    "u": "https://app.trakt.tv/search?m=media&q={{{s}}}",
     "c": "Entertainment",
     "sc": "TV"
   },
@@ -82300,11 +82323,11 @@
   {
     "s": "VirusTotal",
     "d": "www.virustotal.com",
-    "t": "virustotalfilesearch",
+    "t": "virustotal",
     "ts": [
-      "virustotal"
+      "vt"
     ],
-    "u": "https://www.virustotal.com/en/search?query={{{s}}}",
+    "u": "https://www.virustotal.com/gui/search?query={{{s}}}",
     "c": "Tech",
     "sc": "Sysadmin"
   },
@@ -82837,10 +82860,29 @@
     "sc": "Reference (words intl)"
   },
   {
-    "s": "www.virustotal.com",
+    "s": "VirusTotal IP",
     "d": "www.virustotal.com",
     "t": "vtip",
-    "u": "https://www.virustotal.com/en/ip-address/{{{s}}}/information/",
+    "u": "https://www.virustotal.com/gui/ip-address/{{{s}}}",
+    "c": "Tech",
+    "sc": "Sysadmin"
+  },
+  {
+    "s": "VirusTotal Domain",
+    "d": "www.virustotal.com",
+    "t": "vtdomain",
+    "u": "https://www.virustotal.com/gui/domain/{{{s}}}",
+    "c": "Tech",
+    "sc": "Sysadmin"
+  },
+  {
+    "s": "VirusTotal File",
+    "d": "www.virustotal.com",
+    "t": "vtfile",
+    "ts": [
+      "vthash"
+    ],
+    "u": "https://www.virustotal.com/gui/file/{{{s}}}",
     "c": "Tech",
     "sc": "Sysadmin"
   },
@@ -82867,14 +82909,6 @@
     "u": "https://vtmb.wikia.com/wiki/Special:Search?query={{{s}}}",
     "c": "Entertainment",
     "sc": "Games (specific)"
-  },
-  {
-    "s": "Vulgum Techus",
-    "d": "www.vulgumtechus.com",
-    "t": "vt",
-    "u": "https://www.vulgumtechus.com/index.php?title=Spécial:Recherche&search={{{s}}}",
-    "c": "Tech",
-    "sc": "Blogs"
   },
   {
     "s": "Bibliotheek van de Vrije Univesiteit Brussel",
