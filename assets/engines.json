@@ -9269,14 +9269,6 @@
     "sc": "Blogs"
   },
   {
-    "s": "Blick am Abend",
-    "d": "www.blickamabend.ch",
-    "t": "blickaa",
-    "u": "https://www.blickamabend.ch/suche/?q={{{s}}}",
-    "c": "News",
-    "sc": "Newspaper"
-  },
-  {
     "s": "Blindekuh.de",
     "d": "www.blinde-kuh.de",
     "t": "blindekuh",
@@ -83361,6 +83353,17 @@
     "sc": "Games (specific)"
   },
   {
+    "s": "Avakot Wiki",
+    "d": "wiki.avakot.org",
+    "t": "avakotw",
+    "ts": [
+      "wavakot"
+    ],
+    "u": "https://wiki.avakot.org/?search={{{s}}}",
+    "c": "Entertainment",
+    "sc": "Games (specific)"
+  },
+  {
     "s": "Total war Warhammer Wiki",
     "d": "totalwarwarhammer.gamepedia.com",
     "t": "warhammer",
@@ -83433,7 +83436,7 @@
     "s": "Watson",
     "d": "www.watson.ch",
     "t": "watson",
-    "u": "https://www.watson.ch/u/search?#{{{s}}}",
+    "u": "https://www.watson.ch/u/search?q={{{s}}}",
     "c": "News",
     "sc": "Aggregators"
   },
