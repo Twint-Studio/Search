@@ -92136,7 +92136,7 @@
     "s": "4get - DDG",
     "d": "4get.twint.pp.ua",
     "t": "4d",
-    "u": "https://search.twint.pp.ua/web?s={{{s}}}&scraper=ddg",
+    "u": "https://search.twint.pp.ua/s?q={{{s}}}&scraper=ddg",
     "c": "Search",
     "sc": "Web Search"
   },
@@ -92144,7 +92144,7 @@
     "s": "4get - Brave",
     "d": "4get.twint.pp.ua",
     "t": "4b",
-    "u": "https://search.twint.pp.ua/web?s={{{s}}}&scraper=brave",
+    "u": "https://search.twint.pp.ua/s?q={{{s}}}&scraper=brave",
     "c": "Search",
     "sc": "Web Search"
   },
@@ -92152,7 +92152,7 @@
     "s": "4get - Google",
     "d": "4get.twint.pp.ua",
     "t": "4g",
-    "u": "https://search.twint.pp.ua/web?s={{{s}}}&scraper=google",
+    "u": "https://search.twint.pp.ua/s?q={{{s}}}&scraper=google",
     "c": "Search",
     "sc": "Web Search"
   },
