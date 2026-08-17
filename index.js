@@ -84,7 +84,7 @@ const cache = new Map();
 async function checkHealth(template, env) {
   const CACHE_TTL = parseInt(env.CACHE_TTL) || 60000;
   const HEALTH_TIMEOUT = parseInt(env.HEALTH_TIMEOUT) || 2000;
-  
+
   const now = Date.now();
 
   const cached = cache.get(template);
@@ -153,15 +153,13 @@ export default {
       const custom = context.searchParams.get("s");
       const encoded = encodeURIComponent(search || "");
 
-      if (path === "/c") {
-        const target = fill(custom || await getEngine(env.DEFAULT_COMPLETE, env, domain), encoded);
-        return Response.redirect(target, 302);
+      const target = new URL(path === "/s" ? resolve(search) || fill(custom || await getEngine(env.DEFAULT_SEARCH, env, domain), encoded) : fill(custom || await getEngine(env.DEFAULT_COMPLETE, env, domain), encoded));
+
+      for (const [key, value] of context.searchParams) {
+        if (key !== "q" && key !== "s") target.searchParams.set(key, value);
       }
 
-      if (path === "/s") {
-        const target = resolve(search) || fill(custom || await getEngine(env.DEFAULT_SEARCH, env, domain), encoded);
-        return Response.redirect(target, 302);
-      }
+      return Response.redirect(target, 302);
     }
 
     const response = await env.ASSETS.fetch(request);
