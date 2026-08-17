@@ -92160,6 +92160,9 @@
     "s": "FMHY",
     "d": "fmhy.net",
     "t": "fmhy",
+    "ts": [
+      "fy"
+    ],
     "u": "https://fmhy.net/?q={{{s}}}",
     "c": "Research",
     "sc": "Wiki"
