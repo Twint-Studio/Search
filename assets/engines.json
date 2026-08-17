@@ -13094,6 +13094,9 @@
     "s": "OpenRouter",
     "d": "openrouter.ai",
     "t": "opr",
+    "ts": [
+      "openrouter"
+    ],
     "u": "https://openrouter.ai/models?q={{{s}}}",
     "c": "Online Services",
     "sc": "AI Chatbots"
@@ -43843,6 +43846,14 @@
     "u": "https://kubekings.com/buscar?controller=search&orderby=position&orderway=desc&search_query={{{s}}}&submit_search=",
     "c": "Shopping",
     "sc": "Online"
+  },
+  {
+    "s": "KLIPY",
+    "d": "klipy.com",
+    "t": "klipy",
+    "u": "https://klipy.com/search/{{{s}}}",
+    "c": "Multimedia",
+    "sc": "Images"
   },
   {
     "s": "Konsolentreff.de",
@@ -92067,88 +92078,34 @@
     "sc": "AI Chatbots",
     "sb": [
       {
-        "b": "o1m",
+        "b": "o",
         "u": "models",
         "l": 0,
-        "v": "oai.o1-mini"
+        "v": "mac.ornith-1.0-35b-heretic-mtp-apex"
       },
       {
-        "b": "o3m",
+        "b": "g",
         "u": "models",
         "l": 0,
-        "v": "oai.o3-mini"
+        "v": "mac.google/gemma-4-12b-qat"
       },
       {
-        "b": "4o",
+        "b": "h",
         "u": "models",
         "l": 0,
-        "v": "gh.openai/gpt-4o"
+        "v": "mac.hermes-3-llama-3.1-8b"
       },
       {
-        "b": "4om",
+        "b": "l",
         "u": "models",
         "l": 0,
-        "v": "gh.openai/gpt-4o-mini"
+        "v": "mac.liquid/lfm2.5-1.2b"
       },
       {
-        "b": "41",
+        "b": "n",
         "u": "models",
         "l": 0,
-        "v": "gh.openai/gpt-4.1"
-      },
-      {
-        "b": "v3",
-        "u": "models",
-        "l": 0,
-        "v": "or.deepseek/deepseek-chat-v3-0324:free"
-      },
-      {
-        "b": "r1",
-        "u": "models",
-        "l": 0,
-        "v": "nim.deepseek-ai/deepseek-r1-0528"
-      },
-      {
-        "b": "r1l",
-        "u": "models",
-        "l": 0,
-        "v": "groq.deepseek-r1-distill-llama-70b"
-      },
-      {
-        "b": "gp",
-        "u": "models",
-        "l": 0,
-        "v": "google.models/gemini-2.5-pro"
-      },
-      {
-        "b": "gf",
-        "u": "models",
-        "l": 0,
-        "v": "google.models/gemini-2.5-flash"
-      },
-      {
-        "b": "ll",
-        "u": "models",
-        "l": 0,
-        "v": "cerebras.llama-3.3-70b"
-      },
-      {
-        "b": "ms",
-        "u": "models",
-        "l": 0,
-        "v": "mistral.mistral-small-latest"
-      },
-      {
-        "b": "ml",
-        "u": "models",
-        "l": 0,
-        "v": "mistral.mistral-large-latest"
-      },
-      {
-        "b": "co",
-        "u": "models",
-        "l": 0,
-        "v": "mistral.codestral-latest"
+        "v": "mac.nvidia/nemotron-3-nano-4b"
       }
     ]
   },
@@ -92176,75 +92133,35 @@
     ]
   },
   {
-    "s": "ddg 4get",
+    "s": "4get - DDG",
     "d": "4get.twint.pp.ua",
     "t": "4d",
-    "u": "https://4get.twint.pp.ua/web?s={{{s}}}&scraper=ddg&nsfw=yes",
+    "u": "https://search.twint.pp.ua/web?s={{{s}}}&scraper=ddg",
     "c": "Search",
     "sc": "Web Search"
   },
   {
-    "s": "brave 4get",
+    "s": "4get - Brave",
     "d": "4get.twint.pp.ua",
     "t": "4b",
-    "u": "https://4get.twint.pp.ua/web?s={{{s}}}&scraper=brave&nsfw=yes",
+    "u": "https://search.twint.pp.ua/web?s={{{s}}}&scraper=brave",
     "c": "Search",
     "sc": "Web Search"
   },
   {
-    "s": "google 4get",
+    "s": "4get - Google",
     "d": "4get.twint.pp.ua",
     "t": "4g",
-    "u": "https://4get.twint.pp.ua/web?s={{{s}}}&scraper=google&nsfw=yes",
+    "u": "https://search.twint.pp.ua/web?s={{{s}}}&scraper=google",
     "c": "Search",
     "sc": "Web Search"
   },
   {
-    "s": "ddg 5get",
-    "d": "5get.twint.pp.ua",
-    "t": "5d",
-    "u": "https://5get.twint.pp.ua/web?s={{{s}}}&scraper=ddg&nsfw=yes",
-    "c": "Search",
-    "sc": "Web Search"
-  },
-  {
-    "s": "brave 5get",
-    "d": "5get.twint.pp.ua",
-    "t": "5b",
-    "u": "https://5get.twint.pp.ua/web?s={{{s}}}&scraper=brave&nsfw=yes",
-    "c": "Search",
-    "sc": "Web Search"
-  },
-  {
-    "s": "google 5get",
-    "d": "5get.twint.pp.ua",
-    "t": "5g",
-    "u": "https://5get.twint.pp.ua/web?s={{{s}}}&scraper=google&nsfw=yes",
-    "c": "Search",
-    "sc": "Web Search"
-  },
-  {
-    "s": "ddg 6get",
-    "d": "6get.twint.pp.ua",
-    "t": "6d",
-    "u": "https://6get.twint.pp.ua/web?s={{{s}}}&scraper=ddg&nsfw=yes",
-    "c": "Search",
-    "sc": "Web Search"
-  },
-  {
-    "s": "brave 6get",
-    "d": "6get.twint.pp.ua",
-    "t": "6b",
-    "u": "https://6get.twint.pp.ua/web?s={{{s}}}&scraper=brave&nsfw=yes",
-    "c": "Search",
-    "sc": "Web Search"
-  },
-  {
-    "s": "google 6get",
-    "d": "6get.twint.pp.ua",
-    "t": "6g",
-    "u": "https://6get.twint.pp.ua/web?s={{{s}}}&scraper=google&nsfw=yes",
-    "c": "Search",
-    "sc": "Web Search"
+    "s": "FMHY",
+    "d": "fmhy.net",
+    "t": "fmhy",
+    "u": "https://fmhy.net/?q={{{s}}}",
+    "c": "Research",
+    "sc": "Wiki"
   }
 ]
