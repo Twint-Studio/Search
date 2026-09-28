@@ -92191,5 +92191,13 @@
     "u": "https://fmhy.net/?q={{{s}}}",
     "c": "Research",
     "sc": "Wiki"
+  },
+  {
+    "s": "DeepSeek",
+    "d": "chat.deepseek.com",
+    "t": "deepseek",
+    "u": "https://chat.deepseek.com/?q={{{s}}}",
+    "c": "Online Services",
+    "sc": "AI Chatbots"
   }
 ]
