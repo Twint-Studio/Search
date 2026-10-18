@@ -29614,6 +29614,19 @@
     "sc": "Languages (other)"
   },
   {
+    "s": "Wowhead Forever",
+    "d": "forever.wowhead.com",
+    "t": "fwow",
+    "ts": [
+      "whf",
+      "wowforever",
+      "wowhf"
+    ],
+    "u": "https://forever.wowhead.com/search?q={{{s}}}",
+    "c": "Entertainment",
+    "sc": "Games (WOW)"
+  },
+  {
     "s": "Frugalware packages",
     "d": "frugalware.org",
     "t": "fwpkg",
@@ -57551,6 +57564,14 @@
       "ost"
     ],
     "u": "https://www.openstreetmap.org/search?query={{{s}}}",
+    "c": "Online Services",
+    "sc": "Maps"
+  },
+  {
+    "s": "OsmAnd",
+    "d": "osmand.net",
+    "t": "osmand",
+    "u": "https://osmand.net/map/search/result/?query={{{s}}}",
     "c": "Online Services",
     "sc": "Maps"
   },
